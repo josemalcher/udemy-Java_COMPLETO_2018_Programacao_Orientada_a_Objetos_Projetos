@@ -368,3 +368,6 @@ hs_err_pid*
 
 
 # End of https://www.gitignore.io/api/web,java,eclipse,jetbrains,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all
+
+
+material_curso/
