@@ -1569,9 +1569,178 @@ da área não deve estar em outro lugar.
 
 #### 6. Começando a resolver um segundo problema exemplo
 
+Outro exemplo  
+Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
+
+- Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque)
+- Realizar uma entrada no estoque e mostrar novamente os dados do produto  
+- Realizar uma saída no estoque e mostrar novamente os dados do produto  
+
+Para resolver este problema, você deve criar uma CLASSE conforme projeto ao lado:  
+(veja exemplo na próxima página)
+
+```
+Enter product data:
+Name: TV
+Price: 900.00
+Quantity in stock: 10
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+Enter the number of products to be added in stock: 5
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+Enter the number of products to be removed from stock: 3
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
+```
+
+```java
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Product product = new Product();
+		
+		System.out.println("Enter product data: ");
+		System.out.print("Name: ");
+		product.name = sc.nextLine();
+		System.out.print("Price: ");
+		product.price = sc.nextDouble();
+		System.out.print("Quantityu in stock: ");
+		product.quantity = sc.nextInt();
+		
+		System.out.println(product.name   + " " + product.price + " " + product.quantity);
+		
+		sc.close();
+	}
+
+}
+```
+
 #### 7. Object e toString
 
+Discussão  
+- Toda classe em Java é uma subclasse da classe Object
+- Object possui os seguintes métodos:
+- getClass- retorna o tipo do objeto
+- equals - compara se o objeto é igual a outro
+- hashCode - retorna um código hash do objeto
+- toString - converte o objeto para string
+
+```java
+package entities;
+
+public class Product {
+	public String name;
+	public double price;
+	public int quantity;
+
+	public double totalValueInStock() {
+		return price * quantity;
+	}
+
+	public void addProducts(int quantity) {
+		this.quantity += quantity;
+	}
+
+	public void removeProdroducts(int quantity) {
+		this.quantity -= quantity;
+	}
+
+	public String toString() {
+		return name + 
+				", $ " + String.format("%.2f", price) + 
+				", " + quantity + 
+				" units, Total: $ "	+ String.format("%.2f", totalValueInStock());
+	}
+
+}
+
+```
+
+```java
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Product;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		Product product = new Product();
+		System.out.println("Enter product data: ");
+		System.out.print("Name: ");
+		product.name = sc.nextLine();
+		System.out.print("Price: ");
+		product.price = sc.nextDouble();
+		System.out.print("Quantityu in stock: ");
+		product.quantity = sc.nextInt();
+		
+		// toString
+		System.out.println(product);
+
+		sc.close();
+	}
+
+}
+```
+
 #### 8. Finalizando o programa
+
+```java
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Product;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Product product = new Product();
+		
+		System.out.println("Enter product data: ");
+		System.out.print("Name: ");
+		product.name = sc.nextLine();
+		
+		System.out.print("Price: ");
+		product.price = sc.nextDouble();
+		
+		System.out.print("Quantity in stock: ");
+		product.quantity = sc.nextInt();
+		System.out.println();
+		
+		System.out.println("Product data: " + product);
+		System.out.println();
+		System.out.print("Enter the number of products to be added in stock: ");
+		int quantity = sc.nextInt();
+		
+		product.addProducts(quantity);
+		System.out.println();
+		System.out.println("Updated data: " + product);
+		System.out.println();
+		System.out.print("Enter the number of products to be removed from stock: ");
+		
+		quantity = sc.nextInt();
+		product.removeProdroducts(quantity);
+		System.out.println();
+		System.out.println("Updated data: " + product);
+
+		sc.close();
+	}
+
+}
+```
 
 #### 9. Exercícios de fixação
 
