@@ -2,42 +2,28 @@ package course;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entities.Product;
+import entities.Student;
 
 public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
-		Product product = new Product();
-		
-		System.out.println("Enter product data: ");
+		Student student = new Student();
 		System.out.print("Name: ");
-		product.name = sc.nextLine();
-		
-		System.out.print("Price: ");
-		product.price = sc.nextDouble();
-		
-		System.out.print("Quantity in stock: ");
-		product.quantity = sc.nextInt();
-		System.out.println();
-		
-		System.out.println("Product data: " + product);
-		System.out.println();
-		System.out.print("Enter the number of products to be added in stock: ");
-		int quantity = sc.nextInt();
-		
-		product.addProducts(quantity);
-		System.out.println();
-		System.out.println("Updated data: " + product);
-		System.out.println();
-		System.out.print("Enter the number of products to be removed from stock: ");
-		
-		quantity = sc.nextInt();
-		product.removeProdroducts(quantity);
-		System.out.println();
-		System.out.println("Updated data: " + product);
-
+		student.name = sc.nextLine();
+		System.out.print("Nota 1:");
+		student.grade1 = sc.nextDouble();
+		System.out.print("Nota 2:");
+		student.grade2 = sc.nextDouble();
+		System.out.print("Nota 3:");
+		student.grade3 = sc.nextDouble();
+		System.out.printf("FINAL GRADE: %.2f%n", student.finalGrade());
+		if (student.finalGrade() < 60.0) {
+			System.out.println("FAILED");
+			System.out.printf("MISSING %.2f POINTS%n", student.missingPoints());
+		} else {
+			System.out.println("PASS");
+		}
 		sc.close();
 	}
 
