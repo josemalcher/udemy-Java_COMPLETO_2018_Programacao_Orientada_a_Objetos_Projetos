@@ -2,29 +2,19 @@ package course;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entities.Student;
+
+import entities.CurrencyConverter;
 
 public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		Student student = new Student();
-		System.out.print("Name: ");
-		student.name = sc.nextLine();
-		System.out.print("Nota 1:");
-		student.grade1 = sc.nextDouble();
-		System.out.print("Nota 2:");
-		student.grade2 = sc.nextDouble();
-		System.out.print("Nota 3:");
-		student.grade3 = sc.nextDouble();
-		System.out.printf("FINAL GRADE: %.2f%n", student.finalGrade());
-		if (student.finalGrade() < 60.0) {
-			System.out.println("FAILED");
-			System.out.printf("MISSING %.2f POINTS%n", student.missingPoints());
-		} else {
-			System.out.println("PASS");
-		}
+		System.out.print("What is the dollar price? ");
+		double dollarPrice = sc.nextDouble();
+		System.out.print("How many dollars will be bought? ");
+		double amount = sc.nextDouble();
+		double result = CurrencyConverter.dollarToReal(amount, dollarPrice);
+		System.out.printf("Amount to be paid in reais = %.2f%n", result);
 		sc.close();
 	}
-
 }

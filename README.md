@@ -1947,9 +1947,189 @@ public class Program {
 
 #### 10. Membros estáticos - Parte 1
 
+membros = atributos e métodos
+
+Membros estáticos  
+- Também chamados membros de classe
+- Em oposição a membros e instância
+- São membros que fazem sentido independentemente de objetos. Não precisam de objeto para serem chamados. São chamados a partir do próprio nome da classe.
+- Aplicações comuns:
+- Classes utilitárias -> (Math.sqrt(double))
+- Declaração de constantes
+- Uma classe que possui somente membros estáticos, pode ser uma classe estática também. Esta classe não poderá ser instanciada.
+
+Problema exemplo  
+Fazer um programa para ler um valor numérico qualquer, e daí mostrar quanto seria o valor de uma circunferência e do volume de uma esfera para um raio daquele valor. Informar também o valor de PI com duas casas decimais.
+
+Checklist  
+- Versão 1: métodos na própria classe do programa (Nota: dentro de um método estático você não pode chamar membros de instância da mesma classe.)
+
+```java
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+	public static final double PI = 3.14159;
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter radius: ");
+		double radius = sc.nextDouble();
+		double c = circumference(radius);
+		double v = volume(radius);
+		System.out.printf("Circumference: %.2f%n", c);
+		System.out.printf("Volume: %.2f%n", v);
+		System.out.printf("PI value: %.2f%n", PI);
+		sc.close();
+	}
+
+	public static double circumference(double radius) {
+		return 2.0 * PI * radius;
+	}
+
+	public static double volume(double radius) {
+		return 4.0 * PI * radius * radius * radius / 3.0;
+	}
+}
+
+```
+- Versão 2: classe Calculator com membros de instância
+
+```java
+package entities;
+
+public class Calculator {
+	public final double PI = 3.14159;
+
+	public double circumference(double radius) {
+		return 2.0 * PI * radius;
+	}
+
+	public double volume(double radius) {
+		return 4.0 * PI * radius * radius * radius / 3.0;
+	}
+}
+
+```
+
+```java
+package course;
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Calculator;
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		Calculator calc = new Calculator();
+		System.out.print("Enter radius: ");
+		double radius = sc.nextDouble();
+		double c = calc.circumference(radius);
+		double v = calc.volume(radius);
+		System.out.printf("Circumference: %.2f%n", c);
+		System.out.printf("Volume: %.2f%n", v);
+		System.out.printf("PI value: %.2f%n", calc.PI);
+		sc.close();
+	}
+}
+
+```
+
 #### 11. Membros estáticos - Parte 2
 
+- Versão 3: classe Calculator com método estático
+
+```java
+package entities;
+
+public class Calculator {
+	public static final double PI = 3.14159;
+
+	public static double circumference(double radius) {
+		return 2.0 * PI * radius;
+	}
+
+	public static double volume(double radius) {
+		return 4.0 * PI * radius * radius * radius / 3.0;
+	}
+}
+
+```
+
+```java
+package course;
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Calculator;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter radius: ");
+		double radius = sc.nextDouble();
+		double c = Calculator.circumference(radius);
+		double v = Calculator.volume(radius);
+		System.out.printf("Circumference: %.2f%n", c);
+		System.out.printf("Volume: %.2f%n", v);
+		System.out.printf("PI value: %.2f%n", Calculator.PI);
+		sc.close();
+	}
+}
+
+```
+
 #### 12. Exercício de fixação
+
+Faça um programa para ler a cotação do dólar, e depois um valor em dólares a ser comprado por
+uma pessoa em reais. Informar quantos reais a pessoa vai pagar pelos dólares, considerando ainda
+que a pessoa terá que pagar 6% de IOF sobre o valor em dólar. Criar uma classe CurrencyConverter
+para ser responsável pelos cálculos.
+
+```
+What is the dollar price? 3.10
+How many dollars will be bought? 200.00
+Amount to be paid in reais = 657.20
+```
+
+```java
+package entities;
+
+public class CurrencyConverter {
+	public static double IOF = 0.06;
+
+	public static double dollarToReal(double amount, double dollarPrice) {
+		return amount * dollarPrice * (1.0 + IOF);
+	}
+}
+
+```
+
+```java
+package course;
+import java.util.Locale;
+import java.util.Scanner;
+import entities.CurrencyConverter;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		System.out.print("What is the dollar price? ");
+		double dollarPrice = sc.nextDouble();
+		System.out.print("How many dollars will be bought? ");
+		double amount = sc.nextDouble();
+		double result = CurrencyConverter.dollarToReal(amount, dollarPrice);
+		System.out.printf("Amount to be paid in reais = %.2f%n", result);
+		sc.close();
+	}
+}
+
+```
 
 [Voltar ao Índice](#indice)
 
