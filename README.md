@@ -1149,7 +1149,32 @@ FAILED
 ```
 
 ```java
-//+
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter three student scores: ");
+		double score1 = sc.nextDouble();
+		double score2 = sc.nextDouble();
+		double score3 = sc.nextDouble();
+		
+		double finalScore = score1 + score2 + score3;
+		
+		System.out.printf("Final score: %.2f%n", finalScore);
+		if(finalScore < 60.0) {
+			System.out.println("FAILED");
+		}
+		sc.close();
+		
+	}
+
+}
 ```
 
 2) Fazer um programa para ler a quantidade de glicose no sangue de uma pessoa e depois mostrar na tela a classificação desta glicose de
@@ -1168,7 +1193,29 @@ Normal
 ```
 
 ```java
-//+
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Glucose measure: ");
+		double glucose = sc.nextDouble();
+		
+		if(glucose <= 100.0) {
+			System.out.println("Normal");
+		}else if(glucose <= 140.0) {
+			System.out.println("High");
+		}else {
+			System.out.println("Diabetes");
+		}
+		sc.close();
+	}
+}
 ```
 
 3) Fazer um programa para ler dois números inteiros e mostrar a soma de todos os números
@@ -1188,7 +1235,39 @@ Sum of odd numbers = 48
 ```
 
 ```java
-//+
+package course;
+
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter two integer numbers: ");
+
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+
+		int begin = x, end = y;
+		if (y < x) {
+			begin = y;
+			end = x;
+		}
+
+		int sum = 0;
+		for (int i = begin; i <= end; i++) {
+			if (i % 2 != 0) {
+				sum += i;
+			}
+		}
+		System.out.println("Sum os add number: " + sum);
+
+		sc.close();
+
+	}
+
+}
 ```
 
 4) Leia números inteiros até que um 0 (zero) seja lido. Para cada valor lido, o programa deve
@@ -1204,7 +1283,27 @@ Enter an integer value: 0
 ```
 
 ```java
-//+
+package course;
+
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter an integer value: ");
+		
+		int n = sc.nextInt();
+		
+		while (n != 0) {
+			int square = n * n;
+			System.out.println(square);
+			System.out.print("Enter an integer value: ");
+			n = sc.nextInt();
+		}
+		sc.close();
+	}
+
+}
 ```
 
 5) O curso de Computação Gráfica do IFTM é trimestral, sendo que as notas do ano são
@@ -1221,6 +1320,35 @@ Final score: 86.32
 Student #3: 19.25 29.00 18.31
 Final score: 66.56
 ```
+
+```java
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter number of students: ");
+		
+		int n = sc.nextInt();
+		for (int i = 1; i <= n; i++) {
+			System.out.print("Student #" + i + ": ");
+			double score1 = sc.nextDouble();
+			double score2 = sc.nextDouble();
+			double score3 = sc.nextDouble();
+			double finalScore = score1 + score2 + score3;
+			System.out.printf("Final score: %.2f%n", finalScore);
+		}
+		sc.close();
+	}
+
+}
+```
+
 
 [Voltar ao Índice](#indice)
 
