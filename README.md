@@ -1420,6 +1420,98 @@ public class Program {
 }
 ```
 
+#### 4. Criando uma classe com três atributos para representar melhor o triângulo
+
+Classe
+- É um tipo estruturado que pode conter (membros):
+	- Atributos (dados / campos)
+	- Métodos (funções / operações)
+- A classe também pode prover muitos outros recursos, tais como:
+	- Construtores
+	- Sobrecarga
+	- Encapsulamento
+	- Herança
+	- Polimorfismo
+- Exemplos:
+	- Entidades: Produto, Cliente, Triangulo
+	- Serviços: ProdutoService, ClienteService, EmailService, StorageService
+	- Controladores: ProdutoController, ClienteController
+	- Utilitários: Calculadora, Compactador
+	- Outros (views, repositórios, gerenciadores, etc.)
+
+```java
+package entities;
+
+public class Triangle {
+ public double a;
+ public double b;
+ public double c;
+}
+
+```
+
+```java
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Triangle;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		// double xA, xB, xC, yA, yB, yC;
+
+		Triangle x, y;
+		x = new Triangle();
+		y = new Triangle();
+
+		System.out.println("Enter the measures of triangle X: ");
+		x.a = sc.nextDouble();
+		x.b = sc.nextDouble();
+		x.c = sc.nextDouble();
+
+		System.out.println("Enter the measures of triangle Y: ");
+		y.a = sc.nextDouble();
+		y.b = sc.nextDouble();
+		y.c = sc.nextDouble();
+
+		double p = (x.a + x.b + x.c) / 2.0;
+		double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
+		p = (y.a + y.b + y.c) / 2.0;
+		double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+
+		System.out.printf("Triangle X area: %.4f%n", areaX);
+		System.out.printf("Triangle Y area: %.4f%n", areaY);
+
+		if (areaX > areaY) {
+			System.out.println("Larger area: X");
+		} else {
+			System.out.println("Larger area: Y");
+		}
+		sc.close();
+	}
+
+}
+```
+
+#### 5. Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
+#### 6. Começando a resolver um segundo problema exemplo
+
+#### 7. Object e toString
+
+#### 8. Finalizando o programa
+
+#### 9. Exercícios de fixação
+
+#### 10. Membros estáticos - Parte 1
+
+#### 11. Membros estáticos - Parte 2
+
+#### 12. Exercício de fixação
 
 [Voltar ao Índice](#indice)
 
