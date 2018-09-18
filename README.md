@@ -2235,7 +2235,7 @@ public class Program {
 
 #### 4. Palavra this
 
-Palavra this
+Palavra this  
 - É uma referência para o próprio objeto
 - Usos comuns:
 	- Diferenciar atributos de variáveis locais
@@ -2257,7 +2257,7 @@ public class ChessMatch {
 
 - É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
 
-Proposta de melhoria
+Proposta de melhoria  
 - Vamos criar um construtor opcional, o qual recebe apenas nome e preço do produto. A quantidade em estoque deste novo produto, por padrão, deverá então ser iniciada com o valor zero.
 - Nota: é possível também incluir um construtor padrão
 
@@ -2283,6 +2283,87 @@ public Product(String name, double price) {
 
 
 #### 6. Encapsulamento
+
+- É um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
+- Regra de ouro: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
+
+Regra geral básica
+
+- Um objeto NÃO deve expor nenhum atributo (modificador de acesso private)
+- Os atributos devem ser acessados por meio de métodos get e set 
+	- Padrão JavaBeans: https://en.wikipedia.org/wiki/JavaBeans
+
+```java
+package entities;
+
+public class Product {
+	private String name;
+	private double price;
+	private int quantity;
+
+	public Product() {
+	}
+
+	public Product(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+
+	public Product(String name, double price, int quantity) {
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public double totalValueInStock() {
+		return price * quantity;
+	}
+
+	public void addProducts(int quantity) {
+		this.quantity += quantity;
+	}
+
+	public void removeProducts(int quantity) {
+		this.quantity -= quantity;
+	}
+
+	public String toString() {
+		return name + ", $ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $ "
+				+ String.format("%.2f", totalValueInStock());
+	}
+}
+
+```
+
+```java
+//(...)
+		Product product = new Product(name, price);
+		product.setName("Computer");
+		System.out.println("Update name: " + product.getName());
+		product.setPrice(2000);
+		System.out.println("Update price: " + product.getPrice());
+//(...)
+```
 
 #### 7. Gerando automaticamente construtores, getters e setters com Eclipse
 
