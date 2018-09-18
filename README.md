@@ -2137,6 +2137,119 @@ public class Program {
 
 ## <a name="parte4">Construtores, palavra this, sobrecarga, encapsulamento</a>
 
+#### 3. Construtores
+
+Construtor
+- É uma operação especial da classe, que executa no momento da
+instanciação do objeto
+- Usos comuns:
+	- Iniciar valores dos atributos
+	- Permitir ou obrigar que o objeto receba dados / dependências no momento de sua instanciação (injeção de dependência)
+- Se um construtor customizado não for especificado, a classe disponibiliza o construtor padrão:
+	Product p = new Product();
+- É possível especificar mais de um construtor na mesma classe (sobrecarga)
+
+```java
+package entities;
+
+public class Product {
+	public String name;
+	public double price;
+	public int quantity;
+	
+	public Product(String name, double price, int quantity) {
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
+
+	public double totalValueInStock() {
+		return price * quantity;
+	}
+
+	public void addProducts(int quantity) {
+		this.quantity += quantity;
+	}
+
+	public void removeProducts(int quantity) {
+		this.quantity -= quantity;
+	}
+
+	public String toString() {
+		return name + 
+				", $ " + String.format("%.2f", price) + 
+				", " + quantity + 
+				" units, Total: $ "	+ String.format("%.2f", totalValueInStock());
+	}
+
+}
+
+```
+
+```java
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		//Product product = new Product();
+		
+		System.out.println("Enter product data: ");
+		System.out.print("Name: ");
+		String name = sc.nextLine(); // variavel 1
+		System.out.print("Price: ");
+		double price = sc.nextDouble(); // variavel 1
+		System.out.print("Quantity in stock: ");
+		int quantity = sc.nextInt(); // variavel 1
+		Product product = new Product(name, price, quantity); // com contrutor
+		
+		System.out.println();
+		System.out.println("Product data: " + product);
+		System.out.println();
+		
+		System.out.print("Enter the number of products to be added in stock: ");
+		quantity = sc.nextInt();
+		product.addProducts(quantity);
+		System.out.println();
+		System.out.println("Updated data: " + product);
+		System.out.println();
+		
+		System.out.print("Enter the number of products to be removed from stock: ");
+		quantity = sc.nextInt();
+		product.removeProducts(quantity);
+		System.out.println();
+		System.out.println("Updated data: " + product);
+		sc.close();
+	}
+}
+
+
+```
+
+
+#### 4. Palavra this
+
+#### 5. Sobrecarga
+
+#### 6. Encapsulamento
+
+#### 7. Gerando automaticamente construtores, getters e setters com Eclipse
+
+#### 8. Modificadores de acesso
+
+#### 9. Exercício de fixação
+
+#### 10. Correção do exercício de fixação - Parte 1
+
+#### 11. Correção do exercício de fixação - Parte 2
+
+
 
 [Voltar ao Índice](#indice)
 
