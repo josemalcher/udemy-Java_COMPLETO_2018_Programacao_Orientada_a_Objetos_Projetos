@@ -3388,6 +3388,102 @@ public class Program {
 
 ## <a name="parte7">Bônus - nivelamento sobre Git e Github</a>
 
+GIT - é um sistema de versionamento: você controla as modificações de um projeto por meio de versões
+chamadas "commits".
+
+Um projeto controlado pelo Git é chamado de repositório de versionamento. Tipicamente uma cópia "oficial" do repositório fica salvo em um servidor (repositório remoto). Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para seu computador (repositório local). A pessoa então faz suas alterações no projeto (novos commits) e depois salva as alterações no servidor.
+
+Operações principais:
+
+- CLONE Copia o repositório remoto para seu computador
+- PULL Atualiza seu repositório local em relação ao repositório remoto
+- COMMIT Salva uma nova versão (tipicamente no seu repositório local)
+- PUSH Envia o repositório local para o repositório remoto
+
+GITHUB: é um serviço de hospedagem de repositórios Git remotos.
+
+- Possui uma interface gráfica web: github.com
+- É uma plataforma social (usuários, página de perfil, seguidores, colaboração, etc.). Dica: currículo!
+- Maior serviço do mundo de hospedagem de projetos de código aberto
+- Modelo de cobrança: gratuito para projetos de código aberto, pago para projetos privados
+- Alternativas: BitBucket, GitLab, etc.
+
+Demo - criar um novo projeto
+
+Passos:
+1. Crie um novo projeto no seu ambiente de desenvolvimento  
+2. Crie um novo repositório no Github  
+a. ATENÇÃO: se seu ambiente de desenvolvimento não gera o arquivo .gitignore automaticamente, escolha o seu tipo desejado de .gitignore na tela de criação de repositório do Github  
+3. Abra um terminal na pasta do seu projeto  
+4. IMPORTANTE: certifique-se de estar identificado no Git do seu computador (nome e email)  
+
+```
+	git config --list
+	git config --global user.name "Nelio Alves"
+	git config --global user.email "acenelio@gmail.com"
+```
+5. Faça os comandos a seguir  
+
+- git init
+	- Inicia um novo repositório local na pasta do seu projeto
+- git remote add origin https://github.com/acenelio/meuprojeto.git (ATENÇÃO: troque pelo caminho do seu repositório do Github)
+	- Associa seu repositório local ao repositório remoto, com o apelido de "origin" git pull origin master (ATENÇÃO: este comando só é necessário se você criou o .gitignore pelo Github Atualiza seu repositório local em relação ao repositório remoto)
+
+- git status
+	- Verifica arquivos
+- git add . 
+	- Adiciona todos arquivos ao stage
+- git commit -m "Projeto criado" 
+	- Salva uma nova versão do projeto
+- git push -u origin master (Nota: nas próximas vezes basta fazer: git push)
+	- Envia o repositório local para o repositório remoto
+
+
+Demo - Trabalhando com um projeto existente
+
+Passos:
+1. IMPORTANTE: certifique-se de estar identificado no Git do seu computador (nome e email) USUÁRIOS WINDOWS: verifique o "Cofre" (gerenciador de credenciais)
+```
+	git config --list
+	git config --global user.name "Nelio Alves"
+	git config --global user.email "acenelio@gmail.com"
+```
+2. Se o projeto já não estiver no seu computador, Clonar o repositório do Github git clone https://github.com/acenelio/meuprojeto.git
+3. Altere o que você precisar no projeto
+4. Commitar as mudanças feitas no projeto
+4.1. Verificar arquivos:
+```
+	git status
+```
+4.2. Realizar o commit:
+```
+	git add .
+	git commit -m "Mensagem explicativa"
+```
+4.3. Listar histórico de commits:
+```
+	git log --oneline
+```
+5. Salvar projeto atualizado no seu Github (push) 
+```
+	git push
+```
+
+#### Kit de primeiros socorros
+
+| PROBLEMA | COMANDO |
+|----------------|---| 
+| Quero desfazer tudo que eu fiz desde o último commit  | git clean -df |
+| 														| git checkout -- . |
+| Preciso remover o último commit, porém mantendo os arquivos do jeito que estão. | git reset --soft HEAD~1 |
+| Preciso remover o último commit, inclusive as alterações nos arquivos. | git reset --hard HEAD~1 |
+| Quero alterar temporariamente os arquivos do projeto de modo a ficarem no estado do commit informado. (ATENÇÃO: não podem haver modificações não commitadas no projeto. NOTA: para voltar ao último commit faça: git checkout master | git checkout <código do commit> |
+|																									 | EXEMPLO: git checkout e8a52f3 |
+| Preciso apagar o último commit no Github | git push -f origin HEAD^:master |
+| Quero mudar o meu repositório remoto "origin" | git remote set-url origin https://github.com/acenelio/novoprojeto.git |
+| Entrei no VIM por engano. Como sair? | Tecle ESC, depois digite :q! e tecle ENTER |
+
+
 
 [Voltar ao Índice](#indice)
 
