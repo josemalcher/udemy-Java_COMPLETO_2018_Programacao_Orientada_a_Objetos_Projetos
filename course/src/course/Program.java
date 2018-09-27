@@ -3,33 +3,37 @@ package course;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.ArrayProduct;
+import entities.Rent;
 
 public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
+
+		Rent[] vect = new Rent[10];
+
+		System.out.print("How many rooms will be rented? ");
 		int n = sc.nextInt();
-		
-		ArrayProduct[] vect = new ArrayProduct[n];
-		
-		for(int i = 0 ; i < vect.length; i++) {
+		for (int i = 1; i <= n; i++) {
+			System.out.println();
+			System.out.println("Rent #" + i + ":");
+			System.out.print("Name: ");
 			sc.nextLine();
 			String name = sc.nextLine();
-			double price = sc.nextDouble();
-			vect[i] = new ArrayProduct(name, price);
+			System.out.print("Email: ");
+			String email = sc.nextLine();
+			System.out.print("Room: ");
+			int room = sc.nextInt();
+			vect[room] = new Rent(name, email);
 		}
-		
-		double sum = 0.0;
-		for(int i = 0 ; i< vect.length ; i++) {
-			sum += vect[i].getPrice();
+		System.out.println();
+		System.out.println("Busy rooms:");
+		for (int i = 0; i < 10; i++) {
+			if (vect[i] != null) {
+				System.out.println(i + ": " + vect[i]);
+			}
 		}
-		
-		double avg = sum / vect.length;
-		
-		System.out.printf("Average Price: %.2f%n", avg);
-		
+
 		sc.close();
 	}
 }
