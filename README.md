@@ -2623,6 +2623,76 @@ public class Program {
 
 ```
 
+#### 6. Vetores - Parte 2
+
+Fazer um programa para ler um número inteiro N e os dados (nome e preço) de N Produtos. Armazene os N produtos em um vetor. Em
+seguida, mostrar o preço médio dos produtos.
+
+```java
+package entities;
+
+public class ArrayProduct {
+	private String nome;
+	private double price;
+	
+	public ArrayProduct(String nome, double price) {
+		this.nome = nome;
+		this.price = price;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+}
+
+```
+
+```java
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.ArrayProduct;
+
+public class Program {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		ArrayProduct[] vect = new ArrayProduct[n];
+		
+		for(int i = 0 ; i < vect.length; i++) {
+			sc.nextLine();
+			String name = sc.nextLine();
+			double price = sc.nextDouble();
+			vect[i] = new ArrayProduct(name, price);
+		}
+		
+		double sum = 0.0;
+		for(int i = 0 ; i< vect.length ; i++) {
+			sum += vect[i].getPrice();
+		}
+		
+		double avg = sum / vect.length;
+		
+		System.out.printf("Average Price: %.2f%n", avg);
+		
+		sc.close();
+	}
+}
+
+```
 
 
 [Voltar ao Índice](#indice)
