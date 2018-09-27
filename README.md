@@ -2834,7 +2834,92 @@ for (String obj : vect) {
 
 #### 10. Listas - Parte 1
 
+Listas  
+- Lista é uma estrutura de dados:
+	- Homogênea (dados do mesmo tipo)
+	- Ordenada (elementos acessados por meio de posições)
+	- Inicia vazia, e seus elementos são alocados sob demanda
+	- Cada elemento ocupa um "nó" (ou nodo) da lista
+- Tipo (interface): List
+- Classes que implementam: ArrayList, LinkedList, etc.
+- Vantagens:
+	- Tamanho variável
+	- Facilidade para se realizar inserções e deleções
+- Desvantagens:
+	- Acesso sequencial aos elementos *
+
 #### 11. Listas - Parte 2
+
+- Tamanho da lista: size()
+- Obter o elemento de uma posição: get(position)
+- Inserir elemento na lista: add(obj), add(int, obj)
+- Remover elementos da lista: remove(obj), remove(int), removeIf(Predicate)
+- Encontrar posição de elemento: indexOf(obj), lastIndexOf(obj)
+
+- Filtrar lista com base em predicado:
+List<Integer> result = list.stream().filter(x -> x > 4).collect(Collectors.toList());
+
+- Encontrar primeira ocorrência com base em predicado:
+Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
+
+```java
+package course;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		List<String> list = new ArrayList<>();
+		list.add("jose 1");
+		list.add("jose 2");
+		list.add("jose 3");
+		list.add("jose 4");
+		list.add("jose 5");
+		list.add(2,"jose 9");
+		list.add(0,"Maria 0");
+		list.add(3,"Maria 1");
+		list.add(4,"Bob");
+		list.add("Amarildo");
+		list.add("Armando");
+		
+		System.out.println("--- Lista ---");	
+		System.out.println("Tamanho da lista: "+ list.size());
+		for(String x : list) {
+			System.out.println(x);
+		}
+		
+		list.remove("jose 4");
+		list.remove(0);
+		list.removeIf( x -> x.charAt(0) == 'M');
+		
+		System.out.println("--- REMOVIDOS ---");
+		System.out.println("Tamanho da lista: "+ list.size());
+		for(String x : list) {
+			System.out.println(x);
+		}
+		
+		System.out.println("--- Buscando ---");
+		System.out.println("Index of Bob = " + list.indexOf("Bob"));
+		System.out.println("Index of Marcus = " + list.indexOf("Marcus")); // -1
+		
+		System.out.println("--- Filtro ---");
+		// operações de lambda - converte para stream / faz a operação / e depois volta para lista
+		List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
+		for(String x : result) {
+			System.out.println(x);
+		}
+		
+		System.out.println("--- Encontrar elemento que atenda a um predicado ---");
+		String name = list.stream().filter(x -> x.charAt(0) == 'j').findFirst().orElse(null);
+		System.out.println(name);
+	}
+}
+
+```
 
 [Voltar ao Índice](#indice)
 
