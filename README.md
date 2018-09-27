@@ -2810,6 +2810,32 @@ Wrapper classes
 
 ![wrapper](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/5-1-wrapper.png?raw=true)
 
+#### 9. Laço for each
+
+Sintaxe opcional e simplificada para percorrer coleções  
+Sintaxe:  
+
+```
+for (Tipo apelido : coleção) {
+	<comando 1>
+	<comando 2>
+}
+```
+
+```java
+String[] vect = new String[] {"Maria", "Bob", "Alex"};
+for (int i=0; i< vect.length; i++) {
+	System.out.println(vect[i]);
+}
+for (String obj : vect) {
+	System.out.println(obj);
+}
+```
+
+#### 10. Listas - Parte 1
+
+#### 11. Listas - Parte 2
+
 [Voltar ao Índice](#indice)
 
 ---
