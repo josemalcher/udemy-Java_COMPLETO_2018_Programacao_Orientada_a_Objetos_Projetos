@@ -2547,6 +2547,16 @@ public class Program {
 
 ## <a name="parte5">Comportamento de memória, arrays, listas</a>
 
+#### 3. Tipos referência vs. tipos valor
+
+![](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/3-1-referencia.png?raw=true)
+
+![](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/3-2-primitivos.png?raw=true)
+
+![](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/3-3-valorpadrao.png?raw=true)
+
+![](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/3-4-comparacao.png?raw=true)
+
 
 [Voltar ao Índice](#indice)
 
