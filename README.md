@@ -3080,7 +3080,95 @@ public class Program {
 
 #### 13. Matrizes
 
+Matrizes  
+- Em programação, "matriz" é o nome dado a arranjos bidimensionais
+	- Atenção: "vetor de vetores"
+- Arranjo (array) é uma estrutura de dados:
+	- Homogênea (dados do mesmo tipo)
+	- Ordenada (elementos acessados por meio de posições)
+	- Alocada de uma vez só, em um bloco contíguo de memória
+- Vantagens:
+	- Acesso imediato aos elementos pela sua posição
+- Desvantagens:
+	- Tamanho fixo
+	- Dificuldade para se realizar inserções e deleções
 
+#### 14. Exercício resolvido
+
+Fazer um programa para ler um número inteiro N e uma matriz de
+ordem N contendo números inteiros. Em seguida, mostrar a diagonal
+principal e a quantidade de valores negativos da matriz.
+
+```java
+package course;
+
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		int[][] mat = new int[n][n];
+
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				mat[i][j] = sc.nextInt();
+			}
+		}
+
+		System.out.println("Main diagonal:");
+		for (int i = 0; i < mat.length; i++) {
+			System.out.print(mat[i][i] + " ");
+		}
+		System.out.println();
+
+		int count = 0;
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				if (mat[i][j] < 0) {
+					count++;
+				}
+			}
+		}
+		System.out.println("Negative numbers = " + count);
+
+		sc.close();
+	}
+}
+
+```
+
+
+#### 15. Exercício proposto
+
+Fazer um programa para ler dois números inteiros M e N, e depois ler
+uma matriz de M linhas por N colunas contendo números inteiros,
+podendo haver repetições. Em seguida, ler um número inteiro X que
+pertence à matriz. Para cada ocorrência de X, mostrar os valores à
+esquerda, acima, à direita e abaixo de X, quando houver, conforme
+exemplo.
+
+```
+3 4
+10 8 15 12
+21 11 23 8
+14 5 13 19
+8
+Position 0,1:
+Left: 10
+Right: 15
+Down: 11
+Position 1,3:
+Left: 23
+Up: 12
+Down: 19
+```
+
+```java
+
+```
 
 [Voltar ao Índice](#indice)
 
