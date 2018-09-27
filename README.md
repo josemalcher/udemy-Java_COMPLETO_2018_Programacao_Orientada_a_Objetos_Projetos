@@ -3491,6 +3491,121 @@ Passos:
 
 ## <a name="parte8">Enumerações, composição</a>
 
+#### 3. Enumerações
+
+Enumerações
+- É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+- Palavra chave em Java: enum
+- Vantagem: melhor semântica, código mais legível e auxiliado pelo compilador
+- Referência: https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+
+```java
+package entities.enums;
+
+public enum OrderStatus {
+	PENDING_PAYMENT,
+	PROCESSING,
+	SHIPPED,
+	DELIVERED;
+}
+
+```
+
+```java
+package entities;
+
+import java.util.Date;
+
+import entities.enums.OrderStatus;
+
+public class Order {
+	private Integer id;
+	private Date moment;
+	private OrderStatus status;
+
+	public Order() {
+	}
+
+	public Order(Integer id, Date moment, OrderStatus status) {
+		this.id = id;
+		this.moment = moment;
+		this.status = status;
+	}
+
+
+	public Integer getId() {
+		return id;
+	}
+
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+
+	public Date getMoment() {
+		return moment;
+	}
+
+
+	public void setMoment(Date moment) {
+		this.moment = moment;
+	}
+
+
+	public OrderStatus getStatus() {
+		return status;
+	}
+
+
+	public void setStatus(OrderStatus status) {
+		this.status = status;
+	}
+
+	@Override
+	public String toString() {
+		return "Order [id=" + id + ", moment=" + moment + ", status=" + status + "]";
+	}
+}
+
+```
+
+```java
+package application;
+
+import java.util.Date;
+
+import entities.Order;
+import entities.enums.OrderStatus;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Order order = new Order(1080, new Date(), OrderStatus.PENDING_PAYMENT);
+		
+		System.out.println(order);
+		
+		OrderStatus os1 = OrderStatus.DELIVERED;
+		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+		
+		System.out.println(os1);
+		System.out.println(os2);
+
+	}
+
+}
+
+```
+
+```
+Order [id=1080, moment=Thu Sep 27 20:21:23 GFT 2018, status=PENDING_PAYMENT]
+DELIVERED
+DELIVERED
+```
+
+![uml enum](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/8-enum1.png?raw=true)
+
 
 [Voltar ao Índice](#indice)
 
