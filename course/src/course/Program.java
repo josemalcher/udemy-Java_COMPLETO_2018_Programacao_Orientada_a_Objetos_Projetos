@@ -2,54 +2,55 @@ package course;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.EmployeeList;
 
 public class Program {
 	public static void main(String[] args) {
-		
-		List<String> list = new ArrayList<>();
-		list.add("jose 1");
-		list.add("jose 2");
-		list.add("jose 3");
-		list.add("jose 4");
-		list.add("jose 5");
-		list.add(2,"jose 9");
-		list.add(0,"Maria 0");
-		list.add(3,"Maria 1");
-		list.add(4,"Bob");
-		list.add("Amarildo");
-		list.add("Armando");
-		
-		System.out.println("--- Lista ---");	
-		System.out.println("Tamanho da lista: "+ list.size());
-		for(String x : list) {
-			System.out.println(x);
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		List<EmployeeList> list = new ArrayList<>();
+
+		System.out.print("How many employee will be registered? ");
+		int n = sc.nextInt();
+
+		for (int i = 1; i <= n; i++) {
+			System.out.println();
+			System.out.println("Employee #" + i + ": ");
+			System.out.print("Id: ");
+			int id = sc.nextInt();
+			System.out.print("Name: ");
+			sc.nextLine();
+			String name = sc.nextLine();
+			System.out.print("Salary: ");
+			double salary = sc.nextDouble();
+			list.add(new EmployeeList(id, name, salary));
+		}
+
+		System.out.println();
+		System.out.print("Enter the employee id that will have salary increase: ");
+
+		int id = sc.nextInt();
+		EmployeeList emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
+
+		if (emp == null) {
+			System.out.println("This id does not exist!");
+		} else {
+			System.out.print("Enter the percentage: ");
+			double percentage = sc.nextDouble();
+			emp.increaseSalary(percentage);
 		}
 		
-		list.remove("jose 4");
-		list.remove(0);
-		list.removeIf( x -> x.charAt(0) == 'M');
-		
-		System.out.println("--- REMOVIDOS ---");
-		System.out.println("Tamanho da lista: "+ list.size());
-		for(String x : list) {
-			System.out.println(x);
+		System.out.println();
+		System.out.println("List of employees:");
+		for (EmployeeList obj : list) {
+			System.out.println(obj);
 		}
-		
-		System.out.println("--- Buscando ---");
-		System.out.println("Index of Bob = " + list.indexOf("Bob"));
-		System.out.println("Index of Marcus = " + list.indexOf("Marcus")); // -1
-		
-		System.out.println("--- Filtro ---");
-		// operações de lambda - converte para stream / faz a operação / e depois volta para lista
-		List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
-		for(String x : result) {
-			System.out.println(x);
-		}
-		
-		System.out.println("--- Encontrar elemento que atenda a um predicado ---");
-		String name = list.stream().filter(x -> x.charAt(0) == 'j').findFirst().orElse(null);
-		System.out.println(name);
+
+		sc.close();
 	}
 }
