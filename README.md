@@ -3607,6 +3607,17 @@ DELIVERED
 ![uml enum](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/8-enum1.png?raw=true)
 
 
+#### 4. Vamos falar um pouco sobre design
+
+Categorias de classes
+- Em um sistema orientado a objetos, de modo geral "tudo" é objeto.
+- Por questões de design tais como organização, flexibilidade, reuso, delegação, etc., há várias categorias de classes: Views, Controllers, Entities, Services, Repositories.
+
+![Entidades](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/8-entidades.PNG?raw=true)
+
+![Serviços](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/8-services.png?raw=true)
+
+
 [Voltar ao Índice](#indice)
 
 ---
