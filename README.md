@@ -4085,8 +4085,359 @@ public class Program {
 ```
 #### 9. Exercício de fixação
 
+![Exercicio 9](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/8-8-exercicio.png?raw=true)
+
+```
+Enter cliente data:
+Name: Alex Green
+Email: alex@gmail.com
+Birth date (DD/MM/YYYY): 15/03/1985
+Enter order data:
+Status: PROCESSING
+How many items to this order? 2
+Enter #1 item data:
+Product name: TV
+Product price: 1000.00
+Quantity: 1
+Enter #2 item data:
+Product name: Mouse
+Product price: 40.00
+Quantity: 2
+
+ORDER SUMMARY:
+Order moment: 20/04/2018 11:25:09
+Order status: PROCESSING
+Client: Alex Green (15/03/1985) - alex@gmail.com
+Order items:
+TV, $1000.00, Quantity: 1, Subtotal: $1000.00
+Mouse, $40.00, Quantity: 2, Subtotal: $80.00
+Total price: $1080.00
+```
+#### Resposta
 
 
+```java
+package br.model.enums;
+
+public enum OrderStatus {
+	PENDING_PAYMENT,
+	PROCESSING,
+	SHIPPED,
+	DELIVERED
+}
+
+```
+
+```java
+package br.model.entities;
+
+public class Product {
+	private String name;
+	private Double price;
+	
+	/**
+	 * @param name
+	 * @param price
+	 */
+	public Product(String name, Double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Double getPrice() {
+		return price;
+	}
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+}
+
+```
+```java
+package br.model.entities;
+
+public class OrderItem {
+	private Integer quantity;
+	private Double price;
+	
+	Product product;
+	
+	/**
+	 * @param quantity
+	 * @param price
+	 * @param product
+	 */
+	public OrderItem(Integer quantity, Double price, Product product) {
+		super();
+		this.quantity = quantity;
+		this.price = price;
+		this.product = product;
+	}
+
+	public Integer getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
+
+	public Double getPrice() {
+		return price;
+	}
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+
+	public Product getProduct() {
+		return product;
+	}
+
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+	
+	public double subTotal() {
+		return this.price * this.quantity;
+	}
+	
+	@Override
+	public String toString() {
+		return product.getName() 
+				+ ", $" 
+				+ String.format("%.2f", price) 
+				+ ", Quantity: " 
+				+ quantity + 
+				", Subtotal: $" 
+				+ String.format("%.2f", subTotal());
+	}
+	
+}
+
+```
+
+```java
+package br.model.entities;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Client {
+
+	private String name;
+	private String email;
+	private Date birthDate;
+	
+	private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	
+	/**
+	 * @param name
+	 * @param email
+	 * @param birthDate
+	 */
+	public Client(String name, String email, Date birthDate) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.birthDate = birthDate;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public Date getBirthDate() {
+		return birthDate;
+	}
+	public void setBirthDate(Date birthDate) {
+		this.birthDate = birthDate;
+	}
+	@Override
+	public String toString() {
+		return name + " (" + sdf.format(birthDate) + ") - " + email;
+	}
+	
+	
+	
+}
+
+```
+
+```java
+package br.model.entities;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import br.model.enums.OrderStatus;
+
+public class Order {
+
+	private Date moment;
+	private OrderStatus stauts;
+	
+	private Client client;
+	private List<OrderItem> items = new ArrayList<>();
+	/**
+	 * @param moment
+	 * @param stauts
+	 * @param client
+	 */
+	public Order(Date moment, OrderStatus stauts, Client client) {
+		super();
+		this.moment = moment;
+		this.stauts = stauts;
+		this.client = client;
+	}
+	public Date getMoment() {
+		return moment;
+	}
+	public void setMoment(Date moment) {
+		this.moment = moment;
+	}
+	public OrderStatus getStauts() {
+		return stauts;
+	}
+	public void setStauts(OrderStatus stauts) {
+		this.stauts = stauts;
+	}
+	public Client getClient() {
+		return client;
+	}
+	public void setClient(Client client) {
+		this.client = client;
+	}
+	public List<OrderItem> getItems() {
+		return items;
+	}
+	/*public void setItems(List<OrderItem> items) {
+		this.items = items;
+	}*/
+	public void addItem(OrderItem item) {
+		items.add(item);
+	}
+	public void removeItem(OrderItem item) {
+		items.remove(item);
+	}
+	
+	public double total() {
+		double sum = 0.0;
+		for(OrderItem item : items) {
+			sum += item.subTotal();
+		}
+		return sum;
+	}
+	
+	private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("Order moment: ");
+		sb.append(sdf.format(moment) + "\n");
+		sb.append("Order status: ");
+		sb.append(stauts + "\n");
+		sb.append("Client: ");
+		sb.append(client + "\n");
+		sb.append("Order items:\n");
+		for (OrderItem item : items) {
+			sb.append(item + "\n");
+		}
+		sb.append("Total price: $");
+		sb.append(String.format("%.2f", total()));
+		return sb.toString();
+	}
+}
+
+```
+
+```java
+package br.application;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+import br.model.entities.Client;
+import br.model.entities.Order;
+import br.model.entities.OrderItem;
+import br.model.entities.Product;
+import br.model.enums.OrderStatus;
+
+public class Program {
+
+	public static void main(String[] args) throws ParseException {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+		System.out.println("Enter client data:");
+		System.out.print("Name: ");
+		String name = sc.nextLine();
+		System.out.print("Email: ");
+		String email = sc.next();
+		System.out.print("Birth date (DD/MM/YYYY): ");
+		Date birthDate = sdf.parse(sc.next());
+		
+		Client client = new Client(name, email, birthDate);
+		
+		System.out.println("Enter order data:");
+		System.out.print("Status: ");
+		OrderStatus status = OrderStatus.valueOf(sc.next());
+		
+		Order order = new Order(new Date(), status, client);
+		
+		System.out.print("How many items to this order? ");
+		int n = sc.nextInt();
+		for (int i=1; i<=n; i++) {
+			System.out.println("Enter #" + i + " item data:");
+			System.out.print("Product name: ");
+			sc.nextLine();
+			String productName = sc.nextLine();
+			System.out.print("Product price: ");
+			double productPrice = sc.nextDouble();
+
+			Product product = new Product(productName, productPrice);
+
+			System.out.print("Quantity: ");
+			int quantity = sc.nextInt();
+
+			OrderItem orderItem = new OrderItem(quantity, productPrice, product); 
+
+			order.addItem(orderItem);
+		}
+		
+		System.out.println();
+		System.out.println("ORDER SUMMARY:");
+		System.out.println(order);
+		
+		sc.close();
+
+	}
+
+}
+
+```
 
 [Voltar ao Índice](#indice)
 
