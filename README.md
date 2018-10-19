@@ -4445,6 +4445,130 @@ public class Program {
 
 ## <a name="parte9">Herança e polimorfismo</a>
 
+#### Herança  
+- É um tipo de associação que permite que uma classe herde todos dados e comportamentos de outra
+- Definições importantes
+- Vantagens
+	- Reuso
+	- Polimorfismo
+- Sintaxe
+	- class A extends B
+
+Exemplo  
+Suponha um negócio de banco que possui uma conta comum e uma conta para empresas, sendo que a conta para empresa possui todos membros da conta comum, mais um limite de empréstimo e uma operação de realizar empréstimo.
+
+```java
+package entities;
+
+public class Accont {
+
+	private String holder;
+	private Integer number;
+	protected Double balance;
+
+	public Accont() {
+	}
+
+	public Accont(String holder, Integer number, Double balance) {
+		this.holder = holder;
+		this.number = number;
+		this.balance = balance;
+	}
+	public String getHolder() {
+		return holder;
+	}
+	public void setHolder(String holder) {
+		this.holder = holder;
+	}
+	public Integer getNumber() {
+		return number;
+	}
+	public void setNumber(Integer number) {
+		this.number = number;
+	}
+	public Double getBalance() {
+		return balance;
+	}
+	/*public void setBalance(Double balance) {
+		this.balance = balance;
+	}*/
+
+	public void withDraw(double amount) {
+		balance -= amount;
+	}
+	
+	public void deposit(double amount) {
+		balance += amount;
+	}
+	
+	
+}
+
+
+```
+
+```java
+package entities;
+
+public class BusinessAccount extends Accont{
+	
+	private Double loanLimt;
+
+	public BusinessAccount() {
+		super();
+	}
+
+	public BusinessAccount(String holder, Integer number, Double balance, Double loanLimt) {
+		super(holder, number, balance);
+		this.loanLimt = loanLimt;
+	}
+
+	public Double getLoanLimt() {
+		return loanLimt; 
+	}
+
+	public void setLoanLimt(Double loanLimt) {
+		this.loanLimt = loanLimt;
+	}
+	
+	public void loan(double amount) {
+		if(amount <= loanLimt) {
+			balance += amount - 10.0;
+		}
+	}
+
+}
+
+
+```
+
+```java
+
+package app;
+
+import entities.BusinessAccount;
+
+public class Aplication {
+
+	public static void main(String[] args) {
+
+		BusinessAccount account = new BusinessAccount("José Malcher", 8010, 100.0 , 500.00);
+		
+		account.loan(0.0);
+		System.out.println(account.getBalance());
+
+	}
+
+}
+
+```
+
+
+
+
+![](https://github.com/josemalcher/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/blob/master/readme-img/9-1-heranca.png?raw=true)
+
+![](readme-img/9-2-heranca.png)
 
 [Voltar ao Índice](#indice)
 
