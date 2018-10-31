@@ -4630,9 +4630,9 @@ public class Aplication {
 #### Sobreposição, palavra super, anotação @Override
 
 É a implementação de um método de uma superclasse na subclasse  
-• É fortemente recomendável usar a anotação @Override em um método sobrescrito
-	• Facilita a leitura e compreensão do código
-	• Avisamos ao compilador (boa prática)
+- É fortemente recomendável usar a anotação @Override em um método sobrescrito
+	- Facilita a leitura e compreensão do código
+	- Avisamos ao compilador (boa prática)
 
 
 ```java
@@ -4683,6 +4683,46 @@ public class Program {
 800.0
 793.0
 ```
+
+#### Classes e métodos final
+- Palavra chave: final
+- Classe: evita que a classe seja herdada   
+	public final class SavingsAccount {  
+- Método: evita que o método sob seja sobreposto
+
+Pra quê?
+- Segurança: dependendo das regras do negócio, às vezes é desejável garantir que uma classe não seja herdada, ou que um método não seja sobreposto.
+	- Geralmente convém acrescentar final em métodos sobrepostos, pois sobreposições múltiplas podem ser uma porta de entrada para inconsistências
+- Performance: atributos de tipo de uma classe final são analisados de forma mais rápida em tempo de execução.
+	- Exemplo clássico: String
+
+
+
+#### Introdução ao polimorfismo
+
+Pilares da OOP  
+- Encapsulamento
+- Herança
+- Polimorfismo
+
+Polimorfismo  
+
+Em Programação Orientada a Objetos, polimorfismo é recurso que permite que variáveis de um mesmo tipo mais genérico possam apontar para objetos de tipos específicos diferentes, tendo assim comportamentos diferentes conforme cada tipo específico.
+
+
+Importante entender
+- A associação do tipo específico com o tipo genérico é feita em tempo de execução (upcasting).
+• O compilador não sabe para qual tipo específico a chamada do método Withdraw está sendo feita (ele só sabe que são duas variáveis tipo Account):
+
+```java
+
+Account x = new Account(1020, "Alex", 1000.0);
+Account y = new SavingsAccount(1023, "Maria", 1000.0, 0.01);
+x.withdraw(50.0);
+y.withdraw(50.0);
+
+```
+
 
 [Voltar ao Índice](#indice)
 
