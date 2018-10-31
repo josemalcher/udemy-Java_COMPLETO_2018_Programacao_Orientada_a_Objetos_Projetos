@@ -4626,6 +4626,64 @@ public class Aplication {
 }
 
 ```
+
+#### Sobreposição, palavra super, anotação @Override
+
+É a implementação de um método de uma superclasse na subclasse  
+• É fortemente recomendável usar a anotação @Override em um método sobrescrito
+	• Facilita a leitura e compreensão do código
+	• Avisamos ao compilador (boa prática)
+
+
+```java
+	@Override
+	public void withdraw(double amount) {
+		super.withdraw(amount);
+		balance -= 2.0;
+	}
+	
+```
+
+```java
+	@Override
+	public void withdraw(double amount) {
+		balance -= amount;
+	}
+```
+
+```java
+package app;
+
+import entities.Account;
+import entities.BusinessAccount;
+import entities.SavingsAccount;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		Account acc1 = new Account(10, "jose", 1000.00);
+		acc1.withdraw(200.00);
+		System.out.println(acc1.getBalance());
+		
+		Account acc2 = new SavingsAccount(12,"Maria", 1000.00, 0.01);
+		acc2.withdraw(200.00);
+		System.out.println(acc2.getBalance());
+		
+		Account acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
+		acc3.withdraw(200.0);
+		System.out.println(acc3.getBalance());
+		
+	}
+}
+
+```
+
+```
+795.0
+800.0
+793.0
+```
+
 [Voltar ao Índice](#indice)
 
 ---
