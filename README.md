@@ -5579,6 +5579,138 @@ public class ProgramTryFinaly {
 
 ```
 
+10.7. Criando exceções personalizadas
+
+![](readme-img/tratamento_erros_2.png)
+
+Problema exemplo
+
+Fazer um programa para ler os dados de uma reserva de hotel (número do quarto, data de entrada e data de saída) e mostrar os dados da reserva, inclusive sua duração em dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva, e mostrar
+novamente a reserva com os dados atualizado. O programa não deve aceitar dados inválidos para a reserva, conforme as seguintes regras:
+	- Alterações de reserva só podem ocorrer para datas futuras
+	- A data de saída deve ser maior que a data de entrada
+
+![](readme-img/tratamento_erros_3.png)
+
+
+Examples
+
+```
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 26/09/2019
+Reservation: Room 8021, check-in: 23/09/2019, check-out: 26/09/2019, 3 nights
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 24/09/2019
+Check-out date (dd/MM/yyyy): 29/09/2019
+Reservation: Room 8021, check-in: 24/09/2019, check-out: 29/09/2019, 5 nights
+```
+
+```
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 21/09/2019
+Error in reservation: Check-out date must be after check-in date
+```
+
+```
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 26/09/2019
+Reservation: Room 8021, check-in: 23/09/2019, check-out: 26/09/2019, 3 nights
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 24/09/2015
+Check-out date (dd/MM/yyyy): 29/09/2015
+Error in reservation: Reservation dates for update must be future dates
+```
+
+```
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 26/09/2019
+Reservation: Room 8021, check-in: 23/09/2019, check-out: 26/09/2019, 3 nights
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 24/09/2020
+Check-out date (dd/MM/yyyy): 22/09/2020
+Error in reservation: Check-out date must be after check-in date
+```
+
+- Solução 1 (muito ruim): lógica de validação no programa principal
+	- Lógica de validação não delegada à reserva
+- Solução 2 (ruim): método retornando string
+	- A semântica da operação é prejudicada
+	- Retornar string não tem nada a ver com atualização de reserva
+	- E se a operação tivesse que retornar um string?
+	- Ainda não é possível tratar exceções em construtores
+	- Ainda não há auxílio do compilador: o programador deve "lembrar" de verificar se houve erro
+	- A lógica fica estruturada em condicionais aninhadas
+- Solução 3 (boa): tratamento de exceções
+
+```java
+package entities;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
+public class Reservation {
+
+	private Integer roomNumber;
+	private Date checkIn;
+	private Date checkOut;
+
+	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+	public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
+		this.roomNumber = roomNumber;
+		this.checkIn = checkIn;
+		this.checkOut = checkOut;
+	}
+
+	public Integer getRoomNumber() {
+		return roomNumber;
+	}
+
+	public void setRoomNumber(Integer roomNumber) {
+		this.roomNumber = roomNumber;
+	}
+
+	public Date getCheckIn() {
+		return checkIn;
+	}
+
+//	public void setCheckIn(Date checkIn) {
+//		this.checkIn = checkIn;
+//	}
+
+	public Date getCheckOut() {
+		return checkOut;
+	}
+
+//	public void setCheckOut(Date checkOut) {
+//		this.checkOut = checkOut;
+//	}
+
+	// tempo em dias
+	public long duration() {
+		long diff = checkOut.getTime() - checkIn.getTime();
+		return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
+	}
+
+	public void updateDates(Date CheckIn, Date CheckOut) {
+		this.checkIn = checkIn;
+		this.checkOut = checkOut;
+	}
+
+	@Override
+	public String toString() {
+		return "Room " + roomNumber + ", check-in: " + sdf.format(checkIn) + ", check-out: " + sdf.format(checkOut)
+				+ ", " + duration() + " nights";
+	}
+
+}
+
+```
 
 [Voltar ao Índice](#indice)
 
