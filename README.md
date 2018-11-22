@@ -6057,6 +6057,66 @@ public class Programm {
 
 ```
 
+#### Resumo da aula
+-  Cláusula throws: propaga a exceção ao invés de trata-la
+-  Cláusula throw: lança a exceção / "corta" o método
+-  Exception: compilador obriga a tratar ou propagar
+-  RuntimeException: compilador não obriga
+-  O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+-  Vantagens:
+	-  Lógica delegada
+	-  Construtores podem ter tratamento de exceções
+	-  Possibilidade de auxílio do compilador (Exception)
+	-  Código mais simples. Não há aninhamento de condicionais: a qualquer momento que uma exceção for disparada, a execução é interrompida e cai no bloco catch correspondente.
+	-  É possível capturar inclusive outras exceções de sistema
+
+
+### Exercício de fixação
+
+Fazer um programa para ler os dados de uma conta bancária e depois realizar um saque nesta conta bancária, mostrando o novo saldo. Um saque não pode ocorrer ou se não houver saldo na conta, ou se o valor do saque for superior ao limite de saque da conta. Implemente a conta bancária conforme projeto abaixo:
+
+![](readme-img/tratamento_erros_4.png)
+
+
+```
+Enter account data
+Number: 8021
+Holder: Bob Brown
+Initial balance: 500.00
+Withdraw limit: 300.00
+Enter amount for withdraw: 100.00
+New balance: 400.00
+```
+
+```
+Enter account data
+Number: 8021
+Holder: Bob Brown
+Initial balance: 500.00
+Withdraw limit: 300.00
+Enter amount for withdraw: 400.00
+Withdraw error: The amount exceeds withdraw limit
+```
+
+```
+Enter account data
+Number: 8021
+Holder: Bob Brown
+Initial balance: 500.00
+Withdraw limit: 300.00
+Enter amount for withdraw: 800.00
+Withdraw error: The amount exceeds withdraw limit
+```
+
+```
+Enter account data
+Number: 8021
+Holder: Bob Brown
+Initial balance: 200.00
+Withdraw limit: 300.00
+Enter amount for withdraw: 250.00
+Withdraw error: Not enough balance
+```
 
 
 [Voltar ao Índice](#indice)
