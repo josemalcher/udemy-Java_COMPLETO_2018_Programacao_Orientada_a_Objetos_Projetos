@@ -6118,6 +6118,138 @@ Enter amount for withdraw: 250.00
 Withdraw error: Not enough balance
 ```
 
+```java
+package Exception;
+
+public class AccountException extends RuntimeException{
+	private static final long serialVersionUID = 1L;
+	
+	public AccountException(String msg) {
+		super(msg);
+	}
+	
+}
+
+```
+
+```java
+package Entities;
+
+import Exception.AccountException;
+
+public class Account {
+	private Integer number;
+	private String holder;
+	private Double balance;
+	private Double withdrawLimit;
+	
+	public Account(Integer number, String holder, Double balance, Double withdrawLimit) {
+		this.number = number;
+		this.holder = holder;
+		this.balance = balance;
+		this.withdrawLimit = withdrawLimit;
+	}
+
+	public String getHolder() {
+		return holder;
+	}
+
+	public void setHolder(String holder) {
+		this.holder = holder;
+	}
+
+	public Double getWithdrawLimit() {
+		return withdrawLimit;
+	}
+
+	public void setWithdrawLimit(Double withdrawLimit) {
+		this.withdrawLimit = withdrawLimit;
+	}
+
+	public Integer getNumber() {
+		return number;
+	}
+
+	public Double getBalance() {
+		return balance;
+	}
+	
+	public void deposit(double amount) {
+		balance += amount;
+	}
+	
+	public void withdraw(double amount) {
+		if(amount > withdrawLimit) {
+			throw new AccountException("The amount exceeds withdraw limit");
+		}
+		if(amount > balance) {
+			throw new AccountException("Not enough balance");
+		}
+		balance -= amount;
+	}
+	
+	
+}
+
+```
+
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entities.Account;
+import Exception.AccountException;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter accont data");
+		System.out.print("Number: ");
+		int number = sc.nextInt();
+		
+		System.out.print("Holder: ");
+		sc.nextLine();
+		String holder = sc.nextLine();
+		
+		System.out.print("Initial balance");
+		double balance = sc.nextDouble();
+		
+		System.out.print("Withdraw limit: ");
+		double withdrawLimit = sc.nextDouble();
+		
+		Account acc = new Account(number, holder, balance, withdrawLimit);
+		
+		System.out.println();
+		
+		System.out.print("Enter amount for Withdraw: ");
+		double amount = sc.nextDouble();
+		
+		try {
+			acc.withdraw(amount);
+			System.out.println("New Balance: " + String.format("%.2f", acc.getBalance()));
+		}
+		catch (AccountException	 e) {
+			System.out.println("Withdraw error: " + e.getMessage());
+		}
+		
+		
+		sc.close();
+
+	}
+
+}
+
+```
+
+
+
 
 [Voltar ao Índice](#indice)
 
