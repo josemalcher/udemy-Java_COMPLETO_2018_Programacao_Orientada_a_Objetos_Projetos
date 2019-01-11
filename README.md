@@ -23,7 +23,11 @@ https://www.udemy.com/java-curso-completo/
 - [Interfaces](#parte13)   
 - [Generics, Set, Map](#parte14)   
 - [Programação funcional e expressões lambda](#parte15)   
-- [Projeto: MongoDB com Spring Boot](#parte16)   
+- [Acesso a banco de dados com JDBC](#parte16)   
+- [Interface gráfica com JavaFX](#parte17)   
+- [Projeto Aplicação desktop com JavaFX e banco de dados MySQL com JDBC](#parte18)   
+- [Projeto API Restful web com Spring Boot e banco de dados MongoDB](#parte19)   
+- [Seção bônus](#parte20)   
 
 
 
@@ -6290,9 +6294,39 @@ public class Program {
 
 ---
 
-## <a name="parte16">Projeto: MongoDB com Spring Boot</a>
+## <a name="parte16">Acesso a banco de dados com JDBC</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
+
+## <a name="parte17">Interface gráfica com JavaFX</a>
+
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte18">Projeto Aplicação desktop com JavaFX e banco de dados MySQL com JDBC</a>
+
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte19">Projeto API Restful web com Spring Boot e banco de dados MongoDB</a>
+
+
+[Voltar ao Índice](#indice)
+
+---
+
+
+## <a name="parte20">20. Seção bônus</a>
+
+
+[Voltar ao Índice](#indice)
+
+---
+
