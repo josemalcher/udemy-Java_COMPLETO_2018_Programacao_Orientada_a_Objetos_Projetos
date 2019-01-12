@@ -6322,6 +6322,19 @@ Methods: Board.Piece(row, column) and Board.Piece(position)
 - Data Structures Topics:
   - Matrix
 
+#### 7. Colocando peças no tabuleiro
+
+Checklist:
+
+- Method: Board.PlacePiece(piece, position)
+- Classes: Rook, King [public]
+- Method: ChessMatch.InitialSetup
+- OOP Topics:
+  - Inheritance
+  - Overriding
+  - Polymorphism (ToString)
+
+
 
 [Voltar ao Índice](#indice)
 
