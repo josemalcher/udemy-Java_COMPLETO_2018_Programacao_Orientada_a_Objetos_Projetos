@@ -6293,6 +6293,34 @@ Checklist:
 - [/11-chess-system/src/boardgame/Board.java](/11-chess-system/src/boardgame/Board.java)
 
 
+#### 11.6. Camada Chess e imprimindo o tabuleiro
+
+```
+8 - - - - - - - -
+7 - - - - - - - -
+6 - - - - - - - -
+5 - - - - - - - -
+4 - - - - - - - -
+3 - - - - - - - -
+2 - - - - - - - -
+1 - - - - - - - -
+  a b c d e f g h
+```
+
+Methods: Board.Piece(row, column) and Board.Piece(position)
+- Enum Chess.Color
+- Class Chess.ChessPiece [public]
+- Class Chess.ChessMatch [public]
+- Class ChessConsole.UI
+- OOP Topics:
+  - Enumerations
+  - Encapsulation / Access Modifiers
+ 	Inheritance
+  - Downcasting
+  - Static members
+  - Layers pattern
+- Data Structures Topics:
+  - Matrix
 
 
 [Voltar ao Índice](#indice)
