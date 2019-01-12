@@ -6276,8 +6276,23 @@ Checklist:
   - Constructors
   - ToString (Object / overriding)
 
+- [/11-chess-system/src/boardgame/Position.java](/11-chess-system/src/boardgame/Position.java)
 
-- /11-chess-system/src/boardgame/Position.java
+
+#### 11.5. Começando a implementar Board e Piece
+
+Checklist:
+- Classes Piece, Board [public]
+- OOP Topics:
+  - Associations
+  - Encapsulation / Access Modifiers
+- Data Structures Topics:
+  - Matrix
+
+- [/11-chess-system/src/boardgame/Piece.java](/11-chess-system/src/boardgame/Piece.java)
+- [/11-chess-system/src/boardgame/Board.java](/11-chess-system/src/boardgame/Board.java)
+
+
 
 
 [Voltar ao Índice](#indice)
