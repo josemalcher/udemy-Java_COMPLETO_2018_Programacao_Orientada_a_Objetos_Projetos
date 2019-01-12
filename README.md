@@ -6261,6 +6261,12 @@ public class Program {
 
 ## <a name="parte11">Projeto: Sistema jogo de xadrez</a>
 
+![UML DO PROJETO](readme-img/chess-system-design.png)
+
+[Pasta do Proejeto](11-chess-system)
+
+
+
 
 [Voltar ao Índice](#indice)
 
