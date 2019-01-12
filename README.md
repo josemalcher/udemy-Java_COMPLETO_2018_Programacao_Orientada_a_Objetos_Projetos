@@ -6263,9 +6263,21 @@ public class Program {
 
 ![UML DO PROJETO](readme-img/chess-system-design.png)
 
-[Pasta do Proejeto](11-chess-system)
+[Pasta do Projeto](11-chess-system)
+
+#### 11.4. Primeira classe - Position
+
+**First class: Position**
+
+Checklist:
+- Class Position [public]
+- OOP Topics:
+  - Encapsulation
+  - Constructors
+  - ToString (Object / overriding)
 
 
+- /11-chess-system/src/boardgame/Position.java
 
 
 [Voltar ao Índice](#indice)
