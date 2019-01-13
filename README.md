@@ -6334,6 +6334,29 @@ Checklist:
   - Overriding
   - Polymorphism (ToString)
 
+```
+8 - - - - K - - - 
+7 - - - - - - - - 
+6 - R - - - - - - 
+5 - - - - - - - - 
+4 - - - - - - - - 
+3 - - - - - - - - 
+2 - - - - - - - - 
+1 - - - - K - - - 
+  a b c d e f g h
+```
+
+#### 8. BoardException e programação defensiva
+
+Checklist:
+
+- Class BoardException [public]
+- Methods: Board.PositionExists, Board.ThereIsAPiece
+- Implement defensive programming in Board methods
+- OOP Topics:
+  - Exceptions
+  - Constructors (a string must be informed to the exception)
+
 
 
 [Voltar ao Índice](#indice)
