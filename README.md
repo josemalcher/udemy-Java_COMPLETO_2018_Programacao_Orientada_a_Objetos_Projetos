@@ -6358,6 +6358,66 @@ Checklist:
   - Constructors (a string must be informed to the exception)
 
 
+#### 9. ChessException e ChessPosition
+
+Checklist:  
+- Class ChessException [public]
+- Class ChessPosition [public]
+- Refactor ChessMatch.InitialSetup
+- OOP Topics:
+  - Exceptions
+  - Encapsulation
+  - Constructors (a string must be informed to the exception)
+  - Overriding
+  - Static members
+  - Layers pattern
+
+#### 10. Pequena melhoria na impressão do tabuleiro
+
+#### 11. Movendo peças
+
+#### 12. Tratando exceções e limpando a tela
+
+#### 13. Movimentos possíveis de uma peça
+
+#### 14. Implementando movimentos possíveis da Torre
+
+#### 15. Imprimindo os movimentos possíveis
+
+#### 16. Implementando os movimentos possíveis do Rei
+
+#### 17. Trocando de jogador a cada turno
+
+#### 18. Manipulando peças capturadas
+
+#### 19. Lógica de xeque - PARTE 1
+
+#### 20. Lógica de xeque - PARTE 2
+
+#### 21. Lógica de xequemate
+
+#### 22. Contagem de movimentos das peças
+
+#### 23. Peão
+
+#### 24. Bispo
+
+#### 25. Cavalo
+
+#### 26. Rainha
+
+#### 27. Jogada especial Roque - PARTE 1
+
+#### 28. Jogada especial Roque - PARTE 2
+
+#### 29. Jogada especial en passant - PARTE 1
+
+#### 30. Jogada especial en passant - PARTE 2
+
+#### 31. Jogada especial promoção
+
+
+
 
 [Voltar ao Índice](#indice)
 
