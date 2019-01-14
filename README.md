@@ -6322,7 +6322,7 @@ Methods: Board.Piece(row, column) and Board.Piece(position)
 - Data Structures Topics:
   - Matrix
 
-#### 7. Colocando peças no tabuleiro
+#### 11.7. Colocando peças no tabuleiro
 
 Checklist:
 
@@ -6346,7 +6346,7 @@ Checklist:
   a b c d e f g h
 ```
 
-#### 8. BoardException e programação defensiva
+#### 11.8. BoardException e programação defensiva
 
 Checklist:
 
@@ -6358,7 +6358,7 @@ Checklist:
   - Constructors (a string must be informed to the exception)
 
 
-#### 9. ChessException e ChessPosition
+#### 11.9. ChessException e ChessPosition
 
 Checklist:  
 - Class ChessException [public]
@@ -6372,49 +6372,59 @@ Checklist:
   - Static members
   - Layers pattern
 
-#### 10. Pequena melhoria na impressão do tabuleiro
+#### 11.10. Pequena melhoria na impressão do tabuleiro
 
-#### 11. Movendo peças
+Color in terminal:
 
-#### 12. Tratando exceções e limpando a tela
+- Windows: Git Bash
+- Mac: Google "osx terminal color"
 
-#### 13. Movimentos possíveis de uma peça
+Checklist:
 
-#### 14. Implementando movimentos possíveis da Torre
+- Place more pieces on the board
+- Distinguish piece colors in UI.PrintPiece method
 
-#### 15. Imprimindo os movimentos possíveis
+#### 11.11. Movendo peças
 
-#### 16. Implementando os movimentos possíveis do Rei
+#### 11.12. Tratando exceções e limpando a tela
 
-#### 17. Trocando de jogador a cada turno
+#### 11.13. Movimentos possíveis de uma peça
 
-#### 18. Manipulando peças capturadas
+#### 11.14. Implementando movimentos possíveis da Torre
 
-#### 19. Lógica de xeque - PARTE 1
+#### 11.15. Imprimindo os movimentos possíveis
 
-#### 20. Lógica de xeque - PARTE 2
+#### 11.16. Implementando os movimentos possíveis do Rei
 
-#### 21. Lógica de xequemate
+#### 11.17. Trocando de jogador a cada turno
 
-#### 22. Contagem de movimentos das peças
+#### 11.18. Manipulando peças capturadas
 
-#### 23. Peão
+#### 11.19. Lógica de xeque - PARTE 1
 
-#### 24. Bispo
+#### 11.20. Lógica de xeque - PARTE 2
 
-#### 25. Cavalo
+#### 11.21. Lógica de xequemate
 
-#### 26. Rainha
+#### 11.22. Contagem de movimentos das peças
 
-#### 27. Jogada especial Roque - PARTE 1
+#### 11.23. Peão
 
-#### 28. Jogada especial Roque - PARTE 2
+#### 11.24. Bispo
 
-#### 29. Jogada especial en passant - PARTE 1
+#### 11.25. Cavalo
 
-#### 30. Jogada especial en passant - PARTE 2
+#### 11.26. Rainha
 
-#### 31. Jogada especial promoção
+#### 11.27. Jogada especial Roque - PARTE 1
+
+#### 11.28. Jogada especial Roque - PARTE 2
+
+#### 11.29. Jogada especial en passant - PARTE 1
+
+#### 11.30. Jogada especial en passant - PARTE 2
+
+#### 11.31. Jogada especial promoção
 
 
 
