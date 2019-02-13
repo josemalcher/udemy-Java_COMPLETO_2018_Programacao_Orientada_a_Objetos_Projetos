@@ -43,6 +43,35 @@ Curso mais didático e completo de Java e Orientação a Objetos. Projetos reais
 
 ## <a name="parte2">2 - Apresentação da linguagem Java e tópicos básicos</a>
 
+#### 2.4. Contextualização Parte 1 histórico e edições
+
+- Linguagem de programação (regras sintáticas)
+- Plataforma de desenvolvimento e execução
+  - Bibliotecas (API)
+  - Ambientes de execução
+
+**Aspectos notáveis**
+
+- Código compilado para bytecode e executado em máquina virtual (JVM)
+- Portável, segura, robusta
+- Roda em vários tipos de dispositivos
+- Domina o mercado corporativo desde o fim do século 20
+- Padrão Android por muitos anos
+
+**Edições**
+
+- Java ME - Java Micro Edition - dispositivos embarcados e móveis - IoT
+  - http://www.oracle.com/technetwork/java/javame
+- Java SE - Java Standard Edition - core - desktop e servidores
+  - http://www.oracle.com/technetwork/java/javase
+  - https://en.wikipedia.org/wiki/Java_version_history
+- JavaFX - desktop e RIA
+- Java EE - Java Enterprise Edition - aplicações corporativas
+  - http://www.oracle.com/technetwork/java/javaee
+  - https://en.wikipedia.org/wiki/Java_EE_version_history
+
+
+
 
 
 [Voltar ao Índice](#indice)
