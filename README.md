@@ -71,6 +71,30 @@ Curso mais didático e completo de Java e Orientação a Objetos. Projetos reais
   - https://en.wikipedia.org/wiki/Java_EE_version_history
 
 
+#### 2.5. Contextualização Parte 2 JRE, JDK, bytecodes e máquina virtual
+
+- Bibliotecas - API specification
+  - https://docs.oracle.com/javase/8/docs/api/
+  - https://docs.oracle.com/javase/10/docs/api/
+- JVM - Java Virtual Machine
+  - Máquina virtual do Java - necessário para executar sistemas Java
+- http://www.oracle.com/technetwork/java/javase/downloads
+  - JRE - Java Runtime Environment
+  - Necessário para usuários finais executarem aplicações Java no computador
+- Server JRE
+  - Necessário para executar sistemas Java em servidores
+- JDK - Java Development Kit
+  - Necessário para desenvolvedores Java. Contém o JRE, mais ferramentas para desenvolvimento, depuração e monitoramento de projetos Java.
+
+**Compilação e interpretação**
+
+- Linguagens compiladas: C, C++
+- Linguagens interpretadas: PHP, JavaScript
+- Linguagens pré-compiladas + máquina virtual: Java, C#
+
+**Modelo de execução**
+
+![](img/Modelo-de-execucao-java.png)
 
 
 
