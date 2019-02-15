@@ -96,6 +96,14 @@ Curso mais didático e completo de Java e Orientação a Objetos. Projetos reais
 
 ![](img/Modelo-de-execucao-java.png)
 
+#### 2.6. Estrutura de uma aplicação Java
+
+- Uma aplicação é composta por classes
+- package = agrupamento LÓGICO de classes relacionadas
+- Módulo (Java 9+) = Agrupamento lógico de pacotes relacionados
+  - Runtime = Agrupamento físico
+- Aplicação = Agrupamento de módulo relacionados
+
 
 
 [Voltar ao Índice](#indice)
