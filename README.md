@@ -104,7 +104,47 @@ Curso mais didático e completo de Java e Orientação a Objetos. Projetos reais
   - Runtime = Agrupamento físico
 - Aplicação = Agrupamento de módulo relacionados
 
+#### 2.8. Instalação do JDK e Eclipse no Windows
 
+**Checklist**
+
+- Certifique-se de que seu Windows esteja devidamente licenciado e atualizado
+  - Windows update
+
+- Baixar e instalar o Java JDK
+  - http://www.oracle.com/technetwork/java/javase/downloads
+
+- Configurar variáveis de ambiente do sistema
+  - Painel de Controle -> Variáveis de Ambiente
+  - Variável JAVA_HOME: C:\Program Files\Java\jdk-10.0.1
+  - Variável Path: incluir C:\Program Files\Java\jdk-10.0.1\bin
+  - Testar no terminal de comando: java --version
+
+- Baixar e descompactar o Eclipse
+  - https://www.eclipse.org/downloads/eclipse-packages/
+  - Testar: rodar o Eclipse e escolher um "workspace" (pasta onde você vai salvar seus projetos)
+
+#### 2.9. Primeiro programa em Java no Eclipse
+
+#### 2.10. Tipos primitivos em Java
+
+#### 2.11. Restrições e convenções para nomes
+
+#### 2.12. Conversão implícita e casting
+
+#### 2.13. Saída de dados em Java
+
+#### 2.14. Operadores aritméticos
+
+#### 2.15. Operadores de atribuição
+
+#### 2.16. Entrada de dados em Java - Parte 1
+
+#### 2.17. Entrada de dados em Java - Parte 2
+
+#### 2.18. AVISO exercícios para iniciantes PARTE 1
+
+#### 2.19.1 02-exercicios1-estrutura-sequencial.pdf
 
 [Voltar ao Índice](#indice)
 
