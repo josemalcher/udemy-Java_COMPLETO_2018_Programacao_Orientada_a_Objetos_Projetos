@@ -126,6 +126,41 @@ Curso mais didático e completo de Java e Orientação a Objetos. Projetos reais
 
 #### 2.9. Primeiro programa em Java no Eclipse
 
+**Checklist**
+
+- Window -> Perspective -> Open Perspective -> Java
+- File -> New -> Java Project
+- Package Explorer
+  - JRE System Library
+  - Pasta "src"
+- Criar classe
+  - Botão direito no projeto -> New -> Class
+  - Escolher um nome para a classe (iniciar com letra Maiúscula)
+  - Escolher um nome para o pacote (iniciar com letra Minúscula)
+  - Selecionar public static void main
+- Classe
+  - package
+  - Cláusula import: referências a outros pacotes
+  - Classe
+  - Método
+  - public static void main(String[] args)
+- Executar o programa: Botão direito no arquivo -> Run As -> Java Application
+- Como fechar e reabrir o projeto? E o workspace?
+- Dica: indentação automática: CTRL + SHIFT -> F
+
+- 2-Apresentacao-da-linguagem-Java-e-topicos-basicos\Course_1\src\course\Program.java
+
+```java
+package course;
+
+public class Program {
+	public static void main(String[] args) {
+		System.out.println("Hello world!");
+	}
+}
+
+```
+
 #### 2.10. Tipos primitivos em Java
 
 #### 2.11. Restrições e convenções para nomes
