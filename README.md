@@ -163,6 +163,81 @@ public class Program {
 
 #### 2.10. Tipos primitivos em Java
 
+**Checklist**
+
+- https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
+- Java é uma linguagem estaticamente tipada
+- Tipos primitivos em Java
+- Tipos referência String e Object
+- Variável não iniciada
+- Valores padrão
+- Overflow
+- Padrão para float: sufixo "f"
+- Padrão para char: aspas simples
+- Padrão para string: aspas duplas
+- Padrão para boolean: true, false
+- Opção: inferência de tipos com palavra "var" (dentro de métodos)
+
+**Tipos primitivos em Java (tipo valor)**
+
+![](img/210TiposprimitivosemJava.png)
+
+**String e Object**
+
+![](img/2102TiposprimitivosemJava.png)
+
+
+**Valores padrão**
+
+Quando criamos um array ou um objeto com atributos desses tipos, esses são os valores atribuídos inicialmente aos dados.
+
+![](img/2103TiposprimitivosemJava.png)
+
+**Tipo valor vs. tipo referência**
+
+![](img/2104TiposprimitivosemJava.png)
+
+```java
+package app;
+
+public class Programm {
+
+	public static void main(String[] args) {
+
+		boolean completed = false;
+		char gender = 'F';
+		char letter = '\u0041';
+		byte n1 = 126;
+		int n2 = 1000;
+		int n3 = 2147483647;
+		long n4 = 2147483648L;
+		float n5 = 4.5f;
+		double n6 = 4.5;
+		
+		String name = "Maria Green";
+		Object obj1 = "Alex Brown";
+		Object obj2 = 4.5f;
+		
+		System.out.println(completed);
+		System.out.println(gender);
+		System.out.println(letter);
+		System.out.println(n1);
+		System.out.println(n2);
+		System.out.println(n3);
+		System.out.println(n4);
+		System.out.println(n5);
+		System.out.println(n6);
+		System.out.println(name);
+		System.out.println(obj1);
+		System.out.println(obj2);
+
+	}
+
+}
+
+```
+
 #### 2.11. Restrições e convenções para nomes
 
 #### 2.12. Conversão implícita e casting
