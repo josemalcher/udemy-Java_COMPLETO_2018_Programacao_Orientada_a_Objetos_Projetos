@@ -322,6 +322,120 @@ public class Programm {
 
 #### 2.13. Saída de dados em Java
 
+```java
+package app;
+
+import java.util.Locale;
+
+public class Programm {
+
+	public static void main(String[] args) {
+		
+		char gender = 'F';
+		int age = 32;
+		double balance = 10.35784;
+		String name = "Maria";
+		
+		System.out.print("Good morning!");
+		System.out.println("Good afternoon!");
+		System.out.println("Good night!");
+		System.out.println("---------------------------");
+		System.out.println(balance);
+		System.out.printf("%.2f%n", balance);
+		System.out.printf("%.4f%n", balance);
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.4f%n", balance);
+		System.out.println("---------------------------");
+		System.out.printf("%s is %d years old, gender %c, and got balance = %.2f bitcoins%n", name, age,gender, balance);
+	}
+}
+
+```
+
+```
+Good morning!Good afternoon!
+Good night!
+---------------------------
+10.35784
+10,36
+10,3578
+10.3578
+---------------------------
+Maria is 32 years old, gender F, and got balance = 10.36 bitcoins
+
+```
+
+**Exercício de fixação**
+
+Em um novo programa, inicie as seguintes variáveis:
+```
+String product1 = "Computer";
+String product2 = "Office desk";
+int age = 30;
+int code = 5290;
+char gender = 'F';
+double price1 = 2100.0;
+double price2 = 650.50;
+double measure = 53.234567;
+```
+Em seguida, usando os valores das variáveis, produza a seguinte saída na tela do console:
+
+```
+Products:
+Computer, which price is $ 2100,00
+Office desk, which price is $ 650,50
+
+Record: 30 years old, code 5290 and gender: F
+
+Measue with eight decimal places: 53,23456700
+Rouded (three decimal places): 53,235
+US decimal point: 53.235
+```
+
+```java
+package app;
+
+import java.util.Locale;
+
+public class Exercicio {
+	public static void main(String[] args) {
+		String product1 = "Computer";
+		String product2 = "Office desk";
+		byte age = 30;
+		int code = 5290;
+		char gender = 'F';
+		double price1 = 2100.0;
+		double price2 = 650.50;
+		double measure = 53.234567;
+		
+		System.out.println("Products:");
+		System.out.printf("%s, which price is $ %.2f%n", product1, price1);
+		System.out.printf("%s, which price is $ %.2f%n", product2, price2);
+		System.out.println();
+		System.out.printf("Record: %d years old, code %d and gender: %c%n", age, code, gender);
+		System.out.println();
+		System.out.printf("Measue with eight decimal places: %.8f%n", measure);
+		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
+		
+		Locale.setDefault(Locale.US);
+		System.out.printf("US decimal point: %.3f%n", measure);
+	}
+}
+```
+
+```
+Products:
+Computer, which price is $ 2100,00
+Office desk, which price is $ 650,50
+
+Record: 30 years old, code 5290 and gender: F
+
+Measue with eight decimal places: 53,23456700
+Rouded (three decimal places): 53,235
+US decimal point: 53.235
+
+```
+
 #### 2.14. Operadores aritméticos
 
 #### 2.15. Operadores de atribuição
