@@ -477,6 +477,51 @@ public class Programm {
 
 #### 2.15. Operadores de atribuição
 
+![](img/215Operadoresde&#32;atribuicao.png)
+
+```java
+package app;
+
+public class Programm {
+
+	public static void main(String[] args) {
+
+		double n1 = 10;
+		double n2 = 30;
+		String s = "ABC";
+		System.out.println(n1);
+		System.out.println(n2);
+		System.out.println(s);
+		System.out.println("-------------");
+		
+		n1 *= 2;
+		n2 += n1;
+		s += "DEF";
+		System.out.println(n1);
+		System.out.println(n2);
+		System.out.println(s);
+	}
+}
+
+```
+
+```
+10.0
+30.0
+ABC
+-------------
+20.0
+50.0
+ABCDEF
+
+```
+
+**Operadores aritméticos / atribuição Operador**
+
+![](img/215Operadoresde&#32;atribuicao_2.png)
+
+
+
 #### 2.16. Entrada de dados em Java - Parte 1
 
 #### 2.17. Entrada de dados em Java - Parte 2
