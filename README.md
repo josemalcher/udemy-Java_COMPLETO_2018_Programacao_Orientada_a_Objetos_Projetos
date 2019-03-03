@@ -524,6 +524,56 @@ ABCDEF
 
 #### 2.16. Entrada de dados em Java - Parte 1
 
+**Scanner**
+
+Uma das formas de se ler dados em Java é por meio de um objeto do tipo Scanner, o qual deve ser instanciado com o argumento System.in:
+
+![](img/216EntradadedadosemJava-Parte1_1.png)
+
+Checklist
+
+- Ler um texto até a quebra de linha e armazenar em uma variável
+- Ler três palavras, uma em cada linha, armazenando cada uma em uma variável
+- Ler três palavras na mesma linha, separadas por espaço, armazenando cada uma em uma variável
+
+![](img/216EntradadedadosemJava-Parte1_2.png)
+
+```java
+package app;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String sentence = sc.nextLine();
+		String x,y,z;
+		
+		x = sc.next();
+		y = sc.next();
+		z = sc.next();
+		
+		System.out.println(sentence);
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		
+		x = sc.next();
+		y = sc.next();
+		z = sc.next();
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		
+		sc.close();
+	}
+}
+
+```
+
 #### 2.17. Entrada de dados em Java - Parte 2
 
 #### 2.18. AVISO exercícios para iniciantes PARTE 1
