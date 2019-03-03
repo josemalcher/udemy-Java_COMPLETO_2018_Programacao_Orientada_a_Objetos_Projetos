@@ -576,6 +576,138 @@ public class Program {
 
 #### 2.17. Entrada de dados em Java - Parte 2
 
+**Checklist**
+
+- Ler um número inteiro
+- Ler um texto até a quebra de linha
+- Ler um caractere
+- Ler um código composto de uma letra e um dígito (exemplo: "a3"). Armazenar os valores um uma variável tipo char e outra tipo int, respectivamente.
+- Ler um número double
+- Ler um nome (única palavra), sexo (caractere F ou M), idade (inteiro) e altura (double) na mesma linha, armazenando-os em quatro variáveis com os devidos tipos
+
+![](img/217EntradadedadosemJava-Parte2_1.png)
+
+
+**Limpeza de stream de entrada (flush)**
+
+Antes de fazer um nextLine()
+
+- Se antes foi dada uma quebra de linha na stream de entrada sem o nextLine()
+- Então é preciso fazer um nextLine() extra para "limpar" a quebra de linha que fica pendente na stream
+
+**Operação substring**
+
+```java
+String s = "abcdefgh";
+String sub1 = s.substring(3);
+String sub2 = s.substring(3, 5);
+System.out.println(sub1);
+System.out.println(sub2);
+```
+
+SAÍDA:
+
+```
+defgh
+de
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		int n1 = sc.nextInt();
+
+		sc.nextLine(); // Limpeza de stream de entrada (flush)
+
+		String name = sc.nextLine();
+		char gender = sc.next().charAt(0);
+
+		String s = sc.next();
+		char letter = s.charAt(0);
+		int digit = Integer.parseInt(s.substring(1));
+
+		double n2 = sc.nextDouble(); // 4.32
+
+		String name2 = sc.next(); // Maria F 23 1.68
+		char ch = sc.next().charAt(0);
+		int age = sc.nextInt();
+		double height = sc.nextDouble();
+
+		System.out.println(n1);
+		System.out.println(name);
+		System.out.println(gender);
+		System.out.println(letter);
+		System.out.println(digit);
+		System.out.println(n2);
+		System.out.println(name2);
+		System.out.println(ch);
+		System.out.println(age);
+		System.out.println(height);
+		
+		sc.close();
+
+	}
+
+}
+
+```
+
+**Exercício de fixação**
+
+![](img/217EntradadedadosemJava-Parte2_2.png)
+
+```java
+package exercicio;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Programm {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your full name:");
+		String fullName = sc.nextLine();
+		
+		System.out.println("How many bedrooms are there in your house?");
+		int bedrooms = sc.nextInt();
+		
+		System.out.println("Enter product price:");
+		double price = sc.nextDouble();
+		
+		System.out.println("Enter your last name, age and height (same line):");
+		String lastName = sc.next();
+		int age = sc.nextInt();
+		double height = sc.nextDouble();
+		
+		System.out.println(fullName);
+		System.out.println(bedrooms);
+		System.out.printf("%.2f%n", price);
+		System.out.println(lastName);
+		System.out.println(age);
+		System.out.printf("%.2f%n", height);
+		
+		sc.close();
+
+	}
+
+}
+
+```
+
 #### 2.18. AVISO exercícios para iniciantes PARTE 1
 
 #### 2.19.1 02-exercicios1-estrutura-sequencial.pdf
