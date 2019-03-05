@@ -708,9 +708,62 @@ public class Programm {
 
 ```
 
-#### 2.18. AVISO exercícios para iniciantes PARTE 1
+#### 2.20. Operadores comparativos
 
-#### 2.19.1 02-exercicios1-estrutura-sequencial.pdf
+![](img/220Operadorescomparativos.png)
+
+```java
+package app;
+
+public class Programm {
+
+	public static void main(String[] args) {
+
+		int a = 10;
+		boolean c1 = a < 10;
+		boolean c2 = a < 20;
+		boolean c3 = a > 10;
+		boolean c4 = a > 5;
+		System.out.println(c1);
+		System.out.println(c2);
+		System.out.println(c3);
+		System.out.println(c4);
+		System.out.println("------------");
+		
+		boolean c5 = a <= 10;
+		boolean c6 = a >= 10;
+		boolean c7 = a == 10;
+		boolean c8 = a != 10;
+		System.out.println(c5);
+		System.out.println(c6);
+		System.out.println(c7);
+		System.out.println(c8);
+	}
+}
+
+```
+
+```
+false
+true
+false
+true
+------------
+true
+true
+true
+false
+```
+
+#### 2.21. Operadores lógicos
+
+#### 2.22. Operadores bitwise
+
+#### 2.23. Estruturas condicionais
+
+#### 2.26. Funções interessantes para String
+
+#### 2.27. Sintaxe alternativa - switch-case
 
 [Voltar ao Índice](#indice)
 
