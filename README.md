@@ -836,6 +836,102 @@ public class Exemplo2 {
 
 #### 2.23. Estruturas condicionais
 
+![](img/223Estruturas-condicionais.png)
+
+
+```java
+package exemplos;
+
+import java.util.Scanner;
+
+public class Program_1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter an integer numver: ");
+		
+		int n = sc.nextInt();
+		
+		if(n % 2 == 0) {
+			System.out.println("Even!");
+		}else{
+			System.out.println("Odd!");
+		}
+		sc.close();
+
+	}
+
+}
+
+```
+
+```java
+package exemplos;
+
+import java.util.Scanner;
+
+public class Program_2 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("What time is it?");
+		int time = sc.nextInt();
+		
+		if(time < 12) {
+			System.out.println("Good morning");
+		}else if(time < 18 ) {
+			System.out.println("Good afternoon!!");
+		}else {
+			System.out.println("Good Evening");
+		}
+		sc.close();
+		
+	}
+}
+
+```
+
+**Exercício de fixação**
+
+Fazer um programa para ler três números inteiros na mesma linha, separados por espaço em branco.
+Em seguida, mostrar na tela qual é o maior dos números lidos. Se houver empate, mostrar apenas um.
+
+![](img/223Estruturas-condicionais_2.png)
+
+```java
+package exercicio;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio_1 {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		
+		if( a > b && a > c) {
+			System.out.println("Highter = " + a);
+		}else if(b > c) {
+			System.out.println("Highter = " + b);
+		}else {
+			System.out.println("Highter = " + c);
+		}
+		sc.close();
+
+	}
+
+}
+
+```
+
 #### 2.26. Funções interessantes para String
 
 #### 2.27. Sintaxe alternativa - switch-case
