@@ -1002,12 +1002,78 @@ lemon
 
 ```
 
-
-
-
-
-
 #### 2.27. Sintaxe alternativa - switch-case
+
+Estrutura opcional a vários if-else encadeados, quando a condição envolve o teste do valor de uma variável.
+
+```java
+package app;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		String day;
+		switch (x) {
+		case 1:
+			day = "Sunday";
+			break;
+		case 2:
+			day = "Monday";
+			break;
+		case 3:
+			day = "Tuesday";
+			break;
+		case 4:
+			day = "Wednesday";
+			break;
+		case 5:
+			day = "Thursday";
+			break;
+		case 6:
+			day = "Friday";
+			break;
+		case 7:
+			day = "Saturday";
+			break;
+		default:
+			day = "Invalid value";
+		}
+		System.out.println("Day: " + day);
+		
+		sc.close();
+
+	}
+
+}
+
+```
+
+#### 2.28. Expressão condicional ternária
+
+#### 2.28. Expressão condicional ternária
+
+#### 2.29. Escopo e inicialização
+
+#### 2.30. Comentários em Java (básico)
+
+#### 2.31. Funções (sintaxe)
+
+#### 2.32. Debugging com Eclipse
+
+#### 2.33. Estrutura repetitiva while
+
+#### 2.36. Estrutura repetitiva for
+
+#### 2.39. Exercício de fixação - estruturas repetitivas while e for
+
+#### 2.40. Estrutura repetitiva do-while
+
+
 
 [Voltar ao Índice](#indice)
 
