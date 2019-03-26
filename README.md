@@ -1086,7 +1086,39 @@ public class Programm {
 
 ```
 
+
+
 #### 2.29. Escopo e inicialização
+
+- Escopo de uma variável: é a região do programa onde a variável é válida, ou seja, onde ela pode ser referenciada.
+- Uma variável não pode ser usada se não for iniciada.
+
+```java
+package app;
+
+import java.util.Scanner;
+
+public class Programm {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		//double price = 400;
+		double discount;
+		
+		double price = sc.nextDouble();
+		if (price > 100.0) {
+			discount = price * 0.1;
+		}else {
+			discount = 0;
+		}
+		System.out.println(discount);
+		sc.close();
+	}
+
+}
+
+```
 
 #### 2.30. Comentários em Java (básico)
 
