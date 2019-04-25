@@ -1230,6 +1230,13 @@ public class Program {
 
 #### 2.32. Debugging com Eclipse
 
+• Teclas
+
+![](img/232DebuggingcomEclipse-1.png)
+
+• Perspectiva Debug
+	• Aba importante: Variables
+
 #### 2.33. Estrutura repetitiva while
 
 #### 2.36. Estrutura repetitiva for
