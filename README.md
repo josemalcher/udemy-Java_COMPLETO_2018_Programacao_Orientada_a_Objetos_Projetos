@@ -1150,13 +1150,83 @@ public class Programm {
 		
 		sc.close();
 
-	}
+    }
 
 }
 
 ```
 
 #### 2.31. Funções (sintaxe)
+
+• Representam um processamento que possui um significado
+    • Math.sqrt(double)
+    • System.out.println(string)
+• Principais vantagens: modularização, delegação e reaproveitamento
+• Dados de entrada e saída
+    • Funções podem receber dados de entrada (parâmetros ou argumentos)
+    • Funções podem ou não retornar uma saída
+• Em orientação a objetos, funções em classes recebem o nome de "métodos"
+
+**Problema exemplo**
+
+Fazer um programa para ler três números inteiros e mostrar na tela o maior deles.
+
+```
+Enter three numbers:
+5
+8
+3
+Higher = 8
+```
+
+```java
+package app;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter three number");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		
+//		if(a > b && a > c) {
+//			System.out.println("Higher = " + a);
+//		} else if(b > c) {
+//			System.out.println("Higher = "+ b );
+//		}else {
+//			System.out.println("Higher = "+ c);
+//		}
+		int higher = max(a,b,c);
+		showResult(higher);
+		
+		sc.close();
+		
+	}
+	
+	public static int max(int a, int b, int c) {
+		int aux;
+		if(a > b && a > c) {
+			aux = a;
+		} else if(b > c) {
+			aux = b;
+		}else {
+			aux = c;
+		}
+		return aux;
+	}
+	public static void showResult( int value) {
+		System.out.println("Higher = " + value);
+	}
+
+}
+
+```
 
 #### 2.32. Debugging com Eclipse
 
