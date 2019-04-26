@@ -1293,6 +1293,53 @@ public class Program {
 
 #### 2.36. Estrutura repetitiva for
 
+**Estrutura "para"**
+
+![](img/236Estruturarepetitivafor.png)
+
+**Problema exemplo**
+
+Digitar um número N e depois N valores inteiros. Mostrar a soma dos N valores digitados.
+
+```
+How many integer numbers are you going to enter? 3
+Value #1: 10
+Value #2: 7
+Value #3: 8
+Sum = 25
+```
+
+```java
+package app;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("How many integer number are you going to enter: ");
+		int n = sc.nextInt();
+		
+		int sum = 0;
+		
+		for(int i = 1; i<= n ; i++) {
+			System.out.print("Value #" + i + ": ");
+			int x = sc.nextInt();
+			sum += x;
+		}
+		System.out.println("Sum = "+ sum);
+		
+		sc.close();
+
+	}
+
+}
+
+```
+
 #### 2.39. Exercício de fixação - estruturas repetitivas while e for
 
 #### 2.40. Estrutura repetitiva do-while
