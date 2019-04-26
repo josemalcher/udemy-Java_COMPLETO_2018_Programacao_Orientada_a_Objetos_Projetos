@@ -1239,6 +1239,58 @@ public class Program {
 
 #### 2.33. Estrutura repetitiva while
 
+```
+while ( condição ) {
+	comando 1
+	comando 2
+}
+```
+
+**Problema exemplo**
+
+Digitar um número e mostrar sua raiz quadrada com três casas decimais, depois repetir o procedimento. Quando o usuário digitar um número negativo (podendo inclusive ser na primeira vez), mostrar uma mensagem "Negative number" e terminar o programa.
+
+```
+Enter a number: 25
+5.000
+Enter another number: 10
+3.162
+Enter another number: 9
+3.000
+Enter another number: -4
+Negative number
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("ENter a number: ");
+		double n = sc.nextDouble();
+		
+		while(n > 0.0) {
+			double sr = Math.sqrt(n);
+			System.out.printf("%.3f%n", sr);
+			System.out.println("Enter another number");
+			n = sc.nextDouble();
+		}
+		
+		System.out.println("NEgative number... end!");
+		sc.close();
+	}
+}
+
+```
+
 #### 2.36. Estrutura repetitiva for
 
 #### 2.39. Exercício de fixação - estruturas repetitivas while e for
