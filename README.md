@@ -1342,6 +1342,67 @@ public class Program {
 
 #### 2.39. Exercício de fixação - estruturas repetitivas while e for
 
+**Exercício de fixação**
+
+Fazer um programa para ler um número N (se for digitado um valor não positivo, mostrar uma mensagem e ler novamente). Em seguida, N valores inteiros. Mostrar o maior dentre os N números digitados. Veja exemplo:
+
+**Exemplo:**
+
+```
+Enter N: 0
+N must be positive! Try again: -2
+N must be positive! Try again: 4
+Value #1: 5
+Value #2: 4
+Value #3: 10
+Value #4: 2
+Higher = 10
+```
+
+**Dica**
+
+```
+Integer.MIN_VALUE
+Integer.MAX_VALUE
+```
+
+```java
+package app;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc  = new Scanner(System.in);
+		
+		System.out.print("Enter N: ");
+		int n = sc.nextInt();
+		while(n <= 0) {
+			System.out.println("N nust be positive! try again!: ");
+			n = sc.nextInt();
+		}
+		
+		int higher = Integer.MIN_VALUE;
+		for(int i = 1 ; i <= n ; i++) {
+			System.out.println("Value #"+ i + ": ");
+			int x = sc.nextInt();
+			if(x > higher) {
+				higher = x;
+			}
+		}
+
+		System.out.println("Higher = "+ higher);
+		
+		sc.close();
+
+	}
+
+}
+
+```
+
 #### 2.40. Estrutura repetitiva do-while
 
 
