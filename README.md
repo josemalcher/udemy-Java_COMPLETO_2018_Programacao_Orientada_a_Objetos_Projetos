@@ -1405,6 +1405,51 @@ public class Program {
 
 #### 2.40. Estrutura repetitiva do-while
 
+**Problema exemplo**
+
+Digitar um número e mostrar sua raiz quadrada, depois perguntar ao usuário se ele deseja repetir o procedimento (y/n). Caso ele responda 'y', repetir o procedimento.
+
+```
+Enter a number: 9
+Square root = 3.000
+Repeat (y/n)? y
+Enter a number: 10
+Square root = 3.162
+Repeat (y/n)? n
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		char resp;
+		
+		do {
+			System.out.print("Enter a number");
+			double n = sc.nextDouble();
+			double sq = Math.sqrt(n);
+			System.out.printf("Square root = %.3f%n", sq);
+			
+			System.out.print("Repeat? 'y' or 'n'");
+			resp = sc.next().charAt(0);
+			
+		}while(resp != 'n');
+		sc.close();
+	}
+
+}
+
+```
+
 
 
 [Voltar ao Índice](#indice)
