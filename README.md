@@ -1460,6 +1460,29 @@ public class Program {
 ## <a name="parte3">3 - Introdução à Programação Orientada a Objetos</a>
 
 
+#### 1. Visão geral do capítulo 3
+
+
+#### 3. Resolvendo um problema sem orientação a objetos
+
+#### 4. Criando uma classe com três atributos para representar melhor o triângulo
+
+#### 5. Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
+#### 6. Começando a resolver um segundo problema exemplo
+
+#### 7. Object e toString
+
+#### 8. Finalizando o programa
+
+#### 9. Exercícios de fixação
+
+#### 10. Membros estáticos - Parte 1
+
+#### 11. Membros estáticos - Parte 2
+
+#### 12. Exercício de fixação
+
 
 [Voltar ao Índice](#indice)
 
