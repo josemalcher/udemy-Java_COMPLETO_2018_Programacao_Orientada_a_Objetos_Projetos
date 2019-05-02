@@ -34,7 +34,7 @@ Curso mais didático e completo de Java e Orientação a Objetos. Projetos reais
 
 ## <a name="parte1">1 - Introdução</a>
 
-
+[PDF Módulo 2](2-Apresentacao-da-linguagem-Java-e-topicos-basicos/pdf/2.1 02-java-topicos-basicos.pdf.pdf)
 
 [Voltar ao Índice](#indice)
 
@@ -1462,8 +1462,11 @@ public class Program {
 
 #### 1. Visão geral do capítulo 3
 
+[PDF Módulo 3](3-Introducao-a-Programacao-Orientada-a-Objetos/pdf/2.2 03-classes-atributos-membros-staticos.pdf.pdf)
 
 #### 3. Resolvendo um problema sem orientação a objetos
+
+
 
 #### 4. Criando uma classe com três atributos para representar melhor o triângulo
 
