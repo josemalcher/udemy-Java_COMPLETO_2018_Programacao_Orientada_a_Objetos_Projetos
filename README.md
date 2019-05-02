@@ -1460,31 +1460,100 @@ public class Program {
 ## <a name="parte3">3 - Introdução à Programação Orientada a Objetos</a>
 
 
-#### 1. Visão geral do capítulo 3
+#### 3.1. Visão geral do capítulo 3
 
 [PDF Módulo 3](3-Introducao-a-Programacao-Orientada-a-Objetos/pdf/2.2-03-classes-atributos-membros-staticos.pdf)
 
-#### 3. Resolvendo um problema sem orientação a objetos
+#### 3.3. Resolvendo um problema sem orientação a objetos
+
+**Problema exemplo**
+
+Fazer um programa para ler as medidas dos lados de dois triângulos X e Y (suponha medidas válidas). Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos dois triângulos possui a maior área.
+A fórmula para calcular a área de um triângulo a partir das medidas de seus lados a, b e c é a seguinte (fórmula de Heron):
+
+![](img/33Resolvendoumproblemasemorientacaoaobjetos_1.png)
+
+```
+Enter the measures of triangle X:
+3.00
+4.00
+5.00
+Enter the measures of triangle Y:
+7.50
+4.50
+4.02
+Triangle X area: 6.0000
+Triangle Y area: 7.5638
+Larger area: Y
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		double xA, xB, xC, yA, yB, yC;
+
+		System.out.println("Enter the measures of triangle X:");
+		xA = sc.nextDouble();
+		xB = sc.nextDouble();
+		xC = sc.nextDouble();
+		System.out.println("Enter the measures of triangle Y:");
+		yA = sc.nextDouble();
+		yB = sc.nextDouble();
+		yC = sc.nextDouble();
+
+		double p = (xA + xB + xC) / 2.0;
+		
+		double areaX = Math.sqrt(p * (p - xA) * (p - xB) * (p - xC));
+		
+		p = (yA + yB + yC) / 2.0;
+		
+		double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
+		
+		System.out.printf("Triangle X area: %.4f%n", areaX);
+		
+		System.out.printf("Triangle Y area: %.4f%n", areaY);
+		
+		if (areaX > areaY) {
+			System.out.println("Larger area: X");
+		} else {
+			System.out.println("Larger area: Y");
+		}
+		sc.close();
+
+	}
+
+}
+
+```
 
 
+#### 3.4. Criando uma classe com três atributos para representar melhor o triângulo
 
-#### 4. Criando uma classe com três atributos para representar melhor o triângulo
+#### 3.5. Criando um método para obtermos os benefícios de reaproveitamento e delegação
 
-#### 5. Criando um método para obtermos os benefícios de reaproveitamento e delegação
+#### 3.6. Começando a resolver um segundo problema exemplo
 
-#### 6. Começando a resolver um segundo problema exemplo
+#### 3.7. Object e toString
 
-#### 7. Object e toString
+#### 3.8. Finalizando o programa
 
-#### 8. Finalizando o programa
+#### 3.9. Exercícios de fixação
 
-#### 9. Exercícios de fixação
+#### 3.10. Membros estáticos - Parte 1
 
-#### 10. Membros estáticos - Parte 1
+#### 3.11. Membros estáticos - Parte 2
 
-#### 11. Membros estáticos - Parte 2
-
-#### 12. Exercício de fixação
+#### 3.12. Exercício de fixação
 
 
 [Voltar ao Índice](#indice)
