@@ -1639,6 +1639,93 @@ public class Program {
 
 #### 3.5. Criando um método para obtermos os benefícios de reaproveitamento e delegação
 
+- 3-Introducao-a-Programacao-Orientada-a-Objetos/3-5-Criando-um-metodo-para-obtermos-os-beneficios-de-reaproveitamento-e-delegacao
+
+```java
+package entities;
+
+public class Triangle {
+	public double a;
+	public double b;
+	public double c;
+
+	public double area() {
+		double p = (a + b + c) / 2.0;
+		return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+	}
+
+}
+
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Triangle;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		//double x.a, x.b, x.c, y.a, y.b, y.c;
+		
+		Triangle x, y;
+		x = new Triangle();
+		y = new Triangle();
+		
+
+		System.out.println("Enter the measures of triangle X:");
+		x.a = sc.nextDouble();
+		x.b = sc.nextDouble();
+		x.c = sc.nextDouble();
+		System.out.println("Enter the measures of triangle Y:");
+		y.a = sc.nextDouble();
+		y.b = sc.nextDouble();
+		y.c = sc.nextDouble();
+
+		//double p = (x.a + x.b + x.c) / 2.0;
+		//double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
+		//p = (y.a + y.b + y.c) / 2.0;
+		//double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+		double areaX = x.area();
+		double areaY = y.area();
+		
+		System.out.printf("Triangle X area: %.4f%n", areaX);
+		
+		System.out.printf("Triangle Y area: %.4f%n", areaY);
+		
+		if (areaX > areaY) {
+			System.out.println("Larger area: X");
+		} else {
+			System.out.println("Larger area: Y");
+		}
+		sc.close();
+
+	}
+
+}
+
+```
+
+![](img/35Criandoummetodoparaobtermososbeneficiosdereaproveitamentoedelegacao_1.png)
+
+**Projeto da classe (UML)**
+
+![](img/35Criandoummetodoparaobtermososbeneficiosdereaproveitamentoedelegacao_2.png)
+
+**Discussão**
+
+Quais são os benefícios de se calcular a área de um triângulo por meio de um MÉTODO dentro da CLASSE Triangle?
+
+- 1) Reaproveitamento de código: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no programa principal.
+- 2) Delegação de responsabilidades: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
+
 #### 3.6. Começando a resolver um segundo problema exemplo
 
 #### 3.7. Object e toString
