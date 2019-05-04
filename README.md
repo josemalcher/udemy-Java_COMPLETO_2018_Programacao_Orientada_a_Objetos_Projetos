@@ -1728,6 +1728,91 @@ Quais são os benefícios de se calcular a área de um triângulo por meio de um
 
 #### 3.6. Começando a resolver um segundo problema exemplo
 
+**Outro exemplo**
+Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
+• Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque)
+• Realizar uma entrada no estoque e mostrar novamente os dados do produto
+• Realizar uma saída no estoque e mostrar novamente os dados do produto
+
+Para resolver este problema, você deve criar uma CLASSE conforme projeto ao lado:
+
+![](img/36Começandoaresolverumsegundoproblemaexemplo.png)
+
+**Example:**
+
+```
+Enter product data:
+Name: TV
+Price: 900.00
+Quantity in stock: 10
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+Enter the number of products to be added in stock: 5
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+Enter the number of products to be removed from stock: 3
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
+
+```
+
+- /3-6-Comecando-a-resolver-um-segundo-problema-exemplo/src/entities/Product.java
+```java
+package entities;
+
+public class Product {
+	public String name;
+	public double price;
+	public int quantity;
+	
+	public double totalValueInStock() {
+		return price * this.quantity;
+	}
+	public void addProducts(int quantity) {
+		this.quantity += quantity;
+	}
+	public void removeProducts(int quantity) {
+		this.quantity -= quantity;
+	}
+}
+
+```
+- /3-6-Comecando-a-resolver-um-segundo-problema-exemplo/src/app/Program.java
+- 
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Product product = new Product();
+		System.out.println("Enter product data:");
+		
+		System.out.print("Name: ");
+		product.name = sc.nextLine();
+		
+		System.out.print("Price: ");
+		product.price = sc.nextDouble();
+		
+		System.out.print("Quantity in Stock: ");
+		product.quantity = sc.nextInt();
+		
+		System.out.println(product.name + " " + product.price + " "+ product.quantity);
+		
+		sc.close();
+	}
+
+}
+
+```
+
+
 #### 3.7. Object e toString
 
 #### 3.8. Finalizando o programa
