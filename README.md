@@ -1926,6 +1926,59 @@ DIAGONAL = 5.00
 ```
 
 ```java
+package entities;
+
+public class Rectangle {
+	
+	public double width;
+	public double height;
+	
+	public double area() {
+		return this.width * this.height;
+	}
+	public double perimeter() {
+		return 2 * (this.height + this.width);
+	}
+	
+	public double diagonal() {
+		return Math.sqrt(this.height * this.height + this.width *  this.width );
+	}
+
+}
+
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Rectangle;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter rectangle width and height: ");
+		
+		Rectangle retangle = new Rectangle();
+		retangle.height = sc.nextDouble();
+		retangle.width = sc.nextDouble();
+		
+		System.out.printf("AREA = %.2f%n", retangle.area());
+		System.out.printf("PERIMETER = %.2f%n", retangle.perimeter());
+		System.out.printf("DIAGONAL = %.2f%n", retangle.diagonal());
+		sc.close();
+		
+
+	}
+
+}
+
 ```
 
 **Exercício 2**
@@ -1944,6 +1997,70 @@ Updated data: Joao Silva, $ 5600.00
 ```
 
 ```java
+package entities;
+
+public class Employee {
+
+	public String name;
+	public double grossSalary;
+	public double tax;
+	
+	public double netSalary() {
+		return this.grossSalary - this.tax;
+	}
+	
+	public void increaseSalary(double percentage) {
+		this.grossSalary += this.grossSalary * percentage / 100.0;
+	}
+
+	@Override
+	public String toString() {
+		return name + ", $ " + String.format("%.2f", netSalary());
+	}
+}
+
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Employee;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Employee emp = new Employee();
+		
+		System.out.print("Name: ");
+		emp.name = sc.nextLine();
+		
+		System.out.print("Gross Salary: ");
+		emp.grossSalary = sc.nextDouble();
+		
+		System.out.print("Tax: ");
+		emp.tax = sc.nextDouble();
+		
+		System.out.println();
+		System.out.println("Employee: " + emp);
+		System.out.println();
+		System.out.print("Which percentage to increase salary? ");
+		double percentage = sc.nextDouble();
+		emp.increaseSalary(percentage);
+		System.out.println();
+		System.out.println("Updated data: " + emp);
+		sc.close();
+		
+	}
+
+}
+
 ```
 
 
@@ -1954,7 +2071,68 @@ Fazer um programa para ler o nome de um aluno e as três notas que ele obteve no
 ![](img/39Exerciciosdefixacao_3.png)
 
 ```java
+package entities;
+
+public class Student {
+	public String name;
+	public double grade1;
+	public double grade2;
+	public double grade3;
+
+	public double finalGrade() {
+		return grade1 + grade2 + grade3;
+	}
+
+	public double missingPoints() {
+		if (finalGrade() < 60.0) {
+			return 60.0 - finalGrade();
+		} else {
+			return 0.0;
+		}
+	}
+
+}
+
 ```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Student;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		Student student = new Student();
+
+		student.name = sc.nextLine();
+		student.grade1 = sc.nextDouble();
+		student.grade2 = sc.nextDouble();
+		student.grade3 = sc.nextDouble();
+
+		System.out.printf("FINAL GRADE: %.2f%n", student.finalGrade());
+
+		if (student.finalGrade() < 60.0) {
+			System.out.println("FAILED");
+			System.out.printf("MISSING %.2f POINTS%n", student.missingPoints());
+		} else {
+			System.out.println("PASS");
+		}
+		sc.close();
+
+	}
+
+}
+
+```
+
 
 
 #### 3.10. Membros estáticos - Parte 1
