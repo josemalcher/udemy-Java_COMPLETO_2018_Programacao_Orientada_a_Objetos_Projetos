@@ -2312,6 +2312,59 @@ public class Program{
 
 #### 3.12. Exercício de fixação
 
+Faça um programa para ler a cotação do dólar, e depois um valor em dólares a ser comprado por uma pessoa em reais. Informar quantos reais a pessoa vai pagar pelos dólares, considerando ainda que a pessoa terá que pagar 6% de IOF sobre o valor em dólar. Criar uma classe CurrencyConverter para ser responsável pelos cálculos.
+
+```
+What is the dollar price? 3.10
+How many dollars will be bought? 200.00
+Amount to be paid in reais = 657.20
+```
+
+```java
+package util;
+
+public class CurrencyConverter{
+
+	public static final  double IOF = 0.06;
+
+	public static double convertDolla(double amount, double dollarPrice){
+		return amount * dollarPrice * (1.0 + IOF);
+	}
+
+}
+
+```
+
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import util.CurrencyConverter;
+
+public class Program{
+
+	public static void main(String args[]){
+	
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("What is the dollar price?");
+		double dollarPrice = sc.nextDouble();
+
+		System.out.print("How many dollars will be bought?");
+		double amount = sc.nextDouble();
+
+		System.out.printf("Amount to be paid in reais = %.2f%n", CurrencyConverter.convertDolla(amount, dollarPrice));
+
+		sc.close();
+	}
+
+}
+
+```
 
 [Voltar ao Índice](#indice)
 
