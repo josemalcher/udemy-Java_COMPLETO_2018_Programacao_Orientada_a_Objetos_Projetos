@@ -2137,6 +2137,88 @@ public class Program {
 
 #### 3.10. Membros estáticos - Parte 1
 
+**Membros estáticos**
+
+- Também chamados membros de classe
+	- Em oposição a membros e instância
+- São membros que fazem sentido independentemente de objetos. Não precisam de objeto para serem chamados. São chamados a partir do próprio nome da classe.
+
+**Aplicações comuns:**
+
+- Classes utilitárias Math.sqrt(double)
+- Declaração de constantes
+
+- Uma classe que possui somente membros estáticos, pode ser uma classe estática também. Esta classe não poderá ser instanciada.
+
+**Problema exemplo**
+
+Fazer um programa para ler um valor numérico qualquer, e daí mostrar quanto seria o valor de uma circunferência e do volume de uma esfera para um raio daquele valor. Informar também o valor de PI com duas casas decimais.
+
+```
+Enter radius: 3.0
+Circumference: 18.85
+Volume: 113.10
+PI value: 3.14
+```
+
+**Checklist**
+
+- Versão 1: métodos na própria classe do programa
+  - Nota: dentro de um método estático você não pode chamar membros de instância da mesma classe.
+- Versão 2: classe Calculator com membros de instância
+- Versão 3: classe Calculator com método estático
+
+**Versão 1**
+
+```java
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program{
+	public static final double PI = 3.14;
+
+	public static void main(String[] args){
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter Radius: ");
+		double radius = sc.nextDouble();
+
+		double c = circuference(radius);
+		double v = volume(radius);
+
+		System.out.printf("Circumference: %.2f%n", c);
+		System.out.printf("Volume: %.2f%n", v);
+		System.out.printf("PI value: %.2f%n", PI);
+		sc.close();
+	}
+
+	public static double circuference(double radius){
+		return 2.0 * PI * radius;
+	}
+
+	public static double volume(double radius){
+		return 4.0 * PI * radius;
+	}
+}
+
+```
+
+
+```java
+
+```
+
+
+```java
+
+```
+
+
+```java
+
+```
+
 #### 3.11. Membros estáticos - Parte 2
 
 #### 3.12. Exercício de fixação
