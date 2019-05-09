@@ -2589,7 +2589,7 @@ public class Program{
 	- Diferenciar atributos de variáveis locais
 	- Passar o próprio objeto como argumento na chamada de um método ou construtor
 
-``java
+```java
 public class ChessMatch {
 (...)
 	placeNewPiece('e', 1, new King(board, Color.WHITE, this));
