@@ -1158,14 +1158,14 @@ public class Programm {
 
 #### 2.31. Funções (sintaxe)
 
-• Representam um processamento que possui um significado
-    • Math.sqrt(double)
-    • System.out.println(string)
-• Principais vantagens: modularização, delegação e reaproveitamento
-• Dados de entrada e saída
-    • Funções podem receber dados de entrada (parâmetros ou argumentos)
-    • Funções podem ou não retornar uma saída
-• Em orientação a objetos, funções em classes recebem o nome de "métodos"
+-  Representam um processamento que possui um significado
+    -  Math.sqrt(double)
+    -  System.out.println(string)
+-  Principais vantagens: modularização, delegação e reaproveitamento
+-  Dados de entrada e saída
+    -  Funções podem receber dados de entrada (parâmetros ou argumentos)
+    -  Funções podem ou não retornar uma saída
+-  Em orientação a objetos, funções em classes recebem o nome de "métodos"
 
 **Problema exemplo**
 
@@ -1230,12 +1230,12 @@ public class Program {
 
 #### 2.32. Debugging com Eclipse
 
-• Teclas
+-  Teclas
 
 ![](img/232DebuggingcomEclipse-1.png)
 
-• Perspectiva Debug
-	• Aba importante: Variables
+-  Perspectiva Debug
+	-  Aba importante: Variables
 
 #### 2.33. Estrutura repetitiva while
 
@@ -1730,9 +1730,9 @@ Quais são os benefícios de se calcular a área de um triângulo por meio de um
 
 **Outro exemplo**
 Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
-• Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque)
-• Realizar uma entrada no estoque e mostrar novamente os dados do produto
-• Realizar uma saída no estoque e mostrar novamente os dados do produto
+-  Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque)
+-  Realizar uma entrada no estoque e mostrar novamente os dados do produto
+-  Realizar uma saída no estoque e mostrar novamente os dados do produto
 
 Para resolver este problema, você deve criar uma CLASSE conforme projeto ao lado:
 
@@ -2372,6 +2372,231 @@ public class Program{
 
 
 ## <a name="parte4">4 - Construtores, palavra this, sobrecarga, encapsulamento</a>
+
+#### 4.1. Visão geral do capítulo 4
+
+[Material em PDF](4-Construtores-palavra-this-sobrecarga-encapsulamento/pdf/2-2-04-construtores-this-sobrecarga-encapsulamento.pdf)
+
+#### 4.3. Construtores
+
+-  É uma operação especial da classe, que executa no momento da instanciação do objeto
+-  Usos comuns:
+   -  Iniciar valores dos atributos
+   -  Permitir ou obrigar que o objeto receba dados / dependências no momento de sua instanciação (injeção de dependência)
+-  Se um construtor customizado não for especificado, a classe disponibiliza o construtor padrão:	Product p = new Product();
+-  É possível especificar mais de um construtor na mesma classe (sobrecarga)
+
+**Problema exemplo**
+
+```
+Enter product data:
+Name: TV
+Price: 900.00
+Quantity in stock: 10
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+Enter the number of products to be added in stock: 5
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+Enter the number of products to be removed from stock: 3
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
+```
+
+```java
+package entities;
+
+public class Product{
+	public String name;
+	public double price;
+	public int quantity;
+
+	public double totalValueInStock() {
+		return price * quantity;
+	}		
+	
+	public void addProducts(int quantity) {
+		this.quantity += quantity;
+	}
+	
+	public void removeProducts(int quantity) {
+		this.quantity -= quantity;
+	}
+
+	public String toString() {
+		return name
+		+ ", $ "
+		+ String.format("%.2f", price)
+		+ ", "
+		+ quantity
+		+ " units, Total: $ "
+		+ String.format("%.2f", totalValueInStock());
+	}
+}
+
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program{
+	public static void main(String[] args){
+			
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		Product product = new Product();
+	
+		System.out.println("Enter product data: ");
+		System.out.print("Name: ");
+		product.name = sc.nextLine();
+		
+		System.out.print("Price: ");
+		product.price = sc.nextDouble();
+		
+		System.out.print("Quantity in stock: ");
+		product.quantity = sc.nextInt();
+		System.out.println();
+		
+		System.out.println("Product data: " + product);
+		System.out.println();
+		
+		System.out.print("Enter the number of products to be added in stock: ");
+		int quantity = sc.nextInt();
+		product.addProducts(quantity);
+		System.out.println();
+		
+		System.out.println("Updated data: " + product);
+		System.out.println();
+		
+		System.out.print("Enter the number of products to be removed from stock: ");
+		quantity = sc.nextInt();
+		product.removeProducts(quantity);
+		System.out.println();
+		System.out.println("Updated data: " + product);
+		
+		sc.close();
+
+	}
+}
+```
+
+**Proposta de melhoria**
+
+Quando executamos o comando abaixo, instanciamos um produto "product" com seus atributos “vazios”: product = new Product();
+
+Entretanto, faz sentido um produto que não tem nome? Faz sentido um produto que não tem preço?
+
+Com o intuito de evitar a existência de produtos sem nome e sem preço, é possível fazer com que seja “obrigatória” a iniciação desses valores?
+
+```java
+package entities;
+
+public class Product{
+	public String name;
+	public double price;
+	public int quantity;
+
+	public Product(String name, double price, int quantity){
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;		
+	}
+
+	public double totalValueInStock() {
+		return price * quantity;
+	}		
+	
+	public void addProducts(int quantity) {
+		this.quantity += quantity;
+	}
+	
+	public void removeProducts(int quantity) {
+		this.quantity -= quantity;
+	}
+
+	public String toString() {
+		return name
+		+ ", $ "
+		+ String.format("%.2f", price)
+		+ ", "
+		+ quantity
+		+ " units, Total: $ "
+		+ String.format("%.2f", totalValueInStock());
+	}
+}
+
+```
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program{
+	public static void main(String[] args){
+			
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter product data: ");
+		System.out.print("Name: ");
+		String name = sc.nextLine();
+		
+		System.out.print("Price: ");
+		double price = sc.nextDouble();
+		
+		System.out.print("Quantity in stock: ");
+		int quantity = sc.nextInt();
+		System.out.println();
+		
+		Product product = new Product(name,price,quantity);
+
+		System.out.println("Product data: " + product);
+		System.out.println();
+		
+		System.out.print("Enter the number of products to be added in stock: ");
+		quantity = sc.nextInt();
+		product.addProducts(quantity);
+		System.out.println();
+		
+		System.out.println("Updated data: " + product);
+		System.out.println();
+		
+		System.out.print("Enter the number of products to be removed from stock: ");
+		quantity = sc.nextInt();
+		product.removeProducts(quantity);
+		System.out.println();
+		System.out.println("Updated data: " + product);
+		
+		sc.close();
+
+	}
+}
+
+```
+
+
+#### 4.4. Palavra this
+
+#### 4.5. Sobrecarga
+
+#### 4.6. Encapsulamento
+
+#### 4.7. Gerando automaticamente construtores, getters e setters com Eclipse
+
+#### 4.8. Modificadores de acesso8. Modificadores de acesso
+
+#### 4.9. Exercício de fixação
+
+#### 4.10. Correção do exercício de fixação - Parte 1
+
+#### 4.11. Correção do exercício de fixação - Parte 2
 
 
 
