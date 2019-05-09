@@ -2584,6 +2584,18 @@ public class Program{
 
 #### 4.4. Palavra this
 
+- É uma referencia para o próprio objeto
+- Uso comuns:
+	- Diferenciar atributos de variáveis locais
+	- Passar o próprio objeto como argumento na chamada de um método ou construtor
+
+``java
+public class ChessMatch {
+(...)
+	placeNewPiece('e', 1, new King(board, Color.WHITE, this));
+(...)
+```
+
 #### 4.5. Sobrecarga
 
 #### 4.6. Encapsulamento
