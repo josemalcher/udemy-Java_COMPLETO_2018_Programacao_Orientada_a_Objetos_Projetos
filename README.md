@@ -2709,6 +2709,11 @@ public class Product {
 
 #### 4.7. Gerando automaticamente construtores, getters e setters com Eclipse
 
+**Comandos**
+
+- Botão direito -> Source -> Generate Constructor using Fields
+- Botão direito -> Source -> Generate Getters and Setters
+
 #### 4.8. Modificadores de acesso8. Modificadores de acesso
 
 #### 4.9. Exercício de fixação
