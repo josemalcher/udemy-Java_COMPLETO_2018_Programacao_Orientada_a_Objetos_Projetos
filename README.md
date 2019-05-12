@@ -2774,6 +2774,122 @@ Account 7801, Holder: Maria Brown, Balance: $ -3.00
 
 #### 4.11. Correção do exercício de fixação - Parte 2
 
+```java
+package entities;
+
+public class Account {
+	private int number;
+	private String holder;
+	private double balance;
+	
+	public Account(int number, String holder) {
+		this.number = number;
+		this.holder = holder;
+	}
+	public Account(int number, String holder, double initialDeposit) {
+		this.number = number;
+		this.holder = holder;
+		//this.balance = balance;
+		deposit(initialDeposit);
+	}
+	public Integer getNumber() {
+		return number;
+	}
+//	public void setNumber(Integer number) {
+//		this.number = number;
+//	}
+	public String getHolder() {
+		return holder;
+	}
+	public void setHolder(String holder) {
+		this.holder = holder;
+	}
+	public Double getBalance() {
+		return balance;
+	}
+	
+	public void deposit(double amount) {
+		balance += amount;
+	}
+	public void withraw(double amount) {
+		balance -= amount + 5.0;
+	}
+	@Override
+	public String toString() {
+		return "Account "
+				+ number
+				+ ", Holder: "
+				+ holder
+				+ ", Balance: $ "
+				+ String.format("%.2f", balance);
+
+	}
+	
+	
+	
+}
+
+``` 
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Account;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		Account account;
+
+		System.out.print("Enter account number: ");
+		Integer number = sc.nextInt();
+
+		System.out.print("Enter account holder: ");
+		sc.nextLine();
+		String holder = sc.nextLine();
+
+		System.out.print("Enter account holder: (y/n)");
+		char confirm = sc.next().charAt(0);
+
+		if (confirm == 'y') {
+			System.out.println("Enter initial deposit value:");
+			double initialDeposit = sc.nextDouble();
+			account = new Account(number, holder, initialDeposit);
+		} else {
+			account = new Account(number, holder);
+		}
+
+		System.out.println();
+		System.out.println("Account data:");
+		System.out.println(account);
+
+		System.out.println();
+		System.out.print("Enter a deposit value: ");
+		double deposit = sc.nextDouble();
+		account.deposit(deposit);
+
+		System.out.print("Updated account data:");
+		System.out.print(account);
+		
+		System.out.println();
+		System.out.print("Enter a withdraw value: ");
+		double withdrawValue = sc.nextDouble();
+		account.withraw(withdrawValue);
+		System.out.println("Updated account data:");
+		System.out.println(account);
+
+
+		sc.close();
+	}
+
+}
+
+``` 
 
 
 [Voltar ao Índice](#indice)
