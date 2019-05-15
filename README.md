@@ -2899,6 +2899,82 @@ public class Program {
 
 ## <a name="parte5">5 - Comportamento de memória, arrays, listas</a>
 
+[MATERIAL DO MÓDULO](5-Comportamento-de-memoria-arrays-listas/pdf/2.2-05-memoria-arrays-e-listas.pdf)
+
+#### 5.3. Tipos referência vs. tipos valor
+
+**Classes são tipos referência**
+
+Variáveis cujo tipo são classes não devem ser entendidas como caixas, mas sim “tentáculos” (ponteiros) para caixas
+
+![](img/53Tipos-referencia-vs-tipos-valor.png)
+
+**Valor "null"**
+
+Tipos referência aceitam o valor "null", que indica que a variável aponta pra ninguém.
+
+![](img/53Tipos-referencia-vs-tipos-valor_2.png)
+
+**Tipos primitivos são tipos valor**
+
+Em Java, tipos primitivos são tipos valor. Tipos valor são CAIXAS e não ponteiros.
+
+![](img/53Tipos-referencia-vs-tipos-valor_3.png)
+
+![](img/53Tipos-referencia-vs-tipos-valor_4.png)
+
+**Tipos primitivos e inicialização**
+
+```java
+int p;
+System.out.println(p); // erro: variável não iniciada
+
+p = 10;
+System.out.println(p); // 10
+```
+
+**Valores padrão**
+
+Quando alocamos (new) qualquer tipo estruturado (classe ou array), são atribuídos valores padrão aos seus elementos
+
+- números: 0
+- boolean: false
+- char: caractere código 0
+- objeto: null
+
+![](img/53Tipos-referencia-vs-tipos-valor_5.png)
+
+**Tipos referência vs. tipos valor**
+
+![](img/53Tipos-referencia-vs-tipos-valor_6.png)
+
+
+
+
+#### 5.4. Desalocação de memória - garbage collector e escopo local
+
+#### 5.5. Vetores - Parte 1
+
+#### 5.6. Vetores - Parte 2
+
+#### 5.7. Exercício de fixação
+
+#### 5.8. Boxing, unboxing e wrapper classes
+
+#### 5.9. Laço for each
+
+#### 5.10. Listas - Parte 1
+
+#### 5.11. Listas - Parte 2
+
+#### 5.12. Exercício proposto
+
+#### 5.13. Matrizes
+
+#### 5.14. Exercício resolvido
+
+#### 5.15. Exercício proposto
+
 
 
 [Voltar ao Índice](#indice)
