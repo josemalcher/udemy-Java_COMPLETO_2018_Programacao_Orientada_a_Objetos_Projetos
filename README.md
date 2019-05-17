@@ -3027,6 +3027,57 @@ public class Program {
 
 #### 5.6. Vetores - Parte 2
 
+**Problema exemplo 2**
+
+Fazer um programa para ler um número inteiro N e os dados (nome e preço) de N Produtos. Armazene os N produtos em um vetor. Em seguida, mostrar o preço médio dos produtos.
+
+![](img/5-5-Vetores-Parte2_1.png)
+
+- 5-Comportamento-de-memoria-arrays-listas/5-6-Vetores-Parte-2/src/entities/Product.java
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		Product[] vect = new Product[n];
+		
+		for(int i = 0 ; i < vect.length ; i++) {
+			sc.nextLine(); // limpa
+			String name = sc.nextLine();
+			double price = sc.nextDouble();
+			vect[i] = new Product(name, price);
+		}
+		
+		double sum = 0.0;
+		for(int i = 0 ; i < vect.length ; i++) {
+			sum += vect[i].getPrice();
+		}
+		
+		double avg = sum / vect.length;
+		
+		System.out.printf("AVERAGE PRICE = %.2f%n", avg);
+			
+		sc.close();
+		
+	}
+
+}
+
+```
+
+
 #### 5.7. Exercício de fixação
 
 #### 5.8. Boxing, unboxing e wrapper classes
