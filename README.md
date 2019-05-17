@@ -2969,6 +2969,62 @@ Quando alocamos (new) qualquer tipo estruturado (classe ou array), são atribuí
 
 #### 5.5. Vetores - Parte 1
 
+-  Em programação, "vetor" é o nome dado a arranjos unidimensionais
+-  Arranjo (array) é uma estrutura de dados:
+   -  Homogênea (dados do mesmo tipo)
+   -  Ordenada (elementos acessados por meio de posições)
+   -  Alocada de uma vez só, em um bloco contíguo de memória
+-  Vantagens:
+   -  Acesso imediato aos elementos pela sua posição
+-  Desvantagens:
+   -  Tamanho fixo
+   -  Dificuldade para se realizar inserções e deleções
+
+**Problema exemplo 1**
+
+Fazer um programa para ler um número inteiro N e a altura de N pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a altura média dessas pessoas.
+
+![](img/5-5-Vetores-Parte1.png)
+
+```java
+package app;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		double[] vet = new double[n];
+		
+		for(int i = 0 ; i < n ; i++) {
+			vet[i] = sc.nextDouble();
+		}
+		
+		double sum = 0.0;
+		for(int i = 0 ; i < n ; i++) {
+			sum += vet[i];
+		}
+		
+		double avg = sum /n ;
+		
+		System.out.printf("Average height: %.2f%n", avg);
+		
+		sc.close();
+
+	}
+
+}
+
+```
+
+
 #### 5.6. Vetores - Parte 2
 
 #### 5.7. Exercício de fixação
