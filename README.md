@@ -3158,6 +3158,38 @@ public class Program {
 
 #### 5.8. Boxing, unboxing e wrapper classes
 
+**Boxing**
+
+- É o processo de conversão de um objeto tipo valor para um objeto tipo referência compatível
+  
+![](img/5-8-Boxing-unboxing-e-wrapper-classes.png)
+
+**Unboxing**
+
+- É o processo de conversão de um objeto tipo referência para um objeto tipo valor compatível
+
+![](img/5-8-Boxing-unboxing-e-wrapper-classes-2.png)
+
+**Wrapper classes**
+
+- São classes equivalentes aos tipos primitivos
+- Boxing e unboxing é natural na linguagem
+- Uso comum: campos de entidades em sistemas de informação (IMPORTANTE!)
+	- Pois tipos referência (classes) aceitam valor null e usufruem dos recursos OO
+
+![](img/5-8-Boxing-unboxing-e-wrapper-classes-3.png)
+
+```java
+Integer x = 10;
+int y = x * 2;
+
+public class Product {
+	public String name;
+	public Double price;
+	public Integer quantity;
+}
+```
+
 #### 5.9. Laço for each
 
 #### 5.10. Listas - Parte 1
