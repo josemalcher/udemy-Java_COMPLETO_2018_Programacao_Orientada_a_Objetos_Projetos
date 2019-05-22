@@ -3192,6 +3192,44 @@ public class Product {
 
 #### 5.9. Laço for each
 
+Sintaxe opcional e simplificada para percorrer coleções
+
+Sintaxe:
+
+```
+for (Tipo apelido : coleção) {
+	<comando 1>
+	<comando 2>
+}
+```
+**Leitura: "para cada objeto 'obj' contido em vect, faça:"**
+
+```java
+package app;
+
+import java.util.Iterator;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String[] vect = new String[] {"JOSE", "Luci", "Mariazinha"};
+		
+		for (int i = 0; i < vect.length; i++) {
+			System.out.println(vect[i]);
+		}
+		System.out.println("-----------------------");
+		
+		for (String obj : vect) {
+			System.out.println(obj);
+		}
+
+	}
+
+}
+
+```
+
 #### 5.10. Listas - Parte 1
 
 #### 5.11. Listas - Parte 2
