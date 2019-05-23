@@ -3232,6 +3232,25 @@ public class Program {
 
 #### 5.10. Listas - Parte 1
 
+- Referência: https://docs.oracle.com/javase/10/docs/api/java/util/List.html
+
+- Lista é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de posições)
+  - Inicia vazia, e seus elementos são alocados sob demanda
+  - Cada elemento ocupa um "nó" (ou nodo) da lista
+- Tipo (interface): List
+- Classes que implementam: ArrayList, LinkedList, etc.
+- Vantagens:
+  - Tamanho variável
+  - Facilidade para se realizar inserções e deleções
+- Desvantagens:
+  - Acesso sequencial aos elementos *(algumas classes melhoram o acesso)
+
+![Listas](img/510-Listas-Parte-1.png)
+
+
+
 #### 5.11. Listas - Parte 2
 
 #### 5.12. Exercício proposto
