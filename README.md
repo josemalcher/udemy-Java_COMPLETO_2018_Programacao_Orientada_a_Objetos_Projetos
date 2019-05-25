@@ -3867,8 +3867,26 @@ public class Program {
 
 ```
 
+**Notação UML**
+
+![](img/8-3-Enumeracoes.png)
 
 #### 8.4. Vamos falar um pouco sobre design
+
+**Categorias de classes**
+
+- Em um sistema orientado a objetos, de modo geral "tudo" é objeto.
+- Por questões de design tais como organização, flexibilidade, reuso, delegação, etc., há várias categorias de classes:
+
+![](img/8-4-Vamos-falar-um-pouco-sobre-design.png)
+
+**Entities**
+
+![](img/8-4-Vamos-falar-um-pouco-sobre-design_2.png)
+
+**Services**
+
+![](img/8-4-Vamos-falar-um-pouco-sobre-design_3.png)
 
 
 #### 8.5. Composição
