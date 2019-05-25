@@ -3826,6 +3826,64 @@ Month: 6
 
 ## <a name="parte8">8 - Enumerações, composição</a>
 
+#### 8.3. Enumerações
+
+- É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+- Palavra chave em Java: enum
+- Vantagem: melhor semântica, código mais legível e auxiliado pelo compilador
+- Referência: https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+
+```java
+package entities.enums;
+
+public enum OrderStatus {
+	PENDING_PAYMENT, PROCESSING, SHIPPED, DELIVERED;
+}
+
+```
+
+```java
+package app;
+
+import java.util.Date;
+
+import entities.Order;
+import entities.enums.OrderStatus;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Order order = new Order(1080, new Date(), OrderStatus.PENDING_PAYMENT);
+		System.out.println(order);
+		
+		OrderStatus os1 = OrderStatus.DELIVERED;
+		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+		System.out.println(os1);
+		System.out.println(os2);
+	}
+
+}
+
+```
+
+
+#### 8.4. Vamos falar um pouco sobre design
+
+
+#### 8.5. Composição
+
+
+#### 8.6. Exercício resolvido 1 - Parte 1
+
+
+
+#### 8.7. Exercício resolvido 1 - Parte 2
+
+#### 8.8. Exercício resolvido 2 (demo StringBuilder)
+
+
+#### 8.9. Exercício de fixação
 
 
 [Voltar ao Índice](#indice)
