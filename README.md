@@ -4012,7 +4012,77 @@ public class Program {
 
 ```
 
+**Objects in memory:**
+
+![](img/8-7-Exercicioresolvido-1-Parte2.png)
+
 #### 8.8. Exercício resolvido 2 (demo StringBuilder)
+
+Instancie manualmente (hard code) os objetos mostrados abaixo e mostre-os na tela do terminal, conforme exemplo.
+
+![](img/8-8-Exercicio-resolvido2demoStringBuilder.png)
+
+Console output:
+
+```
+Traveling to New Zealand
+12 Likes - 21/06/2018 13:05:44
+I'm going to visit this wonderful country!
+Comments:
+Have a nice trip
+Wow that's awesome!
+Good night guys
+5 Likes - 28/07/2018 23:14:19
+See you tomorrow
+Comments:
+Good night
+May the Force be with you
+```
+
+![](img/8-8-Exercicio-resolvido2demoStringBuilder_2.png)
+
+
+- 8-Enumeracoes-composicao/8-8-Exercicio-resolvido-2-demo-StringBuilder/src/app/Program.java
+
+```java
+package app;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+import entities.Comment;
+import entities.Post;
+
+public class Program {
+	public static void main(String[] args) throws ParseException {
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		
+		Comment c1 = new Comment("Have a nice trip!");
+		Comment c2 = new Comment("Wow that's awesome!");
+		Post p1 = new Post(
+				sdf.parse("21/06/2018 13:05:44"), 
+				"Traveling to New Zealand", 
+				"I'm going to visit this wonderful country!", 
+				12);
+		p1.addComment(c1);
+		p1.addComment(c2);
+		
+		Comment c3 = new Comment("Good night");
+		Comment c4 = new Comment("May the Force be with you");
+		Post p2 = new Post(
+				sdf.parse("28/07/2018 23:14:19"), 
+				"Good night guys", 
+				"See you tomorrow", 
+				5);
+		p2.addComment(c3);
+		p2.addComment(c4);
+		
+		System.out.println(p1);
+		System.out.println(p2);
+	}
+}
+
+```
 
 
 #### 8.9. Exercício de fixação
