@@ -21,7 +21,6 @@ public class Worker {
 	private List<HourContract> contracts = new ArrayList<>();
 
 	public Worker() {
-
 	}
 
 	public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
