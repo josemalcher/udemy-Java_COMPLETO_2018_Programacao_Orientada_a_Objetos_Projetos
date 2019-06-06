@@ -4205,6 +4205,149 @@ public class Program {
 
 ## <a name="parte9">9 - Herança e polimorfismo</a>
 
+#### 9.3. Herança
+
+- É um tipo de associação que permite que uma classe herde todos dados e comportamentos de outra
+- Definições importantes
+- Vantagens
+  - Reuso
+  - Polimorfismo
+- Sintaxe
+  - class A extends B
+
+**Exemplo**
+
+Suponha um negócio de banco que possui uma conta comum e uma conta para empresas, sendo que a conta para empresa possui todos membros da conta comum, mais um limite de empréstimo e uma operação de realizar empréstimo.
+
+Herança permite o reuso de atributos e métodos (dados e comportamento)
+
+![](img/9-3-Heranca.png)
+
+- entities/Acconunt.java
+
+``` java
+package entities;
+
+public class Acconunt {
+    private Integer number;
+    private String holder;
+    private Double balance;
+
+    public Acconunt() {
+    }
+
+    public Acconunt(Integer number, String holder, Double balance) {
+        this.number = number;
+        this.holder = holder;
+        this.balance = balance;
+    }
+
+    public Integer getNumber() {
+        return number;
+    }
+
+    public void setNumber(Integer number) {
+        this.number = number;
+    }
+
+    public String getHolder() {
+        return holder;
+    }
+
+    public void setHolder(String holder) {
+        this.holder = holder;
+    }
+
+    public Double getBalance() {
+        return balance;
+    }
+
+    /* ------------- Methods ------------------- */
+
+    public void withdraw(double amount){
+        balance -= amount;
+    }
+    public void deposit(double amount){
+        balance += amount;
+    }
+}
+
+```
+
+- entities/BusinessAccount.java
+
+```java
+package entities;
+
+public class BusinessAccount extends Acconunt{
+
+    private Double loanLimit;
+
+    public BusinessAccount() {
+        super();
+    }
+
+    public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
+        super(number, holder, balance);
+        this.loanLimit = loanLimit;
+    }
+
+    public Double getLoanLimit() {
+        return loanLimit;
+    }
+
+    public void setLoanLimit(Double loanLimit) {
+        this.loanLimit = loanLimit;
+    }
+
+    /* ------- Methods -----------------*/
+
+    public void loan(double amount){
+        if(amount <= loanLimit){
+            deposit(amount);
+        }
+    }
+}
+
+```
+
+**Definições importantes**
+
+![](img/9-3-Heranca_2.png)
+
+
+**Modificador de acesso protected**
+
+![](img/9-3-Heranca_3.png)
+
+Suponha que, para realizar um empréstimo, é descontada uma taxa no valor de 10.0 Isso resulta em erro:
+
+```java
+    public void loan(double amount) {
+        if (amount <= loanLimit) {
+            balance += amount - 10.0;
+        }
+    }
+```
+
+
+#### 9.4. Upcasting e downcasting
+
+#### 9.5. Sobreposição, palavra super, anotação @Override
+
+#### 9.6. Classes e métodos final
+
+#### 9.7. Introdução ao polimorfismo
+
+#### 9.8. Exercício resolvido
+
+#### 9.9. Exercício de fixação
+
+#### 9.10. Classes abstratas
+
+#### 9.11. Métodos abstratos
+
+#### 9.12. Exercício de fixação
 
 
 [Voltar ao Índice](#indice)
