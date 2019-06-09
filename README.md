@@ -4422,6 +4422,71 @@ public class Programm {
 
 #### 9.5. Sobreposição, palavra super, anotação @Override
 
+- É a implementação de um método de uma superclasse na subclasse
+- É fortemente recomendável usar a anotação @Override em um método sobrescrito
+    - Facilita a leitura e compreensão do código
+    - Avisamos ao compilador (boa prática)
+    
+Suponha que a operação de saque possui uma taxa no valor de 5.0. Entretanto, se a conta for do tipo poupança, esta taxa não deve ser cobrada.
+
+Como resolver isso?
+
+Resposta: sobrescrevendo o método withdraw na subclasse SavingsAccount
+
+![](img/9-5-Sobreposicao-palavra-super-anotacao-Override.png)
+
+
+- entities/SavingsAccount.java
+
+```java
+  @Override
+    public void withdraw(double amount) {
+        balance -= amount;
+    }
+```
+- app/Program.java
+
+```java
+        
+        Acconunt acc1 = new Acconunt(1001, "Alex", 1000.0);
+        acc1.withdraw(200.00);
+        System.out.println(acc1.getBalance());
+
+        Acconunt acc2 = new SavingsAccount(1002, "Jose", 1000.0, 0.01);
+        acc2.withdraw(200.0);
+        System.out.println(acc2.getBalance());
+        
+        
+          // 795.0
+          // 800.0
+        
+```
+
+**Palavra super**
+
+É possível chamar a implementação da superclasse usando a palavra super.
+
+Exemplo: suponha que, na classe BusinessAccount, a regra para saque seja realizar o saque normalmente da superclasse, e descontar mais 2.0.
+
+- entities/BusinessAccount.java
+
+```java
+    @Override
+    public void withdraw(double amount) {
+        super.withdraw(amount);
+        balance -= 2.0;
+    }
+}
+```
+
+- app/Program.java
+
+```java
+        Acconunt acc3 = new BusinessAccount(1003, "bob", 1000.0, 500.0);
+        acc3.withdraw(200.0);
+        System.out.println(acc3.getBalance());
+```
+
 #### 9.6. Classes e métodos final
 
 #### 9.7. Introdução ao polimorfismo
