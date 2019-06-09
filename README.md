@@ -4489,6 +4489,41 @@ Exemplo: suponha que, na classe BusinessAccount, a regra para saque seja realiza
 
 #### 9.6. Classes e métodos final
 
+- Palavra chave: final
+- Classe: evita que a classe seja herdada
+    - public final class SavingsAccount {
+- Método: evita que o método sob seja sobreposto
+
+
+**Exemplo - Classe final**
+
+Suponha que você queira evitar que sejam criadas subclasses de SavingsAccount
+
+![](img/9-6-Classes-e-metodos-final.png)
+
+```java
+    public final class SavingsAccount {
+        (...)
+    }
+```
+
+Exemplo - método final
+
+Suponha que você não queira que o método Withdraw de SavingsAccount seja sobreposto
+
+```java
+@Override
+public final void withdraw(double amount) {
+balance -= amount;
+}
+```
+
+Pra quê?
+- Segurança: dependendo das regras do negócio, às vezes é desejável garantir que uma classe não seja herdada, ou que um método não seja sobreposto.
+    - Geralmente convém acrescentar final em métodos sobrepostos, pois sobreposições múltiplas podem ser uma porta de entrada para inconsistências
+- Performance: atributos de tipo de uma classe final são analisados de forma mais rápida em tempo de execução.
+    - Exemplo clássico: String
+
 #### 9.7. Introdução ao polimorfismo
 
 #### 9.8. Exercício resolvido
