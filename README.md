@@ -4841,6 +4841,96 @@ public class Program {
 
 #### 9.11. Métodos abstratos
 
+• São métodos que não possuem implementação.
+• Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação.
+• Se uma classe possuir pelo menos um método abstrato, então esta classe também é abstrata.
+• Notação UML: itálico
+• Exercício resolvido
+
+![](img/9-11-Metodos-abstratos.png)
+
+Fazer um programa para ler os dados de N figuras (N fornecido pelo usuário), e depois mostrar as áreas destas figuras na mesma ordem em que foram digitadas.
+
+```
+Enter the number of shapes: 2
+Shape #1 data:
+Rectangle or Circle (r/c)? r
+Color (BLACK/BLUE/RED): BLACK
+Width: 4.0
+Height: 5.0
+Shape #2 data:
+Rectangle or Circle (r/c)? c
+Color (BLACK/BLUE/RED): RED
+Radius: 3.0
+SHAPE AREAS:
+20.00
+28.27
+
+```
+
+```java
+package entities;
+
+import entities.enums.Color;
+
+public abstract class Shape {
+
+    private Color color;
+
+    public Shape() {
+    }
+
+    public Shape(Color color) {
+        this.color = color;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+    public abstract double area();
+}
+
+```
+
+```java
+package entities;
+
+import entities.enums.Color;
+
+public class Circle extends Shape{
+
+    private Double radius;
+
+    public Circle() {
+        super();
+    }
+
+    public Circle(Color color, Double radius) {
+        super(color);
+        this.radius = radius;
+    }
+
+    public Double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(Double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double area() {
+        return Math.PI * radius * radius;
+    }
+}
+
+```
+
 #### 9.12. Exercício de fixação
 
 
