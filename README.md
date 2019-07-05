@@ -4765,7 +4765,79 @@ Notebook $ 1100.00
 Iphone (used) $ 400.00 (Manufacture date: 15/03/2017)
 ```
 
+- 9-Heranca-e-polimorfismo/9-9-Exercicio-de-fixacao
+
 #### 9.10. Classes abstratas
+
+- São classes que não podem ser instanciadas
+- É uma forma de garantir herança total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata
+
+Suponha que em um negócio relacionado a banco, apenas contas poupança e contas para empresas são permitidas.
+
+Não existe conta comum.
+
+Para garantir que contas comuns não possam ser instanciadas, basta acrescentarmos a palavra "abstract" na declaração da classe.
+
+```java 
+    public abstract class Account {
+    (...)
+```
+
+![](img/9-10-Classes-abstratas.png)
+
+Notação UML: itálico
+
+Questionamento
+- Se a classe Account não pode ser instanciada, por que simplesmente não criar somente SavingsAccount e BusinessAccount?
+
+- Resposta:
+    - Reuso
+    - Polimorfismo: a superclasse classe genérica nos permite tratar de forma fácil e uniforme todos os tipos de conta, inclusive com polimorfismo se for o caso (como fizemos nos últimos exercícios). Por exemplo, você pode colocar todos tipos de contas em uma mesma coleção.
+
+- Demo: suponha que você queira:
+    - Totalizar o saldo de todas as contas.
+    - Depositar 10.00 em todas as contas.
+
+```java
+package app;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+
+import entities.Account;
+import entities.BusinessAccount;
+import entities.SavingsAccount;
+
+public class Program {
+    public static void main(String[] args) {
+
+        Locale.setDefault(Locale.US);
+        List<Account> list = new ArrayList<>();
+
+        list.add(new SavingsAccount(1001, "Alex", 500.00, 0.01));
+        list.add(new BusinessAccount(1002, "Maria", 1000.0, 400.0));
+        list.add(new SavingsAccount(1004, "Bob", 300.0, 0.01));
+        list.add(new BusinessAccount(1005, "Anna", 500.0, 500.0));
+
+        double sum = 0.0;
+        for (Account acc : list) {
+            sum += acc.getBalance();
+        }
+
+        System.out.printf("Total balance: %.2f%n", sum);
+
+        for (Account acc : list) {
+            acc.deposit(10.0);
+        }
+        for (Account acc : list) {
+            System.out.printf("Updated balance for account %d: %.2f%n", acc.getNumber(), acc.getBalance());
+        }
+
+    }
+}
+
+```
 
 #### 9.11. Métodos abstratos
 
