@@ -5006,6 +5006,45 @@ https://docs.oracle.com/javase/10/docs/api/java/lang/package-tree.html
 
 #### 10.4. Estrutura try-catch
 
+- Bloco try
+    - Contém o código que representa a execução normal do trecho de código que pode acarretar em uma exceção
+
+- Bloco catch
+    - Contém o código a ser executado caso uma exceção ocorra
+    - Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido)
+    
+```java
+package app;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        try{
+
+            String[] vect = sc.nextLine().split(" ");
+            int position = sc.nextInt();
+            System.out.println(vect[position]);
+        }
+        catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Posição invalida");
+        }
+        catch (InputMismatchException e){
+            System.out.println("input error");
+        }
+        System.out.println("END PROGRAM");
+
+        sc.close();
+
+    }
+}
+
+```
+
 #### 10.5. Pilha de chamadas de métodos (stack trace)
 
 #### 10.6. Bloco finally
