@@ -4979,9 +4979,46 @@ TOTAL TAXES: $ 97000.00
 
 ---
 
-
 ## <a name="parte10">10 - Tratamento de exceções</a>
 
+#### 10.3. Discussão inicial sobre exceções
+
+Uma exceção é qualquer condição de erro ou comportamento inesperado encontrado por um programa em execução • Em Java, uma exceção é um objeto herdado da classe:
+- java.lang.Exception - o compilador obriga a tratar ou propagar
+- java.lang.RuntimeException - o compilador não obriga a tratar ou propagar
+- Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada (tratada) ou o programa seja encerrado
+
+**Hierarquia de exceções do Java**
+
+https://docs.oracle.com/javase/10/docs/api/java/lang/package-tree.html
+
+![](img/10-Tratamento-de-excecoes-1.PNG)
+
+**Por que exceções?**
+
+- O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+
+- Vantagens:
+    - Delega a lógica do erro para a classe responsável por conhecer as regras que podem ocasionar o erro
+    - Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes 
+    - A exceção pode carregar dados quaisquer
+
+
+#### 10.4. Estrutura try-catch
+
+#### 10.5. Pilha de chamadas de métodos (stack trace)
+
+#### 10.6. Bloco finally
+
+#### 10.7. Criando exceções personalizadas
+
+#### 10.8. Primeira solução - muito ruim
+
+#### 10.9. Segunda solução - ruim
+
+#### 10.10. Terceira solução - boa
+
+#### 10.11. Exercício de fixação
 
 
 [Voltar ao Índice](#indice)
