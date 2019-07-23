@@ -5092,6 +5092,40 @@ public class Program {
 
 #### 10.6. Bloco finally
 
+- É um bloco que contém código a ser executado independentemente de ter ocorrido ou não uma exceção.
+- Exemplo clássico: fechar um arquivo, conexão de banco de dados, ou outro recurso específico ao final do processamento.
+
+```java
+package app;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+
+        File file = new File("in.txt");
+        Scanner sc = null;
+
+        try {
+            sc = new Scanner(file);
+            while(sc.hasNextLine()){
+                System.out.println(sc.nextLine());
+            }
+        }catch (IOException e){
+            System.out.println("ERROR opeing file: " + e.getMessage());
+        }finally {
+            if(sc != null){
+                sc.close();
+            }
+            System.out.println("FINALLY ok");
+        }
+    }
+}
+
+```
+
 #### 10.7. Criando exceções personalizadas
 
 #### 10.8. Primeira solução - muito ruim
