@@ -116,8 +116,8 @@ Curso mais didático e completo de Java e Orientação a Objetos. Projetos reais
 
 - Configurar variáveis de ambiente do sistema
   - Painel de Controle -> Variáveis de Ambiente
-  - Variável JAVA_HOME: C:\Program Files\Java\jdk-10.0.1
-  - Variável Path: incluir C:\Program Files\Java\jdk-10.0.1\bin
+  - Variável JAVA_HOME: C:\app.Program Files\Java\jdk-10.0.1
+  - Variável Path: incluir C:\app.Program Files\Java\jdk-10.0.1\bin
   - Testar no terminal de comando: java --version
 
 - Baixar e descompactar o Eclipse
@@ -148,12 +148,12 @@ Curso mais didático e completo de Java e Orientação a Objetos. Projetos reais
 - Como fechar e reabrir o projeto? E o workspace?
 - Dica: indentação automática: CTRL + SHIFT -> F
 
-- 2-Apresentacao-da-linguagem-Java-e-topicos-basicos\Course_1\src\course\Program.java
+- 2-Apresentacao-da-linguagem-Java-e-topicos-basicos\Course_1\src\course\app.Program.java
 
 ```java
 package course;
 
-public class Program {
+public class app.Program {
 	public static void main(String[] args) {
 		System.out.println("Hello world!");
 	}
@@ -543,7 +543,7 @@ package app;
 
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -618,7 +618,7 @@ package app;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -1011,7 +1011,7 @@ package app;
 
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -1184,7 +1184,7 @@ package app;
 
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -1267,7 +1267,7 @@ package app;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -1314,7 +1314,7 @@ package app;
 
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -1371,7 +1371,7 @@ package app;
 
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -1424,7 +1424,7 @@ package app;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -1493,7 +1493,7 @@ package app;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -1583,7 +1583,7 @@ import java.util.Scanner;
 
 import entities.Triangle;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -1666,7 +1666,7 @@ import java.util.Scanner;
 
 import entities.Triangle;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -1774,7 +1774,7 @@ public class Product {
 }
 
 ```
-- /3-6-Comecando-a-resolver-um-segundo-problema-exemplo/src/app/Program.java
+- /3-6-Comecando-a-resolver-um-segundo-problema-exemplo/src/app/app.Program.java
 - 
 ```java
 package app;
@@ -1784,7 +1784,7 @@ import java.util.Scanner;
 
 import entities.Product;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -1864,7 +1864,7 @@ import java.util.Scanner;
 
 import entities.Product;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -1956,7 +1956,7 @@ import java.util.Scanner;
 
 import entities.Rectangle;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -2029,7 +2029,7 @@ import java.util.Scanner;
 
 import entities.Employee;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -2103,7 +2103,7 @@ import java.util.Scanner;
 
 import entities.Student;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -2174,7 +2174,7 @@ PI value: 3.14
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program{
+public class app.Program{
 	public static final double PI = 3.14;
 
 	public static void main(String[] args){
@@ -2232,7 +2232,7 @@ import java.util.Scanner;
 
 import util.Calculator;
 
-public class Program{
+public class app.Program{
 	public static final double PI = 3.14;
 
 	public static void main(String[] args){
@@ -2288,7 +2288,7 @@ import java.util.Scanner;
 
 import util.Calculator;
 
-public class Program{
+public class app.Program{
 	public static final double PI = 3.14;
 
 	public static void main(String[] args){
@@ -2344,7 +2344,7 @@ import java.util.Scanner;
 
 import util.CurrencyConverter;
 
-public class Program{
+public class app.Program{
 
 	public static void main(String args[]){
 	
@@ -2441,7 +2441,7 @@ import java.util.Scanner;
 
 import entities.Product;
 
-public class Program{
+public class app.Program{
 	public static void main(String[] args){
 			
 		Locale.setDefault(Locale.US);
@@ -2538,7 +2538,7 @@ import java.util.Scanner;
 
 import entities.Product;
 
-public class Program{
+public class app.Program{
 	public static void main(String[] args){
 			
 		Locale.setDefault(Locale.US);
@@ -2838,7 +2838,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import entities.Account;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -2992,7 +2992,7 @@ package app;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -3043,7 +3043,7 @@ import java.util.Scanner;
 
 import entities.Product;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -3114,7 +3114,7 @@ import java.util.Scanner;
 
 import entities.Rent;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -3209,7 +3209,7 @@ package app;
 
 import java.util.Iterator;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 		
@@ -3268,7 +3268,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -3423,7 +3423,7 @@ import java.util.Scanner;
 
 import entities.Employee;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -3504,7 +3504,7 @@ package app;
 
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -3573,7 +3573,7 @@ package app;
 
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -3660,7 +3660,7 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.TimeZone;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) throws ParseException {
 
@@ -3850,7 +3850,7 @@ import java.util.Date;
 import entities.Order;
 import entities.enums.OrderStatus;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) {
 
@@ -3943,7 +3943,7 @@ Income for 08/2018: 3000.00
 
 - 8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/src/entities/Worker.java
 
-- 8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/src/app/Program.java
+- 8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/src/app/app.Program.java
 
 ```java
 package app;
@@ -3959,7 +3959,7 @@ import entities.HourContract;
 import entities.Worker;
 import entities.enums.WorkerLevel;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) throws ParseException {
 
@@ -4042,7 +4042,7 @@ May the Force be with you
 ![](img/8-8-Exercicio-resolvido2demoStringBuilder_2.png)
 
 
-- 8-Enumeracoes-composicao/8-8-Exercicio-resolvido-2-demo-StringBuilder/src/app/Program.java
+- 8-Enumeracoes-composicao/8-8-Exercicio-resolvido-2-demo-StringBuilder/src/app/app.Program.java
 
 ```java
 package app;
@@ -4053,7 +4053,7 @@ import java.text.SimpleDateFormat;
 import entities.Comment;
 import entities.Post;
 
-public class Program {
+public class app.Program {
 	public static void main(String[] args) throws ParseException {
 SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		
@@ -4122,7 +4122,7 @@ Você deverá instanciar os objetos em memória da seguinte forma:
 
 ![](img/8-9-Exercicio-de-fixacao_2.png)
 
-- 8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/src/app/Program.java
+- 8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/src/app/app.Program.java
 
 
 ```java
@@ -4140,7 +4140,7 @@ import entities.OrderItem;
 import entities.Product;
 import entities.enums.OrderStatus;
 
-public class Program {
+public class app.Program {
 
 	public static void main(String[] args) throws ParseException {
 
@@ -4444,7 +4444,7 @@ Resposta: sobrescrevendo o método withdraw na subclasse SavingsAccount
         balance -= amount;
     }
 ```
-- app/Program.java
+- app/app.Program.java
 
 ```java
         
@@ -4479,7 +4479,7 @@ Exemplo: suponha que, na classe BusinessAccount, a regra para saque seja realiza
 }
 ```
 
-- app/Program.java
+- app/app.Program.java
 
 ```java
         Acconunt acc3 = new BusinessAccount(1003, "bob", 1000.0, 500.0);
@@ -4689,7 +4689,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -4809,7 +4809,7 @@ import entities.Account;
 import entities.BusinessAccount;
 import entities.SavingsAccount;
 
-public class Program {
+public class app.Program {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
@@ -5019,7 +5019,7 @@ package app;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -5053,7 +5053,7 @@ package app;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Program {
+public class app.Program {
     public static void main(String[] args) {
         method1();
         System.out.println("End of program");
@@ -5128,7 +5128,144 @@ public class App {
 
 #### 10.7. Criando exceções personalizadas
 
+**Sugestão de pacotes "model"**
+
+![](img/10-7-Criando-excecoes-personalizadas.PNG)
+
+Problema exemplo
+
+Fazer um programa para ler os dados de uma reserva de hotel (número do quarto, datade entrada e data de saída) e mostrar os dados da reserva, 
+inclusive sua duração em dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva, e mostrar
+novamente a reserva com os dados atualizados. O programa não deve aceitar dados inválidos para a reserva, conforme as seguintes regras:
+- Alterações de reserva só podem ocorrer para datas futuras
+- A data de saída deve ser maior que a data de entrada
+
+![](img/10-7-Criando-excecoes-personalizadas-2.PNG)
+
+- Solução 1 (muito ruim): lógica de validação no programa principal
+    - Lógica de validação não delegada à reserva
+- Solução 2 (ruim): método retornando string
+    - A semântica da operação é prejudicada
+    - Retornar string não tem nada a ver com atualização de reserva
+    - E se a operação tivesse que retornar um string?
+    - Ainda não é possível tratar exceções em construtores
+    - Ainda não há auxílio do compilador: o programador deve "lembrar" de verificar se houve erro
+    - A lógica fica estruturada em condicionais aninhadas
+- Solução 3 (boa): tratamento de exceções
+
+
 #### 10.8. Primeira solução - muito ruim
+
+```java
+package model.entities;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
+public class Reservation {
+    private Integer roomNumber;
+    private Date checkIn;
+    private Date checkOut;
+
+    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+    public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
+        this.roomNumber = roomNumber;
+        this.checkIn = checkIn;
+        this.checkOut = checkOut;
+    }
+    public Integer getRoomNumber() {
+        return roomNumber;
+    }
+    public void setRoomNumber(Integer roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+    public Date getCheckIn() {
+        return checkIn;
+    }
+    public Date getCheckOut() {
+        return checkOut;
+    }
+    public long duration() {
+        long diff = checkOut.getTime() - checkIn.getTime();
+        return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
+    }
+
+    public void updateDates(Date checkIn, Date checkOut) {
+        this.checkIn = checkIn;
+        this.checkOut = checkOut;
+    }
+
+    @Override
+    public String toString() {
+        return "Room "
+                + roomNumber
+                + ", check-in: "
+                + sdf.format(checkIn)
+                + ", check-out: "
+                + sdf.format(checkOut)
+                + ", "
+                + duration()
+                + " nights";
+    }
+
+}
+
+```
+
+```java
+package app;
+
+import model.entities.Reservation;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) throws ParseException {
+        Scanner sc = new Scanner(System.in);
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+        System.out.print("Room number: ");
+        int number = sc.nextInt();
+        System.out.print("Check-in date (dd/MM/yyyy): ");
+        Date checkIn = sdf.parse(sc.next());
+        System.out.print("Check-out date (dd/MM/yyyy): ");
+        Date checkOut = sdf.parse(sc.next());
+
+        if (!checkOut.after(checkIn)) {
+            System.out.println("Error in reservation: Check-out date must be after check-in date");
+        } else {
+            Reservation reservation = new Reservation(number, checkIn, checkOut);
+            System.out.println("Reservation: " + reservation);
+
+            System.out.println();
+            System.out.println("Enter data to update the reservation:");
+            System.out.print("Check-in date (dd/MM/yyyy): ");
+            checkIn = sdf.parse(sc.next());
+            System.out.print("Check-out date (dd/MM/yyyy): ");
+            checkOut = sdf.parse(sc.next());
+
+            Date now = new Date();
+            if (checkIn.before(now) || checkOut.before(now)) {
+                System.out.println("Error in reservation: Reservation dates for update must be future dates");
+            } else if (!checkOut.after(checkIn)) {
+                System.out.println("Error in reservation: Check-out date must be after check-in date");
+            } else {
+                reservation.updateDates(checkIn, checkOut);
+                System.out.println("Reservation: " + reservation);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+```
+
 
 #### 10.9. Segunda solução - ruim
 
