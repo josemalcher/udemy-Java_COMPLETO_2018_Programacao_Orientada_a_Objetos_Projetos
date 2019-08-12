@@ -5407,6 +5407,163 @@ public class Program {
 
 #### 10.10. Terceira solução - boa
 
+```java
+package model.exception;
+
+public class DomainException extends RuntimeException {
+    private static final long serialVersionUID = 1L;
+
+    public DomainException(String msg) {
+        super(msg);
+    }
+}
+
+```
+
+```java
+package model.entities;
+
+import model.exception.DomainException;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
+public class Reservation {
+    private Integer roomNumber;
+    private Date checkIn;
+    private Date checkOut;
+
+    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+    public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
+        if (!checkOut.after(checkIn)) {
+            throw new DomainException("Check-out date must be after check-in date");
+        }
+        this.roomNumber = roomNumber;
+        this.checkIn = checkIn;
+        this.checkOut = checkOut;
+    }
+
+    public Integer getRoomNumber() {
+        return roomNumber;
+    }
+
+    public void setRoomNumber(Integer roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+
+    public Date getCheckIn() {
+        return checkIn;
+    }
+
+    public Date getCheckOut() {
+        return checkOut;
+    }
+
+    public long duration() {
+        long diff = checkOut.getTime() - checkIn.getTime();
+        return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
+    }
+
+    public void updateDates(Date checkIn, Date checkOut) {
+        Date now = new Date();
+        if (checkIn.before(now) || checkOut.before(now)) {
+            throw new DomainException("Reservation dates for update must be future dates");
+        }
+        if (!checkOut.after(checkIn)) {
+            throw new DomainException("Check-out date must be after check-in date");
+        }
+        this.checkIn = checkIn;
+        this.checkOut = checkOut;
+    }
+
+    @Override
+    public String toString() {
+        return "Room "
+                + roomNumber
+                + ", check-in: "
+                + sdf.format(checkIn)
+                + ", check-out: "
+                + sdf.format(checkOut)
+                + ", "
+                + duration()
+                + " nights";
+    }
+}
+
+```
+
+```java
+package app;
+
+import model.entities.Reservation;
+import model.exception.DomainException;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+        try {
+            System.out.print("Room number: ");
+            int number = sc.nextInt();
+            System.out.print("Check-in date (dd/MM/yyyy): ");
+            Date checkIn = sdf.parse(sc.next());
+            System.out.print("Check-out date (dd/MM/yyyy): ");
+            Date checkOut = sdf.parse(sc.next());
+
+            Reservation reservation = new Reservation(number, checkIn, checkOut);
+            System.out.println("Reservation: " + reservation);
+
+            System.out.println();
+            System.out.println("Enter data to update the reservation:");
+            System.out.print("Check-in date (dd/MM/yyyy): ");
+            checkIn = sdf.parse(sc.next());
+            System.out.print("Check-out date (dd/MM/yyyy): ");
+            checkOut = sdf.parse(sc.next());
+
+            reservation.updateDates(checkIn, checkOut);
+            System.out.println("Reservation: " + reservation);
+        }
+        catch (ParseException e) {
+            System.out.println("Invalid date format");
+        }
+        catch (DomainException e) {
+            System.out.println("Error in reservation: " + e.getMessage());
+        }
+        catch (RuntimeException e) {
+            System.out.println("Unexpected error");
+        }
+
+        sc.close();
+    }
+}
+
+```
+
+Resumo da aula
+- Cláusula throws: propaga a exceção ao invés de trata-la
+- Cláusula throw: lança a exceção / "corta" o método
+
+- Exception: compilador obriga a tratar ou propagar
+- RuntimeException: compilador não obriga
+
+- O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+
+- Vantagens:
+    - Lógica delegada
+    - Construtores podem ter tratamento de exceções
+    - Possibilidade de auxílio do compilador (Exception)
+    - Código mais simples. Não há aninhamento de condicionais: a qualquer momento que uma exceção for disparada, a execução é interrompida e cai no bloco catch correspondente.
+    - É possível capturar inclusive outras exceções de sistema
+
+
 #### 10.11. Exercício de fixação
 
 
