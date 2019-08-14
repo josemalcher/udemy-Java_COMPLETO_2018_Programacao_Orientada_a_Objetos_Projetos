@@ -5607,6 +5607,8 @@ Enter amount for withdraw: 250.00
 Withdraw error: Not enough balance
 ```
 
+- \10-Tratamento-de-excecoes\10-11-Exercicio-de-fixacao
+
 
 
 [Voltar ao Índice](#indice)
