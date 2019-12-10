@@ -5102,7 +5102,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class App {
+public class app {
     public static void main(String[] args) {
 
         File file = new File("in.txt");
@@ -5618,7 +5618,58 @@ Withdraw error: Not enough balance
 
 ## <a name="parte11">11 - Projeto: Sistema jogo de xadrez</a>
 
+#### 11.1 - Visão geral do capítulo Sistema Jogo de Xadrez
 
+#### 11.2 - Material de apoio do capítulo
+
+- [PDF - Material de Apoio](11-Projeto-Sistema-jogo-de-xadrez/pdf/10-projeto-sistema-xadrez.pdf)
+
+#### 11.3
+
+- https://github.com/acenelio/chess-system-design
+
+Creating project and git repository
+
+Checklist:  
+- Github: create a new project  
+NOTE: choose .gitignore type as Java  
+
+- Open a terminal in project folder, and perform the following commands:
+
+```
+git init
+git remote add origin https://github.com/acenelio/chess-system-java.git
+git pull origin master
+git add .
+git commit -m "Project created"
+git push -u origin master
+
+```
+
+
+#### 11.4 - First class: Position
+
+Checklist:    
+-  Class Position [public]  
+-  OOP Topics:  
+    - Encapsulation
+    - Constructors
+    - ToString (Object / overriding)
+
+
+#### 11.5
+#### 11.6
+#### 11.7
+#### 11.8
+#### 11.9
+#### 11.10
+#### 11.11
+#### 11.12
+#### 11.13
+#### 11.14
+#### 11.15
+#### 11.16
+#### 11.17
 
 [Voltar ao Índice](#indice)
 
