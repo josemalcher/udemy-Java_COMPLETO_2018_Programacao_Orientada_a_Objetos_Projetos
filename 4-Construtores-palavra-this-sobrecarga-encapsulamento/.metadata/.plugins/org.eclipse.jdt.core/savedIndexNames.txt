@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/josemalcher/Documentos/workspace-JAVA/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core

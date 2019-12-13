@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Projeto-Sistema-jogo-de-xadrez/app/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Projeto-Sistema-jogo-de-xadrez/chess/ChessMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Projeto-Sistema-jogo-de-xadrez/chess/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Projeto-Sistema-jogo-de-xadrez/chess/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.mylyn/.taskListIndex/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.mylyn/.taskListIndex/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.epp.mpc.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/1399125583.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/17546553.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/2655396786.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/2730067347.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/3251467686.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/379274238.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/4245337317.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/686348499.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-30-Comentarios-em-Java-basico/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-30-Comentarios-em-Java-basico/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-30-Comentarios-em-Java-basico/bin/app/Programm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-31-Funcoes-sintaxe/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-31-Funcoes-sintaxe/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-31-Funcoes-sintaxe/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-32-Debugging-com-Eclipse/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-32-Debugging-com-Eclipse/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-32-Debugging-com-Eclipse/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-33-Estrutura-repetitiva-while/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-33-Estrutura-repetitiva-while/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-33-Estrutura-repetitiva-while/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-36-Estrutura-repetitiva-for/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-36-Estrutura-repetitiva-for/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-36-Estrutura-repetitiva-for/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-39-Exercício-de-fixacao/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-39-Exercício-de-fixacao/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-39-Exercício-de-fixacao/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-40-Estrutura-repetitiva-do-while/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-40-Estrutura-repetitiva-do-while/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/2-40-Estrutura-repetitiva-do-while/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.mylyn/.taskListIndex/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.mylyn/.taskListIndex/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.core.resources/.root/7.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (1).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (2).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (3).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (4).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (5).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.debug.core/.launches/Program.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/1067350900.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/171808078.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/1889081102.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/2183069055.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/2794924750.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/3251467686.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/3515882072.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/3818543707.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-10-Membros-estaticos-Parte-1/versao-1/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-10-Membros-estaticos-Parte-1/versao-2/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-10-Membros-estaticos-Parte-1/versao-2/util/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-10-Membros-estaticos-Parte-1/versao-3/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-10-Membros-estaticos-Parte-1/versao-3/util/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-12-Exercicio-de-fixacao/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-12-Exercicio-de-fixacao/util/CurrencyConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-3-Resolvendo-um-problema-sem-orientacao-a-objetos/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-3-Resolvendo-um-problema-sem-orientacao-a-objetos/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-1/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-1/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-1/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-1/bin/entities/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-2/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-2/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-2/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-2/bin/entities/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-3/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-3/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-3/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Introducao-a-Programacao-Orientada-a-Objetos/3-9-Exercicios-de-fixacao-3/bin/entities/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.jst.j2ee.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-3-Construtores/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-3-Construtores/entities/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-5-Sobrecarga/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-5-Sobrecarga/entities/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-6-Encapsulamento/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-6-Encapsulamento/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-6-Encapsulamento/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-6-Encapsulamento/bin/entities/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-9-Exercicio-de-fixacao-Resolvido/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-9-Exercicio-de-fixacao-Resolvido/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-9-Exercicio-de-fixacao-Resolvido/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-Construtores-palavra-this-sobrecarga-encapsulamento/4-9-Exercicio-de-fixacao-Resolvido/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/1/60c616f1177e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/12/30ba61cb617d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/14/3084e0d4fb7c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/17/6087e4e1637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/1f/f048f5c0637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/22/90d7c811617b0019183d873a6798bf3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/29/d0493ff0617d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/3/e026c410637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/31/d08006d1187e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/32/e0e2d8bc637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/36/f035d624f97c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/37/f0baf784627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/39/20f56f07627b00191e868eb7d68d7b70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/39/40235bb9627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/39/c0df0d41f97c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/3d/90cdfdf7f87c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/3f/904bc0522c7c00191edbc5f33e1891ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/42/105badeb607d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/49/a004dc34187e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/4c/30b4f235f97c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/4f/8056ca8a157e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/50/10155501647b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/50/6016875e5e7d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/52/20f3a117617d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/52/6075a61df97c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/56/d030e2d9617d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/59/f0ea4f1e2c7c00191edbc5f33e1891ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/6/80aa4de1147e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/62/306acc7b5f7d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/62/e01d42dd627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/63/209f3222f77c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/64/805a2d1c187e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/66/40c75b2d617d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/68/d01f6b11647b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/6b/509475d8187e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/6d/3013fc92147e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/6f/70fbf112687d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/77/d046080d157e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/7b/b0a0d037617d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/7d/30570701f97c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/7d/e0dd3905687d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/7e/6098f96c607d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/81/0064307f627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/84/703b5bb1157e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/8a/40dc0706687d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/8b/909b271e627d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/8f/60449bba627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/92/40161f5b2c7c00191edbc5f33e1891ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/92/6093d4d1617d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/95/60723038fd7c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/9d/60ded5dbfc7c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/a2/20e634cb177e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/a7/40661572617b0019183d873a6798bf3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/ab/502dbbd0627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/ad/40ad1999607d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/b3/00211c072c7c00191edbc5f33e1891ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/b9/0051d00f637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/c1/40d12f22fd7c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/c3/b04d81c0617d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/c4/4091a8b7627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/c4/60ae2610637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/c5/308edf83157e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/c7/b0ad7610647b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/c7/f01479e4637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/cb/b0f0b042627d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/d0/90c8ea1f637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/d8/803f9635fd7c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/df/f0a82cd0627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/e4/d0ae3e65607d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/e5/70f8033c647b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/ea/40ecf803617b0019183d873a6798bf3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/eb/e08cbe7f187e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/f/f0e683a4627b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/f2/903ff647637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/f3/609bce0f687d00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/f5/804485781a7e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/f8/e0ff12ad147e00191ed2db245caa2926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/f9/003217f2fc7c00191342a767f4e1cc7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.history/fa/707c2862637b00191b3dad8f7c22c5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.root/14.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.as.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.css.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.mxml.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.codehaus.groovy.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.oomph.workingsets.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.php.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.css.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.epic.perleditor.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (1).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (2).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (3).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (4).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (5).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (6).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (7).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.core/.launches/Program.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/1826512763.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/2293030615.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/2373022823.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/307651762.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/3251467686.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/3299984840.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/3543925381.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/430901435.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/636838747.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.11.0.20190220-2119.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-11-Listas-Parte-2/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-11-Listas-Parte-2/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-11-Listas-Parte-2/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-12-Exercicio-proposto/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-12-Exercicio-proposto/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-12-Exercicio-proposto/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-12-Exercicio-proposto/bin/entities/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-14-Exercicio-resolvido/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-14-Exercicio-resolvido/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-14-Exercicio-resolvido/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-15-Exercicio-proposto/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-15-Exercicio-proposto/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-15-Exercicio-proposto/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-5-Vetores-Parte-1/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-5-Vetores-Parte-1/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-5-Vetores-Parte-1/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-5-Vetores-Parte-1/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-5-Vetores-Parte-1/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-6-Vetores-Parte-2/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-6-Vetores-Parte-2/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-6-Vetores-Parte-2/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-6-Vetores-Parte-2/bin/entities/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-7-Exercicio-de-fixacao/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-7-Exercicio-de-fixacao/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-7-Exercicio-de-fixacao/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-7-Exercicio-de-fixacao/bin/entities/Rent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-9-Laco-for-each/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-9-Laco-for-each/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-Comportamento-de-memoria-arrays-listas/5-9-Laco-for-each/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.as.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.css.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.mxml.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.codehaus.groovy.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.datatools.sqltools.sqleditor.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.oomph.workingsets.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.php.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.css.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.epic.perleditor.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.debug.core/.launches/Obtendo.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.debug.core/.launches/Program.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/2616662862.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/3251467686.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/401609015.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.11.0.20190220-2119.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/6-2-Trabalhando-com-datas-Date/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/6-2-Trabalhando-com-datas-Date/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/6-2-Trabalhando-com-datas-Date/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/6-3-Manipulando-um-Date-com-Calendar/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/6-3-Manipulando-um-Date-com-Calendar/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/6-3-Manipulando-um-Date-com-Calendar/bin/app/Obtendo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-Topicos-especiais-em-Java/6-3-Manipulando-um-Date-com-Calendar/bin/app/Somando.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.mylyn/.taskListIndex/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.mylyn/.taskListIndex/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/0/a02ac593da84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/1/a0f394a6d984001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/12/50e454714485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/15/90c56f0d4485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/17/a0cfc1c6dd84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/1a/40a3d5f54485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/1a/706c36494285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/1a/903426f74385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/1d/c017fc084485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/1f/3045e8e84385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/21/9028aee6d384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/23/702344554485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/28/00620a01dc84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/29/b04ab56ad484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/2c/50e4d135d184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/2c/e0191cf04285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/31/100a9cc14485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/33/605eefa8d984001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/35/20660e344485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/38/60a5e1f6de84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/3d/a0c068bd4485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/3d/e0986477d684001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/3f/00c1d176d184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/46/10d2f4144485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/4e/a061f1d54385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/4f/907936a6d184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/51/706156f64385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/51/803ddd044085001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/52/30da3c814485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/53/60cff4cedd84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/53/80465eb84385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/54/70ba3e134085001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/56/001f6542d384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/56/909355ddde84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/57/90f5d982da84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/5a/b0d3561dd984001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/5c/704f3c92d484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/5d/a0c822f3de84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/5f/40a0f2604285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/62/807502084485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/64/60220a6ed184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/66/00b7bd1fd884001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/67/f0b67aea4185001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/68/e0ae91ead484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/6a/1025dbd54485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/6c/80c4df994485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/6c/f0a1c7bbcf84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/6d/506d70104285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/6f/804269e54185001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/71/805872464485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/7a/00a08b4c4485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/7c/909935044585001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/7f/80a0bfc94485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/82/705d9baddd84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/87/00d610ee4185001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/89/b0cd0eb64285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/8d/002fe2fed484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/8d/704dac39d384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/8f/c04357c7db84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/9/60ee40d14285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/9/b0d81999d184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/91/50a0677cd484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/92/00448c7f4485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/92/9044d0024285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/93/00d159114485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/97/f052ec3b4285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/99/209f0e57d484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/9a/6021710dd184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/9e/80b74fa04485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/9e/c02668074385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/9f/d005174f4485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/9f/f07965ecd384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/a/50facef7d884001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/a/802da30a4385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/a0/507b14bed384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/a1/100183444385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/a3/00bc12bfd484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/a4/d04ad6bad484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/a9/a09b0b604285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/a9/f0a158eed484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/ab/9007db52d484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/ae/103ef0eade84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/ae/b00d9e67d684001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/af/a023b0b5d984001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/af/c046cdffde84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/b/c00023594385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/b0/00faf872d984001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/b3/f0082a1cd884001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/b9/d01ec0114285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/bc/906c6fbed384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/bd/d07f7056d384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/bf/405924d0de84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/bf/50fa34dbda84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/bf/80488c14d184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/bf/90cbc0ac4385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/bf/f0cc52034085001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c0/b02606eb4485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c2/80250ea14485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c2/c08fdac34185001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c3/507d1f244285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c4/d04aaf5f4285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c5/a02f40e64385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c7/50f0fa78d684001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c8/708fec3c4385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/c9/40668472d984001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/ca/50c86cd54385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/ca/d0e9ecc34285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/cd/9093b5e5da84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/cd/a0dd19be4385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/d/c0013b95da84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/d1/0053b1f74285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/d8/d0a030cd4385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/da/40c53d444485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/dc/601d2d094585001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/dd/30b5b8eb4185001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/df/20ab909ada84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/e/008a5fca4485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/e0/1088e8254385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/e4/603ad076d184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/e7/805595cdd484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/e7/f098a4b6dd84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/e9/10150f6ad384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/e9/a0d159134285001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/ec/00f05325d184001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/ee/20949b3d4385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/ef/9048bef0da84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/f0/40e463ebda84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/f2/b0791c62d384001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/f3/80a62f554385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/f4/a05430764485001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/f4/d0c277dc4385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/f8/f0cb6fbfdb84001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/f9/701df367d484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/fc/a0935c53d484001910f4a3ff1682da25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.history/fd/00a02db54385001911b2c64e71510129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.as.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.css.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.mxml.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.codehaus.groovy.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.datatools.sqltools.sqleditor.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.oomph.workingsets.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.php.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.css.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.epic.perleditor.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (1).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (2).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.debug.core/.launches/Program (3).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.debug.core/.launches/Program.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/1139902639.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/2638406717.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/3251467686.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/3761817212.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/699408719.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.debug.ui/stackTraceConsole.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.11.0.20190220-2119.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-3-Enumeracoes/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-3-Enumeracoes/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-3-Enumeracoes/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-3-Enumeracoes/bin/entities/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-3-Enumeracoes/bin/entities/enums/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/bin/entities/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/bin/entities/HourContract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/bin/entities/Worker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-6-Exercicio-resolvido-1/bin/entities/enums/WorkerLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-8-Exercicio-resolvido-2-demo-StringBuilder/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-8-Exercicio-resolvido-2-demo-StringBuilder/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-8-Exercicio-resolvido-2-demo-StringBuilder/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-8-Exercicio-resolvido-2-demo-StringBuilder/bin/entities/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-8-Exercicio-resolvido-2-demo-StringBuilder/bin/entities/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/bin/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/bin/entities/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/bin/entities/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/bin/entities/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/bin/entities/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Enumeracoes-composicao/8-9-Exercicio-de-fixacao/bin/entities/enums/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/production/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/app/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/production/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/boardgame/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/production/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/pdf/10-projeto-sistema-xadrez.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Projeto-Sistema-jogo-de-xadrez/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-Projeto-Sistema-jogo-de-xadrez/app/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Projeto-Sistema-jogo-de-xadrez/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-Projeto-Sistema-jogo-de-xadrez/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="josemalcher &lt;contato@josemalcher.net&gt;" />
+        <option value="José Malcher Jr &lt;contato@josemalcher.net&gt;" />
+        <option value="José Stélio R. Malcher Junior &lt;contato@josemalcher.net&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Of90O66qWQ3seGfXA7Xg8swMLJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\José Malcher Jr\Documents\02-workspaces\workspace-JAVA\udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos\10-Tratamento-de-excecoes\10-9-Segunda-solucao-ruim" />
+      <recent name="$PROJECT_DIR$/9-Heranca-e-polimorfismo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.App" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Program" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Program" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Programm" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Programm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="" />
+      <created>1556073981385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556073981385</updated>
+      <workItem from="1556074003036" duration="309000" />
+      <workItem from="1557453479356" duration="102000" />
+      <workItem from="1559783901391" duration="6845000" />
+      <workItem from="1559874245278" duration="651000" />
+      <workItem from="1559938281158" duration="314000" />
+      <workItem from="1559938690676" duration="4470000" />
+      <workItem from="1560025776680" duration="453000" />
+      <workItem from="1560043703471" duration="3298000" />
+      <workItem from="1560103600742" duration="2409000" />
+      <workItem from="1560212599498" duration="4852000" />
+      <workItem from="1560240462472" duration="1934000" />
+      <workItem from="1560595148310" duration="677000" />
+      <workItem from="1561688611329" duration="95000" />
+      <workItem from="1562021217879" duration="2363000" />
+      <workItem from="1562197400951" duration="4044000" />
+      <workItem from="1562281264029" duration="6745000" />
+      <workItem from="1562374963220" duration="835000" />
+      <workItem from="1563039731757" duration="2832000" />
+      <workItem from="1563649420646" duration="2391000" />
+      <workItem from="1563840257991" duration="2107000" />
+      <workItem from="1564357568266" duration="3258000" />
+      <workItem from="1564473851336" duration="5261000" />
+      <workItem from="1564531736722" duration="2922000" />
+      <workItem from="1564626347829" duration="591000" />
+      <workItem from="1565551873282" duration="1847000" />
+      <workItem from="1565575757274" duration="2392000" />
+      <workItem from="1565748223709" duration="1438000" />
+      <workItem from="1566035449211" duration="243000" />
+      <workItem from="1566263229135" duration="929000" />
+      <workItem from="1566307946378" duration="772000" />
+      <workItem from="1566432860838" duration="685000" />
+      <workItem from="1566433744717" duration="768000" />
+      <workItem from="1567129488996" duration="59000" />
+      <workItem from="1567129660099" duration="602000" />
+      <workItem from="1568769811110" duration="1495000" />
+      <workItem from="1569500228094" duration="46000" />
+      <workItem from="1569500428597" duration="636000" />
+      <workItem from="1575938037626" duration="2538000" />
+      <workItem from="1575993896062" duration="1811000" />
+      <workItem from="1576105284937" duration="1186000" />
+      <workItem from="1576193389810" duration="4300000" />
+    </task>
+    <task id="LOCAL-00001" summary="9.3. Herança">
+      <created>1559789970795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559789970795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="9.4. Upcasting e downcasting">
+      <created>1559941626878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559941626878</updated>
+    </task>
+    <task id="LOCAL-00003" summary="9.5. Sobreposição, palavra super, anotação @Override">
+      <created>1560045211937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560045211937</updated>
+    </task>
+    <task id="LOCAL-00004" summary="9.6. Classes e métodos final">
+      <created>1560046226044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560046226045</updated>
+    </task>
+    <task id="LOCAL-00005" summary="9.7. Introdução ao polimorfismo">
+      <created>1560129992487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560129992488</updated>
+    </task>
+    <task id="LOCAL-00006" summary="9.8. Exercício resolvido">
+      <created>1560218152045</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560218152047</updated>
+    </task>
+    <task id="LOCAL-00007" summary="9.9. Exercício de fixação">
+      <created>1562202884894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562202884894</updated>
+    </task>
+    <task id="LOCAL-00008" summary="9.10. Classes abstratas">
+      <created>1562286602311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562286602311</updated>
+    </task>
+    <task id="LOCAL-00009" summary="9.11. Métodos abstratos">
+      <created>1562288456125</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562288456125</updated>
+    </task>
+    <task id="LOCAL-00010" summary="9.12. Exercício de fixação">
+      <created>1562289884653</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562289884653</updated>
+    </task>
+    <task id="LOCAL-00011" summary="10.3. Discussão inicial sobre exceções">
+      <created>1563041477485</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563041477488</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ajustes">
+      <created>1563041571350</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563041571350</updated>
+    </task>
+    <task id="LOCAL-00013" summary="10.4. Estrutura try-catch">
+      <created>1563042276656</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563042276656</updated>
+    </task>
+    <task id="LOCAL-00014" summary="10.5. Pilha de chamadas de métodos (stack trace)">
+      <created>1563655312454</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563655312454</updated>
+    </task>
+    <task id="LOCAL-00015" summary="10.6. Bloco finally">
+      <created>1563841759107</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563841759107</updated>
+    </task>
+    <task id="LOCAL-00016" summary="10.8. Primeira solução - muito ruim">
+      <created>1564368106891</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564368106891</updated>
+    </task>
+    <task id="LOCAL-00017" summary="10.9. Segunda solução - ruim">
+      <created>1564480602496</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564480602496</updated>
+    </task>
+    <task id="LOCAL-00018" summary="10.10. Terceira solução - boa">
+      <created>1565577777053</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1565577777053</updated>
+    </task>
+    <task id="LOCAL-00019" summary="10.11. Exercício de fixação">
+      <created>1565749070370</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1565749070370</updated>
+    </task>
+    <task id="LOCAL-00020" summary="11.4 - First class: Position">
+      <created>1575940708456</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575940708456</updated>
+    </task>
+    <task id="LOCAL-00021" summary="146. Começando a implementar Board e Piece">
+      <created>1576198061005</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1576198061005</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="9.3. Herança" />
+    <MESSAGE value="9.4. Upcasting e downcasting" />
+    <MESSAGE value="9.5. Sobreposição, palavra super, anotação @Override" />
+    <MESSAGE value="9.6. Classes e métodos final" />
+    <MESSAGE value="9.7. Introdução ao polimorfismo" />
+    <MESSAGE value="9.8. Exercício resolvido" />
+    <MESSAGE value="9.9. Exercício de fixação" />
+    <MESSAGE value="9.10. Classes abstratas" />
+    <MESSAGE value="9.11. Métodos abstratos" />
+    <MESSAGE value="9.12. Exercício de fixação" />
+    <MESSAGE value="10.3. Discussão inicial sobre exceções" />
+    <MESSAGE value="Ajustes" />
+    <MESSAGE value="10.4. Estrutura try-catch" />
+    <MESSAGE value="10.5. Pilha de chamadas de métodos (stack trace)" />
+    <MESSAGE value="10.6. Bloco finally" />
+    <MESSAGE value="10.8. Primeira solução - muito ruim" />
+    <MESSAGE value="10.9. Segunda solução - ruim" />
+    <MESSAGE value="10.10. Terceira solução - boa" />
+    <MESSAGE value="10.11. Exercício de fixação" />
+    <MESSAGE value="11.4 - First class: Position" />
+    <MESSAGE value="146. Começando a implementar Board e Piece" />
+    <option name="LAST_COMMIT_MESSAGE" value="146. Começando a implementar Board e Piece" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1576201448873">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.-196.1920.1080@0.0.1920.1050" timestamp="1576201448873" />
+    <state x="186" y="122" key="CommitChangelistDialog2" timestamp="1576198046247">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="186" y="122" key="CommitChangelistDialog2/0.0.1920.1050/-1920.-196.1920.1080@0.0.1920.1050" timestamp="1576198046247" />
+    <state width="1663" height="270" key="GridCell.Tab.0.bottom" timestamp="1576202426719">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1663" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.-196.1920.1080@0.0.1920.1050" timestamp="1576202426719" />
+    <state width="1663" height="270" key="GridCell.Tab.0.center" timestamp="1576202426719">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1663" height="270" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.-196.1920.1080@0.0.1920.1050" timestamp="1576202426719" />
+    <state width="1663" height="270" key="GridCell.Tab.0.left" timestamp="1576202426718">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1663" height="270" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.-196.1920.1080@0.0.1920.1050" timestamp="1576202426718" />
+    <state width="1663" height="270" key="GridCell.Tab.0.right" timestamp="1576202426719">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1663" height="270" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.-196.1920.1080@0.0.1920.1050" timestamp="1576202426719" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1576198065370">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.-196.1920.1080@0.0.1920.1050" timestamp="1576198065370" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,967 @@
+!SESSION 2019-04-24 22:20:13.225 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 22:27:52.153
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 22:28:01.331
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-04-24 22:49:24.187 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 22:54:38.856
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 22:54:43.032
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 23:12:28.013
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-04-24 23:15:06.299 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 23:15:13.385
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 23:15:16.393
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-04-24 23:16:40.570
+!MESSAGE Errors occurred while applying Git decorations to resources.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Errors occurred while applying Git decorations to resource 'L/30-Comentarios-em-Java-basico/src/app/Programm.java'.
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:207)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.ui.internal.themes.CascadingFontRegistry.get(CascadingFontRegistry.java:61)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	... 8 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2019-04-24 23:16:40.572
+!MESSAGE Errors occurred while applying Git decorations to resource 'L/30-Comentarios-em-Java-basico/src/app/Programm.java'.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.ui.internal.themes.CascadingFontRegistry.get(CascadingFontRegistry.java:61)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-04-24 23:16:40.576
+!MESSAGE Errors occurred while applying Git decorations to resources.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Errors occurred while applying Git decorations to resource 'P/30-Comentarios-em-Java-basico'.
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:207)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.ui.internal.themes.CascadingFontRegistry.get(CascadingFontRegistry.java:61)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	... 8 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2019-04-24 23:16:40.577
+!MESSAGE Errors occurred while applying Git decorations to resource 'P/30-Comentarios-em-Java-basico'.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.ui.internal.themes.CascadingFontRegistry.get(CascadingFontRegistry.java:61)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-04-24 23:17:14.319
+!MESSAGE Errors occurred while applying Git decorations to resources.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Errors occurred while applying Git decorations to resource 'P/30-Comentarios-em-Java-basico'.
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:207)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	... 8 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2019-04-24 23:17:14.319
+!MESSAGE Errors occurred while applying Git decorations to resource 'P/30-Comentarios-em-Java-basico'.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-04-24 23:17:14.322
+!MESSAGE Errors occurred while applying Git decorations to resources.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Errors occurred while applying Git decorations to resource 'L/30-Comentarios-em-Java-basico/src/app/Programm.java'.
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:207)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	... 8 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2019-04-24 23:17:14.322
+!MESSAGE Errors occurred while applying Git decorations to resource 'L/30-Comentarios-em-Java-basico/src/app/Programm.java'.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-04-24 23:18:00.317
+!MESSAGE Errors occurred while applying Git decorations to resources.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Errors occurred while applying Git decorations to resource 'P/30-Comentarios-em-Java-basico'.
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:207)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	... 8 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2019-04-24 23:18:00.318
+!MESSAGE Errors occurred while applying Git decorations to resource 'P/30-Comentarios-em-Java-basico'.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-04-24 23:18:00.320
+!MESSAGE Errors occurred while applying Git decorations to resources.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Errors occurred while applying Git decorations to resource 'L/30-Comentarios-em-Java-basico/src/app/Programm.java'.
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:207)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	... 8 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2019-04-24 23:18:00.320
+!MESSAGE Errors occurred while applying Git decorations to resource 'L/30-Comentarios-em-Java-basico/src/app/Programm.java'.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-04-24 23:19:20.345
+!MESSAGE Command 'org.eclipse.epp.mpc.ui.command.showMarketplaceWizard' failed
+!STACK 0
+org.eclipse.core.commands.ExecutionException: Error executing 'org.eclipse.epp.mpc.ui.command.showMarketplaceWizard': java.lang.NullPointerException
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:170)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+Caused by: org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	... 33 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Color.gtk_new(Color.java:359)
+	at org.eclipse.swt.graphics.GC.getForeground(GC.java:2205)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.drawTextGradient(GradientCanvas.java:251)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.updateGradientImage(GradientCanvas.java:231)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.setBackgroundGradient(GradientCanvas.java:113)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CategoryItem.createContent(CategoryItem.java:46)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CategoryItem.<init>(CategoryItem.java:33)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.createHeader(CatalogSwitcher.java:127)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.createContents(CatalogSwitcher.java:82)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.<init>(CatalogSwitcher.java:78)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.createMarketplaceSwitcher(MarketplacePage.java:650)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.createControl(MarketplacePage.java:261)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:179)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:685)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:577)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:145)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:72)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 37 more
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 23:19:20.371
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Color.gtk_new(Color.java:359)
+	at org.eclipse.swt.graphics.GC.getForeground(GC.java:2205)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.drawTextGradient(GradientCanvas.java:251)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.updateGradientImage(GradientCanvas.java:231)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.lambda$2(GradientCanvas.java:91)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1416)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1266)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1584)
+	at org.eclipse.swt.widgets.Canvas.setBounds(Canvas.java:466)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1006)
+	at org.eclipse.jface.wizard.WizardDialog$PageContainerFillLayout.layout(WizardDialog.java:272)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1006)
+	at org.eclipse.swt.layout.FormLayout.layout(FormLayout.java:364)
+	at org.eclipse.swt.layout.FormLayout.layout(FormLayout.java:292)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setLayoutDeferred(Composite.java:1646)
+	at org.eclipse.swt.widgets.Display.runDeferredLayouts(Display.java:5075)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4566)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-04-24 23:19:48.980
+!MESSAGE Command 'org.eclipse.epp.mpc.ui.command.showMarketplaceWizard' failed
+!STACK 0
+org.eclipse.core.commands.ExecutionException: Error executing 'org.eclipse.epp.mpc.ui.command.showMarketplaceWizard': java.lang.NullPointerException
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:170)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+Caused by: org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	... 33 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Color.gtk_new(Color.java:359)
+	at org.eclipse.swt.graphics.GC.getForeground(GC.java:2205)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.drawTextGradient(GradientCanvas.java:251)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.updateGradientImage(GradientCanvas.java:231)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.setBackgroundGradient(GradientCanvas.java:113)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CategoryItem.createContent(CategoryItem.java:46)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CategoryItem.<init>(CategoryItem.java:33)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.createHeader(CatalogSwitcher.java:127)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.createContents(CatalogSwitcher.java:82)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.<init>(CatalogSwitcher.java:78)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.createMarketplaceSwitcher(MarketplacePage.java:650)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.createControl(MarketplacePage.java:261)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:179)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:685)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:577)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:145)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:72)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 37 more
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 23:19:48.991
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Color.gtk_new(Color.java:359)
+	at org.eclipse.swt.graphics.GC.getForeground(GC.java:2205)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.drawTextGradient(GradientCanvas.java:251)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.updateGradientImage(GradientCanvas.java:231)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.lambda$2(GradientCanvas.java:91)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1416)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1266)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1584)
+	at org.eclipse.swt.widgets.Canvas.setBounds(Canvas.java:466)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1006)
+	at org.eclipse.jface.wizard.WizardDialog$PageContainerFillLayout.layout(WizardDialog.java:272)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1006)
+	at org.eclipse.swt.layout.FormLayout.layout(FormLayout.java:364)
+	at org.eclipse.swt.layout.FormLayout.layout(FormLayout.java:292)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setLayoutDeferred(Composite.java:1646)
+	at org.eclipse.swt.widgets.Display.runDeferredLayouts(Display.java:5075)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4566)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-04-24 23:20:21.722
+!MESSAGE Errors occurred while applying Git decorations to resources.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Errors occurred while applying Git decorations to resource 'P/30-Comentarios-em-Java-basico'.
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:207)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	... 8 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2019-04-24 23:20:21.726
+!MESSAGE Errors occurred while applying Git decorations to resource 'P/30-Comentarios-em-Java-basico'.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-04-24 23:20:21.735
+!MESSAGE Errors occurred while applying Git decorations to resources.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Errors occurred while applying Git decorations to resource 'L/30-Comentarios-em-Java-basico/src/app/Programm.java'.
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:207)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	... 8 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2019-04-24 23:20:21.735
+!MESSAGE Errors occurred while applying Git decorations to resource 'L/30-Comentarios-em-Java-basico/src/app/Programm.java'.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.jface.resource.FontRegistry.calculateDefaultFont(FontRegistry.java:517)
+	at org.eclipse.jface.resource.FontRegistry.defaultFontRecord(FontRegistry.java:568)
+	at org.eclipse.jface.resource.FontRegistry.getFontRecord(FontRegistry.java:678)
+	at org.eclipse.jface.resource.FontRegistry.get(FontRegistry.java:618)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:435)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:236)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:256)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-04-24 23:22:01.603 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 23:22:08.715
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 23:22:11.713
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 23:23:16.116
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 23:23:17.272
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.computeInformation(AdditionalInfoController.java:541)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.showInformation(AdditionalInfoController.java:530)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$1.showInformation(AdditionalInfoController.java:477)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer.lambda$1(AdditionalInfoController.java:362)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-04-24 23:28:20.325 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 23:28:31.346
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 23:28:34.108
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 23:42:21.262
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 23:42:22.433
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.computeInformation(AdditionalInfoController.java:541)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.showInformation(AdditionalInfoController.java:530)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$1.showInformation(AdditionalInfoController.java:477)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer.lambda$1(AdditionalInfoController.java:362)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-04-24 23:53:56.924 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 23:54:05.482
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 23:54:09.154
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-24 23:57:23.944
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-04-25 00:06:12.403 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-25 00:06:21.131
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-25 00:06:24.900
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-04-25 00:07:16.892 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-25 00:07:24.338
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-25 00:07:28.100
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-04-25 00:14:33.880 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-25 00:14:42.333
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-25 00:14:46.097
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-04-25 00:15:11.703 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-25 00:15:19.470
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-25 00:15:23.463
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-04-25 00:16:33.737 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-25 00:16:42.206
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-25 00:16:45.803
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-04-26 15:12:45.620 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-26 15:12:59.255
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-26 15:13:08.699
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-26 15:31:30.429
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

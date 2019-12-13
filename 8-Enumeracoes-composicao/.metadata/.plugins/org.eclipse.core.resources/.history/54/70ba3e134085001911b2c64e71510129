@@ -1,0 +1,22 @@
+/**
+ * 8-9-Exercicio-de-fixacao
+ * 2 de jun de 2019
+ * 
+ */
+package app;
+
+/**
+ * @author josemalcher
+ *
+ */
+public class app.Program {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package entities;
+
+/**
+ * @author josemalcher
+ *
+ */
+public class Worker {
+
+}

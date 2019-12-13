@@ -1,0 +1,19 @@
+package app;
+
+import java.util.Scanner;
+
+import entities.Rent;
+
+public class app.Program {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		Rent[] vect = new Rent[10];
+		
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+/**
+ * 8-6-Exercicio-resolvido-1
+ * 1 de jun de 2019
+ * José Malcher Jr.
+ * contato@josemalcher.net
+ */
+package entities;
+
+/**
+ * @author josemalcher
+ *
+ */
+public class Worker {
+
+}

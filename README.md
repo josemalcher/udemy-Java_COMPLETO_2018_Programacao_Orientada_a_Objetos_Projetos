@@ -5668,7 +5668,37 @@ Checklist:
     - Data Structures Topics:  
 - Matrix  
 
-#### 11.6
+#### 11.6 - 147. Camada Chess e imprimindo o tabuleiro
+
+Chess layer and printing the board
+``` 
+8 - - - - - - - -
+7 - - - - - - - -
+6 - - - - - - - -
+5 - - - - - - - -
+4 - - - - - - - -
+3 - - - - - - - -
+2 - - - - - - - -
+1 - - - - - - - -
+a b c d e f g h
+````
+
+Checklist:
+- Methods: Board.Piece(row, column) and Board.Piece(position)
+- Enum Chess.Color
+- Class Chess.ChessPiece [public]
+- Class Chess.ChessMatch [public]
+- Class ChessConsole.UI
+- OOP Topics:
+    - Enumerations
+    - Encapsulation / Access Modifiers
+    - Inheritance
+    - Downcasting
+    - Static members
+    - Layers pattern
+- Data Structures Topics:
+    - Matrix
+
 #### 11.7
 #### 11.8
 #### 11.9

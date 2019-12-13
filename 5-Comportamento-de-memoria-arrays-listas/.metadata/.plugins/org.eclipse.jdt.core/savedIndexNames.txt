@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+/home/josemalcher/Documentos/workspace-JAVA/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/5-Comportamento-de-memoria-arrays-listas/.metadata/.plugins/org.eclipse.jdt.core
+636838747.index
+3543925381.index
+2373022823.index
+430901435.index
+2293030615.index
+307651762.index
+3299984840.index
+3251467686.index
+1826512763.index

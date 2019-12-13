@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/josemalcher/Documentos/workspace-JAVA/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/6-Topicos-especiais-em-Java/.metadata/.plugins/org.eclipse.jdt.core
+401609015.index
+3251467686.index
+2616662862.index

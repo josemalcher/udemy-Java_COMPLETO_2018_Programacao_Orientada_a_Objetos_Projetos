@@ -1,0 +1,12 @@
+/**
+ * ${project_name}
+ * ${user}
+ * ${date}
+ * ${name:git_config(user.name)}
+ * ${email:git_config(user.email)}
+ */
+package entities;
+
+public class Worker {
+
+}
