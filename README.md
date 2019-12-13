@@ -5657,7 +5657,17 @@ Checklist:
     - ToString (Object / overriding)
 
 
-#### 11.5
+#### 11.5 - 146. Começando a implementar Board e Piece
+
+Starting to implement Board and Piece  
+Checklist:  
+- Classes Piece, Board [public]  
+- OOP Topics:  
+    - Associations  
+    - Encapsulation / Access Modifiers  
+    - Data Structures Topics:  
+- Matrix  
+
 #### 11.6
 #### 11.7
 #### 11.8
