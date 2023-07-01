@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="">
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="Reiniciando 2023 o Curso!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -27,8 +27,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="josemalcher &lt;contato@josemalcher.net&gt;" />
         <option value="José Malcher Jr &lt;contato@josemalcher.net&gt;" />
+        <option value="josemalcher &lt;contato@josemalcher.net&gt;" />
         <option value="José Stélio R. Malcher Junior &lt;contato@josemalcher.net&gt;" />
       </list>
     </option>
@@ -55,7 +55,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -192,7 +192,7 @@
       <workItem from="1575993896062" duration="1811000" />
       <workItem from="1576105284937" duration="1186000" />
       <workItem from="1576193389810" duration="4300000" />
-      <workItem from="1688175277280" duration="2173000" />
+      <workItem from="1688175277280" duration="7134000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -341,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Reiniciando 2023 o Curso!">
+      <option name="closed" value="true" />
+      <created>1688178249119</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688178249119</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +368,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="9.3. Herança" />
     <MESSAGE value="9.4. Upcasting e downcasting" />
@@ -382,7 +391,8 @@
     <MESSAGE value="10.11. Exercício de fixação" />
     <MESSAGE value="11.4 - First class: Position" />
     <MESSAGE value="146. Começando a implementar Board e Piece" />
-    <option name="LAST_COMMIT_MESSAGE" value="146. Começando a implementar Board e Piece" />
+    <MESSAGE value="Reiniciando 2023 o Curso!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reiniciando 2023 o Curso!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
