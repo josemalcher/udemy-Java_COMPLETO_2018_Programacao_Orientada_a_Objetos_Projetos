@@ -1,8 +1,0 @@
-INDEX VERSION 1.131+/home/josemalcher/Documentos/workspace-JAVA/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/2-Apresentacao-da-linguagem-Java-e-topicos-basicos/.metadata/.plugins/org.eclipse.jdt.core
-2655396786.index
-17546553.index
-2730067347.index
-4245337317.index
-379274238.index
-686348499.index
-1399125583.index

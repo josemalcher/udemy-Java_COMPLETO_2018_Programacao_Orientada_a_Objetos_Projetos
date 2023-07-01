@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+/home/josemalcher/Documentos/workspace-JAVA/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos/8-Enumeracoes-composicao/.metadata/.plugins/org.eclipse.jdt.core
-1139902639.index
-2638406717.index
-699408719.index
-3251467686.index
-3761817212.index
