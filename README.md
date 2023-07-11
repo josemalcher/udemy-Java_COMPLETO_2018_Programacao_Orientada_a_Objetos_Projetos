@@ -65,6 +65,9 @@ Curso mais didático e completo de Java e OO, UML, JDBC, JavaFX, Spring Boot, JP
 
 - 9 Visão geral do capítulo
 - 10 Material de apoio do capítulo
+
+    - [MaterialApoio/02-conceitos-de-programacao.pdf](MaterialApoio/02-conceitos-de-programacao.pdf)
+
 - 11 Entendendo as versões do Java
 - 12 Histórico e edições de Java
 - 13 JDK / JVM - Máquina Virtual do Java
