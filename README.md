@@ -85,10 +85,40 @@ Curso mais didático e completo de Java e OO, UML, JDBC, JavaFX, Spring Boot, JP
 
 - 18 Visão geral do capítulo
 - 19 Material de apoio do capítulo
+
+    - [MaterialApoio/04-estrutura-sequencial.pdf](MaterialApoio/04-estrutura-sequencial.pdf)
+
 - 20 Expressões aritméticas
 - 21 Variáveis e tipos básicos em Java
 - 22 As três operações básicas de programação
 - 23 Saída de dados em Java
+
+```
+Exercício de fixação
+Em um novo programa, inicie as seguintes variáveis:
+String product1 = "Computer";
+String product2 = "Office desk";
+int age = 30;
+int code = 5290;
+char gender = 'F';
+double price1 = 2100.0;
+double price2 = 650.50;
+double measure = 53.234567;
+
+Em seguida, usando os valores das variáveis, produza a seguinte saída na tela do console:
+
+Products:
+Computer, which price is $ 2100,00
+Office desk, which price is $ 650,50
+Record: 30 years old, code 5290 and gender: F
+Measue with eight decimal places: 53,23456700
+Rouded (three decimal places): 53,235
+US decimal point: 53.235
+```
+
+[Secao-04-Estruturasequencial/P_023_Saida_de_dados_em_Java](Secao-04-Estruturasequencial/P_023_Saida_de_dados_em_Java)
+
+
 - 24 Processamento de dados em Java, Casting
 - 25 Entrada de dados em Java - Parte 1
 - 26 Entrada de dados em Java - Parte 2
