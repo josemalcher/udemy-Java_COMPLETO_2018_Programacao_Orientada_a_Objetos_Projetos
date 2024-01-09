@@ -350,15 +350,136 @@ RETANGULO: 132.080
 
 - 30 Visão geral do capítulo
 - 31 Material de apoio do capítulo
+
+[/MaterialApoio/05-estrutura-condicional%20(1).pdf](/MaterialApoio/05-estrutura-condicional%20(1).pdf)
+
 - 32 Expressões comparativas
 - 33 Expressões lógicas
 - 34 Estrutura condicional (if-else)
 - 35 AVISO: exercícios para iniciantes PARTE 2
 - 36 Exercícios para Iniciantes - PARTE 2
+
+Exercício 01
+
+```
+Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
+Exemplos:
+Entrada: -10 
+Saída: NEGATIVO
+Entrada:  8 
+Saída: NAO NEGATIVO
+Entrada:  0 
+Saída: NAO NEGATIVO
+```
+
+[/Secao-05-Estrutura_condicional/Exercicio_01/](/Secao-05-Estrutura_condicional/Exercicio_01/)
+
+Exercício 02
+
+```
+Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
+Exemplos:
+Entrada: 12 
+Saída: PAR
+Entrada: -27 
+Saída: IMPAR
+Entrada: 0 
+Saída: PAR
+```
+
+[/Secao-05-Estrutura_condicional/Exercicio_02/](/Secao-05-Estrutura_condicional/Exercicio_02/)
+
+Exercício 03
+
+```
+Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao
+Multiplos", indicando se os valores lidos são múltiplos entre si. Atenção: os números devem poder ser digitados em ordem crescente ou decrescente.
+
+Exemplos:
+Entrada: 6 24 
+Saída: Sao Multiplos
+Entrada: 6 25 
+Saída: Nao sao Multiplos
+Entrada: 24 6 
+Saída:Sao Multiplos
+```
+
+Exercício 04
+
+```
+Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
+Exemplos:
+Entrada: 16 2 
+Saída: O JOGO DUROU 10 HORA(S)
+Entrada: 0 0 
+Saída:O JOGO DUROU 24 HORA(S)
+Entrada: 2 16 
+Saída:O JOGO DUROU 14 HORA(S)
+```
+
+[/Secao-05-Estrutura_condicional/Exercicio_04/](/Secao-05-Estrutura_condicional/Exercicio_04/)
+
+Exercício 05
+
+```
+Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A seguir, calcule e mostre o valor da conta a pagar.
+```
+
+![/img/exerc_05_05.png](/img/exerc_05_05.png)
+
+```
+Exemplos:
+Entrada: 3 2 
+Saída: Total: R$ 10.00
+Entrada: 2 3 
+Saída: Total: R$ 13.50
+```
+
 - 37 Sintaxe opcional - operadores de atribuição cumulativa
 - 38 Sintaxe opcional - switch-case
+
+```
+switch ( expressão ) {
+    case valor1:
+        comando1
+        comando2
+        break;
+    case valor2:
+        comando3
+        comando4
+        break;
+    default:
+        comando5
+        comando6
+        break;
+}
+```
+
 - 39 Expressão condicional ternária
+
+```java
+double preco = 34.5;
+double desconto;
+if (preco < 20.0) {
+    desconto = preco * 0.1;
+}
+else {
+    desconto = preco * 0.05;
+}
+```
+
+```java
+double preco = 34.5;
+double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
+```
+
 - 40 Escopo e inicialização
+
+```
+• Escopo de uma variável: é a região do programa onde a variável é válida, ou seja, onde ela pode ser referenciada.
+• Uma variável não pode ser usada se não for iniciada.
+• Falaremos de escopo de métodos no Capítulo 5
+```
 
 [Voltar ao Índice](#indice)
 
