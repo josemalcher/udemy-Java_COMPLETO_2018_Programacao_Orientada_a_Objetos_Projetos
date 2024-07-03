@@ -94,6 +94,7 @@ Curso mais didático e completo de Java e OO, UML, JDBC, JavaFX, Spring Boot, JP
 - 23 Saída de dados em Java
 
 ```
+```
 Exercício de fixação
 Em um novo programa, inicie as seguintes variáveis:
 String product1 = "Computer";
@@ -488,20 +489,155 @@ double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
 
 ## <a name="parte6">6 - Seção 6: Estruturas repetitivas</a>
 
-- 41 Visão geral do capítulo
-- 42 Material de apoio do capítulo
-- 43 Como utilizar o DEBUG no Eclipse (execução passo a passo)
-- 44 Estrutura repetitiva enquanto (while)
-- 45 Teste de mesa com estrutura repetitiva enquanto
-- 46 Exercícios de teste de mesa com while
-- 47 AVISO: exercícios para iniciantes PARTE 3
-- 48 Exercícios para Iniciantes - PARTE 3
-- 49 Estrutura repetitiva para (for)
-- 50 Teste de mesa com estrutura repetitiva para
-- 51 Exercícios de testes de mesa com for
-- 52 AVISO: exercícios para iniciantes PARTE 4
-- 53 Exercícios para iniciantes PARTE 4
-- 54 Estrutura repetitiva faça-enquanto (do-while)
+### 42 Visão geral do capítulo
+
+### 43 Material de apoio do capítulo
+
+[Secao-6-Estruturas_repetitivas\00-apoio\06-estruturas-repetitivas.pdf](Secao-6-Estruturas_repetitivas\00-apoio\06-estruturas-repetitivas.pdf)
+
+### 44 Como utilizar o DEBUG no Eclipse (execução passo a passo)
+
+- Para marcar uma linha de breakpoint:
+    - Run -> Toggle Breakpoint
+- Para iniciar o debug:
+    - Botão direito na classe -> Debug as -> Java Application
+- Para executar uma linha:
+    - F6
+- Para interromper o debug: "stop"
+
+### 45 Estrutura repetitiva enquanto (while)
+
+- É uma estrutura de controle que repete um bloco de comandos enquanto uma condição for verdadeira.
+- Quando usar: quando não se sabe previamente a quantidade de repetições que será realizada.
+
+```
+Fazer um programa que lê números inteiros até que um zero seja lido. Ao final mostra a soma dos números lidos.
+```
+
+![img\secao06\06_45_01_while.jpg](img\secao06\06_45_01_while.jpg)
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();
+
+        int soma = 0;
+        while (x != 0) {
+            soma = soma + x;
+            x = sc.nextInt();
+        }
+        System.out.println(soma);
+    }
+}
+```
+
+• Estrutura repetitiva "enquanto"
+• Recomendada quando não se sabe previamente a quantidade de repetições
+• Regra:
+    • V: executa e volta
+    • F: pula fora
+
+### 46 Teste de mesa com estrutura repetitiva enquanto
+
+### 47 Exercícios de teste de mesa com while
+
+### 48 AVISO: exercícios para iniciantes PARTE 3
+
+### 49 Exercícios para Iniciantes - PARTE 3
+
+[Secao-6-Estruturas_repetitivas\00-apoio\02-exercicios3-estrutura-while.pdf](Secao-6-Estruturas_repetitivas\00-apoio\02-exercicios3-estrutura-while.pdf)
+
+### 50 Estrutura repetitiva para (for)
+
+É uma estrutura de controle que repete um bloco de comandos para um certo intervalo de valores.
+Quando usar: quando se sabe previamente a quantidade de repetições, ou o intervalo de valores.
+
+Por exemplo:
+
+- Fazer um programa que lê um valor inteiro N e depois N números inteiros. Ao final, mostra a soma dos N números lidos
+
+![img\secao06\06_50_01_for.jpg](img\secao06\06_50_01_for.jpg)
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int soma = 0;
+        for (int i = 0; i < n; i++) {
+            int x = sc.nextInt();
+            soma = soma + x;
+        }
+        System.out.println(soma);
+        sc.close();
+    }
+}
+```
+
+Perceba que a estrutura "para" é ótima para se fazer uma repetição baseada em uma CONTAGEM:
+
+```java
+for (int i=0; i<5; i++) {
+    System.out.println("Valor de i: " + i);
+}
+
+for (int i=4; i>=0; i--) {
+    System.out.println("Valor de i: " + i);
+}
+```
+
+### 51 Teste de mesa com estrutura repetitiva para
+
+### 52 Exercícios de testes de mesa com for
+
+### 53 AVISO: exercícios para iniciantes PARTE 4
+
+### 54 Exercícios para iniciantes PARTE 4
+
+[Secao-6-Estruturas_repetitivas\00-apoio\02-exercicios4-estrutura-for.pdf](Secao-6-Estruturas_repetitivas\00-apoio\02-exercicios4-estrutura-for.pdf)
+
+### 55 Estrutura repetitiva faça-enquanto (do-while)
+
+- Menos utilizada, mas em alguns casos se encaixa melhor ao problema.
+- O bloco de comandos executa pelo menos uma vez, pois a condição é verificada no final.
+
+![img\secao06\06_55_01_do.jpg](img\secao06\06_55_01_do.jpg)
+
+```
+Problema exemplo:
+Fazer um programa para ler uma temperatura em Celsius e mostrar o equivalente em
+Fahrenheit. Perguntar se o usuário deseja repetir (s/n). Caso o usuário digite "s", repetir o
+programa.
+Fórmula: F = ( 9C/5 ) + 32
+```
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        char resp;
+        do {
+            System.out.println("Digite a temperatura em Celcius: ");
+            double C = sc.nextDouble();
+            double F = 9.0 * C / 5.0 + 32.0;
+
+            System.out.printf("Equivalente em Fahrenheit: %.1f%n", F);
+            System.out.print("Deseja repetir (s/n)?");
+
+            resp = sc.next().charAt(0);
+
+        } while (resp != 'n');
+
+        sc.close();
+    }
+}
+```
 
 [Voltar ao Índice](#indice)
 
