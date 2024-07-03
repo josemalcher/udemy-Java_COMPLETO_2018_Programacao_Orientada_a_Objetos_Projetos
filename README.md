@@ -493,7 +493,7 @@ double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
 
 ### 43 Material de apoio do capítulo
 
-[Secao-6-Estruturas_repetitivas\00-apoio\06-estruturas-repetitivas.pdf](Secao-6-Estruturas_repetitivas\00-apoio\06-estruturas-repetitivas.pdf)
+[Secao-06-Estruturas_repetitivas\00-apoio\06-estruturas-repetitivas.pdf](Secao-06-Estruturas_repetitivas\00-apoio\06-estruturas-repetitivas.pdf)
 
 ### 44 Como utilizar o DEBUG no Eclipse (execução passo a passo)
 
@@ -548,7 +548,7 @@ public class Main {
 
 ### 49 Exercícios para Iniciantes - PARTE 3
 
-[Secao-6-Estruturas_repetitivas\00-apoio\02-exercicios3-estrutura-while.pdf](Secao-6-Estruturas_repetitivas\00-apoio\02-exercicios3-estrutura-while.pdf)
+[Secao-06-Estruturas_repetitivas\00-apoio\02-exercicios3-estrutura-while.pdf](Secao-06-Estruturas_repetitivas\00-apoio\02-exercicios3-estrutura-while.pdf)
 
 ### 50 Estrutura repetitiva para (for)
 
@@ -598,7 +598,7 @@ for (int i=4; i>=0; i--) {
 
 ### 54 Exercícios para iniciantes PARTE 4
 
-[Secao-6-Estruturas_repetitivas\00-apoio\02-exercicios4-estrutura-for.pdf](Secao-6-Estruturas_repetitivas\00-apoio\02-exercicios4-estrutura-for.pdf)
+[Secao-06-Estruturas_repetitivas\00-apoio\02-exercicios4-estrutura-for.pdf](Secao-06-Estruturas_repetitivas\00-apoio\02-exercicios4-estrutura-for.pdf)
 
 ### 55 Estrutura repetitiva faça-enquanto (do-while)
 
@@ -646,12 +646,62 @@ public class Main {
 
 ## <a name="parte7">7 - Seção 7: Outros tópicos básicos sobre Java</a>
 
-- 55 Material de apoio do capítulo
-- 56 Restrições e convenções para nomes
-- 57 Operadores bitwise
-- 58 Funções interessantes para String
-- 59 Comentários em Java (básico)
-- 60 Funções (sintaxe)
+### 56 Material de apoio do capítulo
+
+[Secao-07-Outros_topicos_basicos_sobre_Java\00-apoio\07-outros-topicos-basicos.pdf](Secao-07-Outros_topicos_basicos_sobre_Java\00-apoio\07-outros-topicos-basicos.pdf)
+
+### 57 Restrições e convenções para nomes
+
+- Não pode começar com dígito: use uma letra ou _
+- Não usar acentos ou til
+- Não pode ter espaço em branco
+- Sugestão: use nomes que tenham um significado
+
+Convenções
+- Camel Case: lastName
+    - pacotes
+    - atributos
+    - métodos
+    - variáveis e parâmetros
+- Pascal Case: ProductService
+    - classes
+
+### 58 Operadores bitwise
+
+![img\secao07\07_05_01_bitwise.jpg](img\secao07\07_05_01_bitwise.jpg)
+
+![img\secao07\07_05_02_bitwise.jpg](img\secao07\07_05_02_bitwise.jpg)
+
+```java
+import java.util.Scanner;
+public class Program {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int mask = 0b100000;
+        int n = sc.nextInt();
+        if ((n & mask) != 0) {
+            System.out.println("6th bit is true!");
+        }
+        else {
+            System.out.println("6th bit is false");
+        }
+        sc.close();
+    }
+}
+```
+
+### 59 Funções interessantes para String
+
+- Formatar: toLowerCase(), toUpperCase(), trim()
+- Recortar: substring(inicio), substring(inicio, fim)
+- Substituir: Replace(char, char), Replace(string, string)
+- Buscar: IndexOf, LastIndexOf
+- str.Split(" ")
+
+### 60 Comentários em Java (básico)
+
+### 61 Funções (sintaxe)
+
 
 [Voltar ao Índice](#indice)
 
