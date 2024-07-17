@@ -819,18 +819,146 @@ public class Main {
 
 ## <a name="parte8">8 - Seção 8: Introdução à Programação Orientada a Objetos</a>
 
-- 61 Visão geral do capítulo
-- 62 Material de apoio do capítulo
-- 63 Resolvendo um problema sem orientação a objetos
-- 64 Criando uma classe com três atributos para representar melhor o triângulo
-- 65 Criando um método para obtermos os benefícios de reaproveitamento e delegação
-- 66 Começando a resolver um segundo problema exemplo
-- 67 Object e toString
-- 68 Finalizando o programa
-- 69 Exercícios de fixação
-- 70 Membros estáticos - Parte 1
-- 71 Membros estáticos - Parte 2
-- 72 Exercício de fixação
+### 62 Visão geral do capítulo
+
+### 63 Material de apoio do capítulo
+
+[Secao-08-Introducao_a_Programacao_Orientada_a_Objetos\00-apoio\03-classes-atributos-membros-staticos.pdf](Secao-08-Introducao_a_Programacao_Orientada_a_Objetos\00-apoio\03-classes-atributos-membros-staticos.pdf)
+
+### 64 Resolvendo um problema sem orientação a objetos
+
+```java
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        double xA, xB, xC, yA, yB, yC;
+
+        System.out.println("Enter the measures of triangle X: ");
+        xA = sc.nextDouble();
+        xB = sc.nextDouble();
+        xC = sc.nextDouble();
+
+        System.out.println("Enter the measures of triangle Y: ");
+        yA = sc.nextDouble();
+        yB = sc.nextDouble();
+        yC = sc.nextDouble();
+        double p = (xA + xB + xC) / 2.0;
+        double areaX = Math.sqrt(p * (p - xA) * (p - xB) * (p - xC));
+        p = (yA + yB + yC) / 2.0;
+        double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
+
+        System.out.printf("Triangle X area: %.4f%n", areaX);
+        System.out.printf("Triangle Y area: %.4f%n", areaY);
+
+        if (areaX > areaY) {
+            System.out.println("Larger area: X");
+        }
+        else {
+            System.out.println("Larger area: Y");
+        }
+        sc.close();
+
+    }
+}
+```
+
+### 65 Criando uma classe com três atributos para representar melhor o triângulo
+
+Classe
+
+- É um tipo estruturado que pode conter (membros):
+    - Atributos (dados / campos)
+    - Métodos (funções / operações)
+
+- A classe também pode prover muitos outros recursos, tais como:
+    - Construtores
+    - Sobrecarga
+    - Encapsulamento
+    - Herança
+    - Polimorfismo
+
+- Exemplos:
+    - Entidades: Produto, Cliente, Triangulo
+    - Serviços: ProdutoService, ClienteService, EmailService, StorageService
+    - Controladores: ProdutoController, ClienteController
+    - Utilitários: Calculadora, Compactador
+    - Outros (views, repositórios, gerenciadores, etc.)
+
+
+```java
+package entities;
+
+public class Triangle {
+    public double a;
+    public double b;
+    public double c;
+}
+
+```
+
+```java
+import entities.Triangle;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+        Triangle x, y;
+        x = new Triangle();
+        y = new Triangle();
+
+        System.out.println("Enter the measures of triangle X: ");
+        x.a = sc.nextDouble();
+        x.b = sc.nextDouble();
+        x.c = sc.nextDouble();
+        System.out.println("Enter the measures of triangle Y: ");
+        y.a = sc.nextDouble();
+        y.b = sc.nextDouble();
+        y.c = sc.nextDouble();
+        double p = (x.a + x.b + x.c) / 2.0;
+        double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
+        p = (y.a + y.b + y.c) / 2.0;
+        double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+
+        System.out.printf("Triangle X area: %.4f%n", areaX);
+        System.out.printf("Triangle Y area: %.4f%n", areaY);
+        if (areaX > areaY) {
+            System.out.println("Larger area: X");
+        }
+        else {
+            System.out.println("Larger area: Y");
+        }
+        sc.close();
+    }
+}
+```
+
+### 66 Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
+### 67 Começando a resolver um segundo problema exemplo
+
+### 68 Object e toString
+
+### 69 Finalizando o programa
+
+### 70 Exercícios de fixação
+
+### 71 Membros estáticos - Parte 1
+
+### 72 Membros estáticos - Parte 2
+
+### 73 Exercício de fixação
+
 
 [Voltar ao Índice](#indice)
 
