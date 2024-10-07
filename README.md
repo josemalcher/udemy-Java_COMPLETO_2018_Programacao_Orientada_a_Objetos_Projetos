@@ -898,6 +898,11 @@ public class Triangle {
     public double a;
     public double b;
     public double c;
+
+    public double area() {
+        double p = (a + b + c) / 2.0;
+        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+    }
 }
 
 ```
@@ -925,10 +930,9 @@ public class Main {
         y.a = sc.nextDouble();
         y.b = sc.nextDouble();
         y.c = sc.nextDouble();
-        double p = (x.a + x.b + x.c) / 2.0;
-        double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
-        p = (y.a + y.b + y.c) / 2.0;
-        double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+
+        double areaX = x.area();
+        double areaY = y.area();
 
         System.out.printf("Triangle X area: %.4f%n", areaX);
         System.out.printf("Triangle Y area: %.4f%n", areaY);
@@ -943,7 +947,36 @@ public class Main {
 }
 ```
 
+Quais são os benefícios de se calcular a área de um triângulo por meio de um MÉTODO dentro da CLASSE Triangle?
+
+1) Reaproveitamento de código: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no programa principal.
+
+2) Delegação de responsabilidades: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
+
 ### 66 Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
+Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
+
+• Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no
+estoque)  
+• Realizar uma entrada no estoque e mostrar novamente os dados do produto  
+• Realizar uma saída no estoque e mostrar novamente os dados do produto  
+
+Para resolver este problema, você deve criar uma CLASSE conforme projeto ao lado:
+
+![uml](/img/secao08/secao_8_uml_product_.png)
+
+```
+Enter product data:
+Name: TV
+Price: 900.00
+Quantity in stock: 10
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+Enter the number of products to be added in stock: 5
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+Enter the number of products to be removed from stock: 3
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
+```
 
 ### 67 Começando a resolver um segundo problema exemplo
 
@@ -951,7 +984,127 @@ public class Main {
 
 ### 69 Finalizando o programa
 
+
+```java
+package entities;
+
+public class Product {
+    public String name;
+    public double price;
+    public int quantity;
+
+    public double totalValueInStock() {
+        return price * quantity;
+    }
+
+    public void addProducts(int quantity) {
+        this.quantity += quantity;
+    }
+
+    public void removeProducts(int quantity) {
+        this.quantity -= quantity;
+    }
+
+    public String toString() {
+        return name
+                + ", $ "
+                + String.format("%.2f", price)
+                + ", "
+                + quantity
+                + " units, Total: $ "
+                + String.format("%.2f", totalValueInStock());
+    }
+}
+
+```
+
+```java
+import entities.Product;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        Product product = new Product();
+
+        System.out.println("Enter product data: ");
+        System.out.print("Name: ");
+        product.name = sc.nextLine();
+        System.out.print("Price: ");
+        product.price = sc.nextDouble();
+        System.out.print("Quantity in stock: ");
+        product.quantity = sc.nextInt();
+        System.out.println();
+        System.out.println("Product data: " + product);
+        System.out.println();
+        
+        System.out.print("Enter the number of products to be added in stock: ");
+        int quantity = sc.nextInt();
+        product.addProducts(quantity);
+        System.out.println();
+        System.out.println("Updated data: " + product);
+        System.out.println();
+        
+        System.out.print("Enter the number of products to be removed from stock: ");
+        quantity = sc.nextInt();
+        product.removeProducts(quantity);
+
+        System.out.println();
+        System.out.println("Updated data: " + product);
+        sc.close();
+    }
+}
+```
+
 ### 70 Exercícios de fixação
+
+- Exercício 1
+
+Fazer um programa para ler os valores da largura e altura
+de um retângulo. Em seguida, mostrar na tela o valor de
+sua área, perímetro e diagonal. Usar uma classe como
+mostrado no projeto ao lado.
+
+![alt text](/img/secao08/sex_8_exer_1.png)
+
+```
+Enter rectangle width and height:
+3.00
+4.00
+AREA = 12.00
+PERIMETER = 14.00
+DIAGONAL = 5.00
+```
+
+- Exercício 2
+
+Fazer um programa para ler os dados de um funcionário (nome, salário bruto e imposto). Em
+seguida, mostrar os dados do funcionário (nome e salário líquido). Em seguida, aumentar o
+salário do funcionário com base em uma porcentagem dada (somente o salário bruto é
+afetado pela porcentagem) e mostrar novamente os dados do funcionário. Use a classe
+projetada abaixo.
+
+![alt text](/img/secao08/sec8_exer_2.png)
+
+```
+Name: Joao Silva
+Gross salary: 6000.00
+Tax: 1000.00
+Employee: Joao Silva, $ 5000.00
+Which percentage to increase salary? 10.0
+Updated data: Joao Silva, $ 5600.00
+```
+
+- Exercício 3
+
+Fazer um programa para ler o nome de um aluno e as três notas que ele obteve nos três trimestres do ano (primeiro trimestre vale 30 e o segundo e terceiro valem 35 cada). Ao final, mostrar qual a nota final do aluno no ano. Dizer também se o aluno está aprovado (PASS) ou não (FAILED) e, em caso negativo, quantos pontos faltam para o aluno obter o mínimo para ser aprovado (que é 60% da nota). Você deve criar uma classe Student para resolver este problema.
+
+![alt text](/img/secao08/sec8_exer_3.png)
+
 
 ### 71 Membros estáticos - Parte 1
 
