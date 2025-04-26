@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="Reiniciando 2023 o Curso!">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/00-apoio/03-correcao-exercicios-fixacao.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex/test/ProgramEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex/test/ProgramRetangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex/test/ProgramaEstudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex1/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex1/entities/Estudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex1/entities/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -36,9 +42,16 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="1Of90O66qWQ3seGfXA7Xg8swMLJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,21 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/josemalcher/Documentos/workspaces/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ProgramEmployee.executor": "Run",
+    "Application.ex.test.Program.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/josem/Documents/workspace/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model.exception" />
@@ -71,7 +89,7 @@
       <recent name="$PROJECT_DIR$/9-Heranca-e-polimorfismo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.ProgramaEstudante">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.App" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -98,12 +116,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProgramEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex.test.ProgramEmployee" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramRetangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex.test.ProgramRetangle" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramaEstudante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex.test.ProgramaEstudante" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,6 +183,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramaEstudante" />
+        <item itemvalue="Application.ProgramEmployee" />
+        <item itemvalue="Application.ProgramRetangle" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Programm" />
       </list>
@@ -142,6 +202,14 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -198,6 +266,9 @@
       <workItem from="1688175277280" duration="7134000" />
       <workItem from="1688995628632" duration="2656000" />
       <workItem from="1689019815688" duration="2672000" />
+      <workItem from="1745583375989" duration="834000" />
+      <workItem from="1745584232627" duration="3574000" />
+      <workItem from="1745622442251" duration="5790000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>

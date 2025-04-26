@@ -947,20 +947,24 @@ public class Main {
 }
 ```
 
+
+### 66 Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
 Quais são os benefícios de se calcular a área de um triângulo por meio de um MÉTODO dentro da CLASSE Triangle?
 
 1) Reaproveitamento de código: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no programa principal.
 
 2) Delegação de responsabilidades: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
 
-### 66 Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
+### 67 Começando a resolver um segundo problema exemplo
+
 
 Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
 
-• Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no
-estoque)  
+• Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque)  
 • Realizar uma entrada no estoque e mostrar novamente os dados do produto  
-• Realizar uma saída no estoque e mostrar novamente os dados do produto  
+• Realizar uma saída no estoque e mostrar novamente os dados do produto
 
 Para resolver este problema, você deve criar uma CLASSE conforme projeto ao lado:
 
@@ -978,9 +982,15 @@ Enter the number of products to be removed from stock: 3
 Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
 ```
 
-### 67 Começando a resolver um segundo problema exemplo
-
 ### 68 Object e toString
+- 
+- Toda classe em Java é uma subclasse da classe Object 
+- Object possui os seguintes métodos:
+  - getClass- retorna o tipo do objeto 
+  - equals - compara se o objeto é igual a outro
+  - hashCode - retorna um código hash do objeto
+  - toString - converte o objeto para string
+
 
 ### 69 Finalizando o programa
 
