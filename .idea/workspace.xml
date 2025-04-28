@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="Reiniciando 2023 o Curso!">
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/00-apoio/03-correcao-exercicios-fixacao.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex/test/ProgramEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex/test/ProgramRetangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex/test/ProgramaEstudante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex1/entities/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex1/entities/Estudante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/exercicios/ex1/entities/Rectangle.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="ajutes">
+      <change afterPath="$PROJECT_DIR$/Secao-03-IntroducaoalinguagemJava/versao2/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao1/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao2/app/ProgramV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao2/util/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/71_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -63,7 +61,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ProgramEmployee.executor": "Run",
+    "Application.ProgramV2.executor": "Run",
+    "Application.ProgramaEstudante.executor": "Run",
     "Application.ex.test.Program.executor": "Run",
+    "Application.versao1.Program.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -88,21 +89,14 @@
       <recent name="C:\Users\José Malcher Jr\Documents\02-workspaces\workspace-JAVA\udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos\10-Tratamento-de-excecoes\10-9-Segunda-solucao-ruim" />
       <recent name="$PROJECT_DIR$/9-Heranca-e-polimorfismo" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\Documents\workspace\udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos\img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="versao2.app" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ProgramaEstudante">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.App" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProgramV2">
     <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -142,6 +136,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProgramV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="versao1.ProgramV2" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="versao1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -168,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Programm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.Programm" />
+    <configuration name="versao1.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="versao1.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="versao1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramV2" />
+        <item itemvalue="Application.versao1.Program" />
         <item itemvalue="Application.ProgramaEstudante" />
         <item itemvalue="Application.ProgramEmployee" />
         <item itemvalue="Application.ProgramRetangle" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Programm" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +275,8 @@
       <workItem from="1689019815688" duration="2672000" />
       <workItem from="1745583375989" duration="834000" />
       <workItem from="1745584232627" duration="3574000" />
-      <workItem from="1745622442251" duration="5790000" />
+      <workItem from="1745622442251" duration="6208000" />
+      <workItem from="1745802325569" duration="3837000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -425,7 +433,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688178249119</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="70 Exercícios de fixação">
+      <option name="closed" value="true" />
+      <created>1745667302568</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1745667302568</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ajutes">
+      <option name="closed" value="true" />
+      <created>1745667393773</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1745667393773</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +492,9 @@
     <MESSAGE value="11.4 - First class: Position" />
     <MESSAGE value="146. Começando a implementar Board e Piece" />
     <MESSAGE value="Reiniciando 2023 o Curso!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reiniciando 2023 o Curso!" />
+    <MESSAGE value="70 Exercícios de fixação" />
+    <MESSAGE value="ajutes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajutes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
