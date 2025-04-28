@@ -1509,7 +1509,62 @@ Account 7801, Holder: Maria Brown, Balance: $ -3.00
 
 ### 86 Tipos referência vs. tipos valor
 
+Classes são tipos referência
+
+Variáveis cujo tipo são classes não devem ser entendidas como caixas, mas sim “tentáculos” (ponteiros) para caixas
+
+![img/86_1_classReferencia.png](img/86_1_classReferencia.png)
+
+Valor "null"
+
+Tipos referência aceitam o valor "null", que indica que a variável aponta pra ninguém.
+
+![img.png](img/86_2_valorNull.png)
+
+Tipos primitivos são tipos valor
+
+Em Java, tipos primitivos são tipos valor. Tipos valor são CAIXAS e não ponteiros.
+
+![img.png](img/86_3_tiposValor.png)
+
+![img.png](img/86_3_tiposValor_2.png)
+
+Tipos primitivos e inicialização
+
+```java
+int p;
+System.out.println(p); // erro: variável não iniciada
+
+p = 10;
+System.out.println(p);
+```
+Valores padrão
+
+- Quando alocamos (new) qualquer tipo estruturado (classe ou array), são atribuídos valores padrão aos seus elementos
+  - números: 0
+  - boolean: false
+  - char: caractere código 0
+  - objeto: null
+
+![img.png](img/85_5_valorpadrao.png)
+
+Tipos referência vs. tipos valor
+
+![img.png](img/86_6_ref_valor.png)
+
 ### 87 Desalocação de memória - garbage collector e escopo local
+
+- É um processo que automatiza o gerenciamento de memória de um   programa em execução
+- O garbage collector monitora os objetos alocados dinamicamente pelo programa (no heap), desalocando aqueles que não estão mais sendo utilizados.
+
+Desalocação por garbage collector
+
+![img.png](img/87_1_garbageColetor.png)
+
+- Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo garbage collector
+- Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução
+
+
 
 ### 88 Vetores - Parte 1
 

@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="78 Encapsulamento">
-      <change afterPath="$PROJECT_DIR$/img/81_1_account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVk2a.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="83 Correção do exercício de fixação - Parte 2">
+      <change afterPath="$PROJECT_DIR$/img/85_5_valorpadrao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/86_1_classReferencia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/86_2_valorNull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/86_3_tiposValor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/86_3_tiposValor_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/86_6_ref_valor.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -268,7 +272,7 @@
       <workItem from="1745583375989" duration="834000" />
       <workItem from="1745584232627" duration="3574000" />
       <workItem from="1745622442251" duration="6208000" />
-      <workItem from="1745802325569" duration="13699000" />
+      <workItem from="1745802325569" duration="18443000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -465,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745842268979</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="83 Correção do exercício de fixação - Parte 2">
+      <option name="closed" value="true" />
+      <created>1745849831515</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1745849831515</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +498,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="9.5. Sobreposição, palavra super, anotação @Override" />
     <MESSAGE value="9.6. Classes e métodos final" />
     <MESSAGE value="9.7. Introdução ao polimorfismo" />
     <MESSAGE value="9.8. Exercício resolvido" />
@@ -511,7 +522,8 @@
     <MESSAGE value="71 Membros estáticos - Parte 1" />
     <MESSAGE value="75 Construtores" />
     <MESSAGE value="78 Encapsulamento" />
-    <option name="LAST_COMMIT_MESSAGE" value="78 Encapsulamento" />
+    <MESSAGE value="83 Correção do exercício de fixação - Parte 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="83 Correção do exercício de fixação - Parte 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
