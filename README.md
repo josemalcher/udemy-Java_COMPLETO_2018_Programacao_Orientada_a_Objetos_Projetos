@@ -1323,9 +1323,99 @@ public static void main(String[] args) {
 
 ### 76 Palavra this
 
+- É uma referência para o próprio objeto
+- Usos comuns:
+  - Diferenciar atributos de variáveis locais 
+  - Passar o próprio objeto como argumento na chamada de um método ou construtor
+
 ### 77 Sobrecarga
 
+- É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de
+parâmetros.
+
+Proposta de melhoria
+
+- Vamos criar um construtor opcional, o qual recebe apenas nome e preço do produto. A quantidade em estoque deste novo produto, por
+  padrão, deverá então ser iniciada com o valor zero.
+
+Nota: é possível também incluir um construtor padrão
+
+
+```java
+public class Product {
+    public String name;
+    public double price;
+    public int quantity;
+
+    public Product() {
+
+    }
+
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public Product(String name, double price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+```
+
 ### 78 Encapsulamento
+
+- É um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
+- Regra de ouro: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
+
+Regra geral básica
+
+- Um objeto NÃO deve expor nenhum atributo (modificador de acesso private)
+- Os atributos devem ser acessados por meio de métodos get e set 
+  - Padrão JavaBeans: https://en.wikipedia.org/wiki/JavaBeans
+
+```java
+public class ProductEncap {
+    private String name;
+    private double price;
+    private int quantity;
+
+    public ProductEncap() {
+
+    }
+
+    public ProductEncap(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public ProductEncap(String name, double price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+```
+
 
 ### 79 Gerando automaticamente construtores, getters e setters com Eclipse
 

@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="71 Membros estáticos - Parte 1">
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao3/ProgramV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao3/util/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/00-apoio/04-construtores-this-sobrecarga-encapsulamento.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo01/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo01/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/79_1_product_uml.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="75 Construtores">
+      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo02/ProgramEncap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo02/entities/ProductEncap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo01/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo01/entities/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +270,7 @@
       <workItem from="1745583375989" duration="834000" />
       <workItem from="1745584232627" duration="3574000" />
       <workItem from="1745622442251" duration="6208000" />
-      <workItem from="1745802325569" duration="7987000" />
+      <workItem from="1745802325569" duration="10759000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -454,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745806259634</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="75 Construtores">
+      <option name="closed" value="true" />
+      <created>1745839590269</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1745839590269</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +480,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="9.3. Herança" />
     <MESSAGE value="9.4. Upcasting e downcasting" />
     <MESSAGE value="9.5. Sobreposição, palavra super, anotação @Override" />
     <MESSAGE value="9.6. Classes e métodos final" />
@@ -500,7 +504,8 @@
     <MESSAGE value="70 Exercícios de fixação" />
     <MESSAGE value="ajutes" />
     <MESSAGE value="71 Membros estáticos - Parte 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="71 Membros estáticos - Parte 1" />
+    <MESSAGE value="75 Construtores" />
+    <option name="LAST_COMMIT_MESSAGE" value="75 Construtores" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

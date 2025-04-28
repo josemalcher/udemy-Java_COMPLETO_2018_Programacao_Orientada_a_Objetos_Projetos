@@ -1,23 +1,43 @@
 package entities;
 
-public class Product {
-    public String name;
-    public double price;
-    public int quantity;
+public class ProductEncap {
+    private String name;
+    private double price;
+    private int quantity;
 
-    public Product() {
+    public ProductEncap() {
 
     }
 
-    public Product(String name, double price) {
+    public ProductEncap(String name, double price) {
         this.name = name;
         this.price = price;
     }
 
-    public Product(String name, double price, int quantity) {
+    public ProductEncap(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
     }
 
     public double totalValueInStock(){
@@ -41,5 +61,4 @@ public class Product {
                 + " units, Total: $ "
                 + String.format("%.2f", totalValueInStock());
     }
-
 }
