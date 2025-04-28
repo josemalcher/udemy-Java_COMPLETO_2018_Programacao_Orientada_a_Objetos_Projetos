@@ -1150,6 +1150,42 @@ Checklist
 
 ### 72 Membros estáticos - Parte 2
 
+
+```java
+package versao3.util;
+
+public class Calculator {
+    public static final double PI = 3.14159;
+
+    public static double volume(double radius) {
+        return 4.0 * PI * radius * radius * radius / 3.0;
+    }
+
+    public static double circumference(double radius) {
+        return 2.0 * PI * radius;
+    }
+}
+
+```
+
+```java
+public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter radius: ");
+        double radius = sc.nextDouble();
+
+        double c = Calculator.circumference(radius);
+        double v = Calculator.volume(radius);
+
+        System.out.printf("Circumference: %.2f%n", c);
+        System.out.printf("Volume: %.2f%n", v);
+        System.out.printf("PI value: %.2f%n", Calculator.PI);
+
+        sc.close();
+```
+
 ### 73 Exercício de fixação
 
 
@@ -1164,7 +1200,126 @@ Checklist
 
 ### 74 Material de apoio do capítulo
 
+[Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/00-apoio/04-construtores-this-sobrecarga-encapsulamento.pdf](Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/00-apoio/04-construtores-this-sobrecarga-encapsulamento.pdf)
+
 ### 75 Construtores
+
+É uma operação especial da classe, que executa no momento da instanciação do objeto
+
+- Usos comuns:
+  - Iniciar valores dos atributos
+  - Permitir ou obrigar que o objeto receba dados / dependências no momento de sua instanciação (injeção de dependência)
+- Se um construtor customizado não for especificado, a classe disponibiliza o construtor padrão:
+  - Product p = new Product();
+- É possível especificar mais de um construtor na mesma classe (sobrecarga)
+
+```
+Problema exemplo:
+
+Enter product data: Name: TV
+Price: 900.00
+Quantity in stock: 10
+
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+
+Enter the number of products to be added in stock: 5
+
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+
+Enter the number of products to be removed from stock: 3
+
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
+
+```
+
+![img.png](img/79_1_product_uml.png)
+
+Proposta de melhoria
+
+Quando executamos o comando abaixo, instanciamos um produto "product" com seus atributos “vazios”:
+
+Com o intuito de evitar a existência de produtos sem nome e sem preço, é possível fazer com que seja “obrigatória” a iniciação desses valores?
+
+```java
+package entities;
+
+public class Product {
+    public String name;
+    public double price;
+    public int quantity;
+
+    public Product(String name, double price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    public double totalValueInStock(){
+        return quantity * price;
+    }
+
+    public void addProduct(int quantity) {
+        this.quantity += quantity;
+    }
+
+    public void removeProduct(int quantity) {
+        this.quantity -= quantity;
+    }
+
+    public String toString() {
+        return name
+                + ", $ "
+                + String.format("%.2f", price)
+                + ", "
+                + quantity
+                + " units, Total: $ "
+                + String.format("%.2f", totalValueInStock());
+    }
+}
+
+```
+
+```java
+public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        // Product product = new Product();
+//        System.out.println("Enter product data: "); System.out.print("Name: ");
+//        product.name = sc.nextLine();
+//        System.out.print("Price: ");
+//        product.price = sc.nextDouble();
+//        System.out.print("Quantity in stock: "); product.quantity = sc.nextInt();
+        System.out.println("Enter product data: ");
+        System.out.print("Name: ");
+        String name = sc.nextLine();
+        System.out.print("Price: ");
+        double price = sc.nextDouble();
+        System.out.print("Quantity in stock: ");
+        int quantity = sc.nextInt();
+
+        Product product = new Product(name, price, quantity);
+
+        System.out.println();
+        System.out.println("Product data: " + product);
+
+        System.out.println();
+        System.out.print("Enter the number of products to be added in stock: "); quantity = sc.nextInt();
+        product.addProduct(quantity);
+
+        System.out.println();
+        System.out.println("Updated data: " + product);
+
+        System.out.println();
+        System.out.print("Enter the number of products to be removed from stock: "); quantity = sc.nextInt();
+        product.removeProduct(quantity);
+
+        System.out.println();
+        System.out.println("Updated data: " + product);
+
+        sc.close();
+    }
+```
 
 ### 76 Palavra this
 

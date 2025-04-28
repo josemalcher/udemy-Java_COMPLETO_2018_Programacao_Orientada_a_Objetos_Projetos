@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="ajutes">
-      <change afterPath="$PROJECT_DIR$/Secao-03-IntroducaoalinguagemJava/versao2/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao1/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao2/app/ProgramV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao2/util/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/71_1.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="71 Membros estáticos - Parte 1">
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao3/ProgramV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-08-Introducao_a_Programacao_Orientada_a_Objetos/projetos/MembrosEstaticos/versao3/util/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/00-apoio/04-construtores-this-sobrecarga-encapsulamento.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo01/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo01/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/79_1_product_uml.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -60,8 +61,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Program (1).executor": "Run",
     "Application.ProgramEmployee.executor": "Run",
     "Application.ProgramV2.executor": "Run",
+    "Application.ProgramV3.executor": "Run",
     "Application.ProgramaEstudante.executor": "Run",
     "Application.ex.test.Program.executor": "Run",
     "Application.versao1.Program.executor": "Run",
@@ -96,7 +99,14 @@
       <recent name="versao2.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProgramV2">
+  <component name="RunManager" selected="Application.Program (1)">
+    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -110,38 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex.test.ProgramEmployee" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex1.entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProgramRetangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex.test.ProgramRetangle" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex1.entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProgramV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="versao1.ProgramV2" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="versao1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="versao3.ProgramV3" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="versao3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program (1)" />
+        <item itemvalue="Application.ProgramV3" />
         <item itemvalue="Application.ProgramV2" />
         <item itemvalue="Application.versao1.Program" />
         <item itemvalue="Application.ProgramaEstudante" />
-        <item itemvalue="Application.ProgramEmployee" />
-        <item itemvalue="Application.ProgramRetangle" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +273,7 @@
       <workItem from="1745583375989" duration="834000" />
       <workItem from="1745584232627" duration="3574000" />
       <workItem from="1745622442251" duration="6208000" />
-      <workItem from="1745802325569" duration="3837000" />
+      <workItem from="1745802325569" duration="7987000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -449,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745667393773</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="71 Membros estáticos - Parte 1">
+      <option name="closed" value="true" />
+      <created>1745806259634</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1745806259634</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +499,8 @@
     <MESSAGE value="Reiniciando 2023 o Curso!" />
     <MESSAGE value="70 Exercícios de fixação" />
     <MESSAGE value="ajutes" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajutes" />
+    <MESSAGE value="71 Membros estáticos - Parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="71 Membros estáticos - Parte 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
