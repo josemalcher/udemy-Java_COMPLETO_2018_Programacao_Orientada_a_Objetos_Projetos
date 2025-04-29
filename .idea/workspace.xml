@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="87 Desalocação de memória - garbage collector e escopo local">
-      <change afterPath="$PROJECT_DIR$/Secao-10-Comportamento-de-memoria-arrays-listas/exemplos01/vetor01/Program.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="88 Vetores - Parte 1">
+      <change afterPath="$PROJECT_DIR$/Secao-09-Construtores-palavra-this-sobrecarga-encapsulamento/exemplo01/entities/Produduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-10-Comportamento-de-memoria-arrays-listas/exemplos02/ProgramVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -60,9 +61,11 @@
     "Application.ProgramEmployee.executor": "Run",
     "Application.ProgramV2.executor": "Run",
     "Application.ProgramV3.executor": "Run",
+    "Application.ProgramVector.executor": "Run",
     "Application.ProgramaEstudante.executor": "Run",
     "Application.ex.test.Program.executor": "Run",
     "Application.versao1.Program.executor": "Run",
+    "Application.vetor01.Program.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -75,12 +78,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="entities" />
       <recent name="model.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -94,7 +98,7 @@
       <recent name="versao2.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.vetor01.Program">
+  <component name="RunManager" selected="Application.ProgramVector">
     <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -141,25 +145,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProgramVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgramVector" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="versao1.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="versao1.Program" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="versao1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramVector" />
         <item itemvalue="Application.vetor01.Program" />
         <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.ProgramV3" />
         <item itemvalue="Application.ProgramV2" />
-        <item itemvalue="Application.versao1.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +266,10 @@
       <workItem from="1745583375989" duration="834000" />
       <workItem from="1745584232627" duration="3574000" />
       <workItem from="1745622442251" duration="6208000" />
-      <workItem from="1745802325569" duration="20489000" />
+      <workItem from="1745802325569" duration="21985000" />
+      <workItem from="1745951854790" duration="2371000" />
+      <workItem from="1745958432695" duration="212000" />
+      <workItem from="1745959008002" duration="2646000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -481,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745862120838</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="88 Vetores - Parte 1">
+      <option name="closed" value="true" />
+      <created>1745863986213</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1745863986213</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +511,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="9.7. Introdução ao polimorfismo" />
     <MESSAGE value="9.8. Exercício resolvido" />
     <MESSAGE value="9.9. Exercício de fixação" />
     <MESSAGE value="9.10. Classes abstratas" />
@@ -527,7 +535,8 @@
     <MESSAGE value="78 Encapsulamento" />
     <MESSAGE value="83 Correção do exercício de fixação - Parte 2" />
     <MESSAGE value="87 Desalocação de memória - garbage collector e escopo local" />
-    <option name="LAST_COMMIT_MESSAGE" value="87 Desalocação de memória - garbage collector e escopo local" />
+    <MESSAGE value="88 Vetores - Parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="88 Vetores - Parte 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

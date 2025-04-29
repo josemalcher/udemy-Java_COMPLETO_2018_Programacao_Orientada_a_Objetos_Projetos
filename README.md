@@ -1628,6 +1628,53 @@ public class Program {
 
 ### 89 Vetores - Parte 2
 
+```
+Problema exemplo 2
+
+Fazer um programa para ler um número inteiro N e os dados (nome e preço) de N Produtos. 
+Armazene os N produtos em um vetor. 
+Em seguida, mostrar o preço médio dos produtos.
+
+Input: 
+3
+TV 
+900.00 
+Fryer 
+400.00 
+Stove 
+800.00
+
+Output:
+AVERAGE PRICE = 700.00
+``` 
+
+```java
+public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        Produduct[] vect = new Produduct[n];
+
+        for (int i = 0; i < vect.length; i++) {
+            sc.nextLine();
+            String name = sc.nextLine();
+            double price = sc.nextDouble();
+            vect[i] = new Produduct(name, price);
+        }
+        double sum = 0.0;
+
+        for (int i = 0; i < vect.length; i++) {
+            sum += vect[i].getPrice();
+        }
+        System.out.printf("Total %.2f%n", sum);
+        double med = sum / vect.length;
+        System.out.printf("Preço Médio %.2f%n", med);
+
+        sc.close();
+    }
+```
+
 ### 90 Exercícios de fixação sobre vetores
 
 ### 91 Correção do exercício negativos
