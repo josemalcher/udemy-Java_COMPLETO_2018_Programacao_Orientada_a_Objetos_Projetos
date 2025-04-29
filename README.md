@@ -1687,9 +1687,59 @@ public static void main(String[] args) {
 
 ### 95 Boxing, unboxing e wrapper classes
 
+**Boxing**
+- É o processo de conversão de um objeto tipo valor para um objeto tipo referência compatível
+
+**Unboxing**
+- É o processo de conversão de um objeto tipo referência para um objeto tipo valor compatível
+
+
+**Wrapper classes**
+
+- São classes equivalentes aos tipos primitivos
+- Boxing e unboxing é natural na linguagem
+- Uso comum: campos de entidades em sistemas de informação (IMPORTANTE!)
+  - Pois tipos referência (classes) aceitam valor null e usufruem dos recursos OO
+
+![img.png](img/96_1_obj-wrapper.png)
+
+
 ### 96 Laço for each
 
+Sintaxe opcional e simplificada para percorrer coleções
+
+```java
+// Leitura: "para cada objeto 'obj' contido em vect, faça:"
+
+String[] vect = new String[] {"Maria", "Bob", "Alex"};
+
+for (int i=0; i< vect.length; i++) {
+    System.out.println(vect[i]);
+}
+
+for (String obj : vect) { 
+    System.out.println(obj);
+}
+```
+
 ### 97 Listas - Parte 1
+
+Referência: https://docs.oracle.com/javase/10/docs/api/java/util/List.html
+
+- Lista é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de posições)
+  - Inicia vazia, e seus elementos são alocados sob demanda
+  - Cada elemento ocupa um "nó" (ou nodo) da lista
+
+- Tipo (interface): List
+- Classes que implementam: ArrayList, LinkedList, etc.
+
+- Vantagens:
+  - Tamanho variável
+  - Facilidade para se realizar inserções e deleções
+- Desvantagens:
+  - Acesso sequencial aos elementos *
 
 ### 98 Listas - Parte 2
 
