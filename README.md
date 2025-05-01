@@ -1809,6 +1809,10 @@ public class ProgramLists {
 
 ### 100 Correção em vídeo do exercício proposto
 
+https://github.com/acenelio/list1-java
+
+https://www.youtube.com/watch?v=Xj-osdBe3TE
+
 ### 101 Matrizes
 
 ### 102 Exercício resolvido
