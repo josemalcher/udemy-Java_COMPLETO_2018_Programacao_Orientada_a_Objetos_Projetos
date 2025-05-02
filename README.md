@@ -1815,11 +1815,100 @@ https://www.youtube.com/watch?v=Xj-osdBe3TE
 
 ### 101 Matrizes
 
+- Em programação, "matriz" é o nome dado a arranjos bidimensionais
+  - Atenção: "vetor de vetores"
+
+
+- Arranjo (array) é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de posições)
+  - Alocada de uma vez só, em um bloco contíguo de memória
+- Vantagens: 
+  - Acesso imediato aos elementos pela sua posição
+  - Desvantagens: 
+  - Tamanho fixo
+  - Dificuldade para se realizar inserções e deleções
+
 ### 102 Exercício resolvido
+
+```
+Fazer um programa para ler um número inteiro N e uma matriz de 
+ordem N contendo números inteiros. Em seguida, mostrar a diagonal 
+principal e a quantidade de valores negativos da matriz.
+
+Input: 
+3
+5 -3 10 
+15 8  2
+7  9 -4
+
+Output:
+Main diagonal:
+5 8 -4
+Negative numbers = 2
+```
+
+```java
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int[][] mat = new int[n][n];
+
+        for (int i=0; i<mat.length; i++) {
+            for (int j=0; j<mat[i].length; j++) {
+                mat[i][j] = sc.nextInt();
+            }
+        }
+
+        System.out.println("Main diagonal:");
+        for (int i=0; i<mat.length; i++) {
+            System.out.print(mat[i][i] + " ");
+        }
+        System.out.println();
+
+        int count = 0;
+        for (int i=0; i<mat.length; i++) {
+            for (int j=0; j<mat[i].length; j++) {
+                if (mat[i][j] < 0) {
+                    count++;
+                }
+            }
+        }
+        System.out.println("Negative numbers = " + count);
+        sc.close();
+    }
+
+```
 
 ### 103 Exercício proposto
 
+```
+Fazer um programa para ler dois números inteiros M e N, e depois ler 
+uma matriz de M linhas por N colunas contendo números inteiros, 
+podendo haver repetições. Em seguida, ler um número inteiro X que 
+pertence à matriz. Para cada ocorrência de X, mostrar os valores à 
+esquerda, acima, à direita e abaixo de X, quando houver, conforme 
+exemplo.
 
+3 4
+10 8 15 12 
+21 11 23 8 
+14 5 13 19
+8
+
+Position 0,1: 
+Left: 10 
+Right: 15 
+Down: 11 
+Position 1,3: 
+Left: 23
+Up: 12
+Down: 19
+
+```
+
+https://github.com/acenelio/matrix2-java/blob/master/src/application/Program.java
 
 [Voltar ao Índice](#indice)
 
@@ -1828,19 +1917,45 @@ https://www.youtube.com/watch?v=Xj-osdBe3TE
 
 ## <a name="parte11">11 - Seção 11: Tópicos especiais em Java: data-hora</a>
 
-- 104 Boas-vindas e avisos
-- 105 Material de apoio do capítulo
-- 106 Introdução a data-hora e duração
-- 107 Entendendo timezone (fuso horário)
-- 108 Padrão ISO 8601
-- 109 Operações importantes com data-hora
-- 110 Instanciando data-hora em Java
-- 111 Convertendo data-hora para texto
-- 112 Convertendo data-hora global para local
-- 113 Cálculos com data-hora
-- 114 Aviso: próximas duas aulas são sobre Date e Calendar
-- 115 Trabalhando com datas - Date
-- 116 Manipulando um Date com Calendar
+### 104 Boas-vindas e avisos
+
+
+### 105 Material de apoio do capítulo
+
+
+### 106 Introdução a data-hora e duração
+
+
+### 107 Entendendo timezone (fuso horário)
+
+
+### 108 Padrão ISO 8601
+
+
+### 109 Operações importantes com data-hora
+
+
+### 110 Instanciando data-hora em Java
+
+
+### 111 Convertendo data-hora para texto
+
+
+### 112 Convertendo data-hora global para local
+
+
+### 113 Cálculos com data-hora
+
+
+### 114 Aviso: próximas duas aulas são sobre Date e Calendar
+
+
+### 115 Trabalhando com datas - Date
+
+
+### 116 Manipulando um Date com Calendar
+
+
 
 [Voltar ao Índice](#indice)
 
