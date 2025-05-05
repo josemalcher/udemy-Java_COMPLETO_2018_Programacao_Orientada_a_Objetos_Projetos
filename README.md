@@ -1881,7 +1881,7 @@ public static void main(String[] args) {
 
 ```
 
-### 103 Exercício proposto
+### 103 Exercício proposto // 104. Exercício proposto
 
 ```
 Fazer um programa para ler dois números inteiros M e N, e depois ler 
@@ -1917,43 +1917,283 @@ https://github.com/acenelio/matrix2-java/blob/master/src/application/Program.jav
 
 ## <a name="parte11">11 - Seção 11: Tópicos especiais em Java: data-hora</a>
 
-### 104 Boas-vindas e avisos
+### 105. Boas-vindas e avisos
 
 
-### 105 Material de apoio do capítulo
+### 106. Material de apoio do capítulo
 
 
-### 106 Introdução a data-hora e duração
+### 107. Introdução a data-hora e duração
 
 
-### 107 Entendendo timezone (fuso horário)
+### 108. Entendendo timezone (fuso horário)
+
+Conceitos importantes
+- Data-[hora] local:
+  - ano-mês-dia-[hora] sem fuso horário
+  - [hora] opcional
+- Data-hora global:
+  - ano-mês-dia-hora com fuso horário
+- Duração:
+  - tempo decorrido entre duas data-horas
+
+![img.png](img/107_1_exDataHora.png)
+
+Quando usar?
+- Data-[hora] local:
+  - Quando o momento exato não interessa a pessoas de outro fuso horário.
+  - Uso comum: sistemas de região única, Excel.
+    - Data de nascimento: "15/06/2001"
+    - Data-hora da venda: "13/08/2022 às 15:32" (presumindo não interessar fuso horário)
+- 
+- Data-hora global:
+  - Quando o momento exato interessa a pessoas de outro fuso horário.
+  - Uso comum: sistemas multi-região, web. 
+    - Quando será o sorteio? "21/08/2022 às 20h (horário de São Paulo)"
+    - Quando o comentário foi postado? "há 17 minutos"
+    - Quando foi realizada a venda? "13/08/2022 às 15:32 (horário de São Paulo)"
+    - Início e fim do evento? "21/08/2022 às 14h até 16h (horário de São Paulo)"
+
+### 109. Padrão ISO 8601
+
+Timezone (fuso horário)
+- GMT - Greenwich Mean Time
+  - Horário de Londres
+  - Horário do padrão UTC - Coordinated Universal Time
+  - Também chamado de "Z" time, ou Zulu time
+- Outros fuso horários são relativos ao GMT/UTC:
+  - São Paulo: GMT-3
+  - Manaus: GMT-4
+  - Portugal: GMT+1
+- Muitas linguagens/tecnologias usam nomes para as timezones:
+  - "US/Pacific"
+  - "America/Sao_Paulo"
+  - etc.
+
+Padrão ISO 8601
+- Data-[hora] local:
+  - 2022-07-21
+  - 2022-07-21T14:52
+  - 2022-07-22T14:52:09 2022-07-22T14:52:09.4073
+
+- Data-hora global:
+  - 2022-07-23T14:52:09Z
+  - 2022-07-23T14:52:09.254935Z 2022-07-23T14:52:09-03:00
 
 
-### 108 Padrão ISO 8601
+
+### 110. Operações importantes com data-hora
+
+- Instanciação
+  - (agora) ➞Data-hora
+  - Texto ISO 8601 ➞Data-hora
+  - Texto formato customizado ➞Data-hora
+  - dia, mês, ano, [horário] ➞Data-hora local
+- Formatação
+  - Data-hora ➞Texto ISO 8601
+  - Data-hora ➞Texto formato customizado
+
+- Converter data-hora global para local
+  - Data-hora global, timezone (sistema local) ➞Data-hora local
+- Obter dados de uma data-hora local
+  - Data-hora local ➞dia, mês, ano, horário
+- Cálculos com data-hora
+  - Data-hora +/- tempo ➞Data-hora
+  - Data-hora 1, Data-hora 2 ➞Duração
+
+### 111. Instanciando data-hora em Java
 
 
-### 109 Operações importantes com data-hora
+```java
 
 
-### 110 Instanciando data-hora em Java
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Program1 {
+
+  public static void main(String[] args) {
+
+    // https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
+    DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+
+    LocalDate d01 = LocalDate.now();
+    LocalDateTime d02 = LocalDateTime.now();
+    Instant d03 = Instant.now();
+
+    LocalDate d04 = LocalDate.parse("2022-07-20");
+    LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+    Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+    Instant d07 = Instant.parse("2022-07-20T01:30:26-03:00");
+
+    // https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
+    LocalDate d08 = LocalDate.parse("20/07/2022", fmt1);
+    LocalDateTime d09 = LocalDateTime.parse("20/07/2022 01:30", fmt2);
+
+    LocalDate d10 = LocalDate.of(2022, 07, 20);
+    LocalDateTime d11 = LocalDateTime.of(2022, 07, 20, 1, 30);
+
+    System.out.println("d01 = " + d01.toString()); // d01 = 2025-05-05
+    System.out.println("d02 = " + d02.toString()); // d02 = 2025-05-05T10:11:18.340711400
+    System.out.println("d03 = " + d03.toString()); // d03 = 2025-05-05T13:11:18.340711400Z
+    System.out.println("d04 = " + d04.toString()); // d04 = 2022-07-20
+    System.out.println("d05 = " + d05.toString()); // d05 = 2022-07-20T01:30:26
+    System.out.println("d06 = " + d06.toString()); // d06 = 2022-07-20T01:30:26Z
+    System.out.println("d07 = " + d07.toString()); // d07 = 2022-07-20T04:30:26Z
+    System.out.println("d08 = " + d08.toString()); // d08 = 2022-07-20
+    System.out.println("d09 = " + d09.toString()); // d09 = 2022-07-20T01:30
+    System.out.println("d10 = " + d10.toString()); // d10 = 2022-07-20
+    System.out.println("d11 = " + d11.toString()); // d11 = 2022-07-20T01:30
+  }
+}
+
+```
 
 
-### 111 Convertendo data-hora para texto
+### 112. Convertendo data-hora para texto
+
+```java
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+
+public class Program2 {
+
+    public static void main(String[] args) {
+
+        LocalDate d04 = LocalDate.parse("2022-07-20");
+        LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+        Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+
+        // https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
+        DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+        DateTimeFormatter fmt3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
+        DateTimeFormatter fmt4 = DateTimeFormatter.ISO_DATE_TIME;
+        DateTimeFormatter fmt5 = DateTimeFormatter.ISO_INSTANT;
+
+        System.out.println("d04 = " + d04.format(fmt1));// d04 = 20/07/2022
+        System.out.println("d04 = " + fmt1.format(d04));// d04 = 20/07/2022
+        System.out.println("d04 = " + d04.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))); // d04 = 20/07/2022
+
+        System.out.println("d05 = " + d05.format(fmt1)); // d05 = 20/07/2022
+        System.out.println("d05 = " + d05.format(fmt2)); // d05 = 20/07/2022 01:30
+        System.out.println("d05 = " + d05.format(fmt4)); // d05 = 2022-07-20T01:30:26
+
+        System.out.println("d06 = " + fmt3.format(d06)); // d06 = 19/07/2022 22:30
+        System.out.println("d06 = " + fmt5.format(d06)); // d06 = 2022-07-20T01:30:26Z
+        System.out.println("d06 = " + d06.toString());   // d06 = 2022-07-20T01:30:26Z
+    }
+}
+```
 
 
-### 112 Convertendo data-hora global para local
+### 113 Convertendo data-hora global para local
+
+```java
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+
+public class Program3 {
+
+    public static void main(String[] args) {
+
+        // for (String s : ZoneId.getAvailableZoneIds())
+        // System.out.println(s);
+
+        LocalDate d04 = LocalDate.parse("2022-07-20");
+        LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+        Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+
+        LocalDate r1 = LocalDate.ofInstant(d06, ZoneId.systemDefault());
+        LocalDate r2 = LocalDate.ofInstant(d06, ZoneId.of("Portugal"));
+        LocalDateTime r3 = LocalDateTime.ofInstant(d06, ZoneId.systemDefault());
+        LocalDateTime r4 = LocalDateTime.ofInstant(d06, ZoneId.of("Portugal"));
+
+        System.out.println("r1 = " + r1);// r1 = 2022-07-19
+        System.out.println("r2 = " + r2);// r2 = 2022-07-20
+        System.out.println("r3 = " + r3);// r3 = 2022-07-19T22:30:26
+        System.out.println("r4 = " + r4);// r4 = 2022-07-20T02:30:26
+
+        System.out.println("d04 dia = " + d04.getDayOfMonth());// d04 dia = 20
+        System.out.println("d04 mês = " + d04.getMonthValue());// d04 mês = 7
+        System.out.println("d04 ano = " + d04.getYear());// d04 ano = 2022
+
+        System.out.println("d05 hora = " + d05.getHour());// d05 hora = 1
+        System.out.println("d05 minutos = " + d05.getMinute());// d05 minutos = 30
+
+    }
+}
+```
+
+### 114 Cálculos com data-hora
+
+```java
+import java.time.Duration;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+
+public class Program4 {
+
+    public static void main(String[] args) {
+
+        LocalDate d04 = LocalDate.parse("2022-07-20");
+        LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+        Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+
+        LocalDate pastWeekDate = d04.minusDays(7);
+        LocalDate nextWeekDate = d04.plusDays(7);
+
+        LocalDateTime pastWeekLocalDate = d05.minusDays(7);
+        LocalDateTime nextWeekLocalDate = d05.plusDays(7);
+
+        Instant pastWeekInstant = d06.minus(7, ChronoUnit.DAYS);
+        Instant nextWeekInstant = d06.plus(7, ChronoUnit.DAYS);
+
+        System.out.println("pastWeekDate = " + pastWeekDate);// pastWeekDate = 2022-07-13
+        System.out.println("nextWeekDate = " + nextWeekDate);// nextWeekDate = 2022-07-27
+
+        System.out.println("pastWeekLocalDate = " + pastWeekLocalDate);// pastWeekLocalDate = 2022-07-13T01:30:26
+        System.out.println("nextWeekLocalDate = " + nextWeekLocalDate);// nextWeekLocalDate = 2022-07-27T01:30:26
+
+        System.out.println("pastWeekInstant = " + pastWeekInstant);// pastWeekInstant = 2022-07-13T01:30:26Z
+        System.out.println("nextWeekInstant = " + nextWeekInstant);// nextWeekInstant = 2022-07-27T01:30:26Z
+
+        Duration t1 = Duration.between(pastWeekDate.atStartOfDay(), d04.atStartOfDay());
+        Duration t2 = Duration.between(pastWeekLocalDate, d05);
+        Duration t3 = Duration.between(pastWeekInstant, d06);
+        Duration t4 = Duration.between(d06, pastWeekInstant);
+
+        System.out.println("t1 dias = " + t1.toDays());// t1 dias = 7
+        System.out.println("t2 dias = " + t2.toDays());// t2 dias = 7
+        System.out.println("t3 dias = " + t3.toDays());// t3 dias = 7
+        System.out.println("t4 dias = " + t4.toDays());// t4 dias = -7
+    }
+}
+```
+
+### 115 Aviso: próximas duas aulas são sobre Date e Calendar
 
 
-### 113 Cálculos com data-hora
+### 116 Trabalhando com datas - Date
 
 
-### 114 Aviso: próximas duas aulas são sobre Date e Calendar
+
+### 117 Manipulando um Date com Calendar
 
 
-### 115 Trabalhando com datas - Date
 
-
-### 116 Manipulando um Date com Calendar
 
 
 
@@ -1964,33 +2204,87 @@ https://github.com/acenelio/matrix2-java/blob/master/src/application/Program.jav
 
 ## <a name="parte12">12 - Seção 12: Bônus - nivelamento sobre Git e Github</a>
 
-- 117 Apresentação do bônus Git e Github
-- 118 Material de apoio do capítulo
-- 119 Introdução ao Git e Github
-- 120 Repositório local e repositório remoto
-- 121 Instalação do Git no Windows
-- 122 Configurando sua identificação
-- 123 Mostrar arquivos ocultos e extensões
-- 124 Configurar chave SSH no Github
-- 125 Salvando primeira versão de um projeto no Github
-- 126 Salvando um novo commit
-- 127 Demo - clonar e modificar um projeto
-- 128 Git log para verificar histórico de versões
-- 129 Entendendo git status e stage
-- 130 Git diff e recurso source control do VS Code
-- 131 Git checkout
-- 132 Arquivo .gitignore
-- 133 Visão geral da segunda parte
-- 134 Removendo arquivos da área de stage
-- 135 Desfazendo modificações não salvas
-- 136 O que fazer quando abre o editor VIM
-- 137 Deletando último commit sem deletar modificações nos arquivos
-- 138 Deletando commits e também modificações nos arquivos
-- 139 Como atualizar o repositório local em relação ao remoto
-- 140 Como resolver push rejeitado por históricos diferentes
-- 141 Resolvendo pull com conflito
-- 142 Como sobrescrever um histórico no Github
-- 143 Como apontar o projeto para outro repositório remoto
+### 117 Apresentação do bônus Git e Github
+
+
+### 118 Material de apoio do capítulo
+
+
+### 119 Introdução ao Git e Github
+
+
+### 120 Repositório local e repositório remoto
+
+
+### 121 Instalação do Git no Windows
+
+
+### 122 Configurando sua identificação
+
+
+### 123 Mostrar arquivos ocultos e extensões
+
+
+### 124 Configurar chave SSH no Github
+
+
+### 125 Salvando primeira versão de um projeto no Github
+
+
+### 126 Salvando um novo commit
+
+
+### 127 Demo - clonar e modificar um projeto
+
+
+### 128 Git log para verificar histórico de versões
+
+
+### 129 Entendendo git status e stage
+
+
+### 130 Git diff e recurso source control do VS Code
+
+
+### 131 Git checkout
+
+
+### 132 Arquivo .gitignore
+
+
+### 133 Visão geral da segunda parte
+
+
+### 134 Removendo arquivos da área de stage
+
+
+### 135 Desfazendo modificações não salvas
+
+
+### 136 O que fazer quando abre o editor VIM
+
+
+### 137 Deletando último commit sem deletar modificações nos arquivos
+
+
+### 138 Deletando commits e também modificações nos arquivos
+
+
+### 139 Como atualizar o repositório local em relação ao remoto
+
+
+### 140 Como resolver push rejeitado por históricos diferentes
+
+
+### 141 Resolvendo pull com conflito
+
+
+### 142 Como sobrescrever um histórico no Github
+
+
+### 143 Como apontar o projeto para outro repositório remoto
+
+
 
 [Voltar ao Índice](#indice)
 

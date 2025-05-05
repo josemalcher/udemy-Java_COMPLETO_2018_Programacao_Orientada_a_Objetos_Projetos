@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="100 Correção em vídeo do exercício proposto">
-      <change afterPath="$PROJECT_DIR$/Secao-10-Comportamento-de-memoria-arrays-listas/exemplos04Matrix/program/ProgramMatrix01.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="105 Material de apoio do capítulo">
+      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/107_1_exDataHora.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -57,6 +61,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Program (1).executor": "Run",
+    "Application.Program1.executor": "Run",
+    "Application.Program2.executor": "Run",
+    "Application.Program3.executor": "Run",
+    "Application.Program4.executor": "Run",
     "Application.ProgramEmployee.executor": "Run",
     "Application.ProgramLists.executor": "Run",
     "Application.ProgramMatrix01.executor": "Run",
@@ -99,14 +107,7 @@
       <recent name="versao2.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProgramMatrix01">
-    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Program4">
     <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -120,21 +121,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="employeeprogram.ProgramEmployee" />
+    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program1" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="employeeprogram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProgramLists" />
+    <configuration name="Program2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program2" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program3" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program4" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,13 +158,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProgramVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProgramVector" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program4" />
+        <item itemvalue="Application.Program3" />
+        <item itemvalue="Application.Program2" />
+        <item itemvalue="Application.Program1" />
         <item itemvalue="Application.ProgramMatrix01" />
-        <item itemvalue="Application.ProgramEmployee" />
-        <item itemvalue="Application.ProgramLists" />
-        <item itemvalue="Application.Program (1)" />
-        <item itemvalue="Application.ProgramVector" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +268,8 @@
       <workItem from="1745958432695" duration="212000" />
       <workItem from="1745959008002" duration="18426000" />
       <workItem from="1746125108542" duration="4093000" />
-      <workItem from="1746180928684" duration="4121000" />
+      <workItem from="1746180928684" duration="5336000" />
+      <workItem from="1746446428445" duration="6818000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -519,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746131304422</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="105 Material de apoio do capítulo">
+      <option name="closed" value="true" />
+      <created>1746190033509</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1746190033509</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +551,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="9.12. Exercício de fixação" />
     <MESSAGE value="10.3. Discussão inicial sobre exceções" />
     <MESSAGE value="Ajustes" />
     <MESSAGE value="10.4. Estrutura try-catch" />
@@ -565,7 +575,8 @@
     <MESSAGE value="97 Listas - Parte 1" />
     <MESSAGE value="98 Listas - Parte 2" />
     <MESSAGE value="100 Correção em vídeo do exercício proposto" />
-    <option name="LAST_COMMIT_MESSAGE" value="100 Correção em vídeo do exercício proposto" />
+    <MESSAGE value="105 Material de apoio do capítulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="105 Material de apoio do capítulo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
