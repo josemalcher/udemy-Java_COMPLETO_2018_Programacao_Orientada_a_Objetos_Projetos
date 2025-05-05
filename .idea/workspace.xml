@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="105 Material de apoio do capítulo">
-      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/107_1_exDataHora.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="114 Cálculos com data-hora">
+      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program5Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program6ManipDate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -65,6 +61,8 @@
     "Application.Program2.executor": "Run",
     "Application.Program3.executor": "Run",
     "Application.Program4.executor": "Run",
+    "Application.Program5Date.executor": "Run",
+    "Application.Program6ManipDate.executor": "Run",
     "Application.ProgramEmployee.executor": "Run",
     "Application.ProgramLists.executor": "Run",
     "Application.ProgramMatrix01.executor": "Run",
@@ -107,7 +105,7 @@
       <recent name="versao2.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program4">
+  <component name="RunManager" selected="Application.Program6ManipDate">
     <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -117,13 +115,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program1" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,15 +140,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramMatrix01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="program.ProgramMatrix01" />
+    <configuration name="Program5Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program5Date" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="program.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program6ManipDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program6ManipDate" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program6ManipDate" />
+        <item itemvalue="Application.Program5Date" />
         <item itemvalue="Application.Program4" />
         <item itemvalue="Application.Program3" />
         <item itemvalue="Application.Program2" />
-        <item itemvalue="Application.Program1" />
-        <item itemvalue="Application.ProgramMatrix01" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +261,7 @@
       <workItem from="1745959008002" duration="18426000" />
       <workItem from="1746125108542" duration="4093000" />
       <workItem from="1746180928684" duration="5336000" />
-      <workItem from="1746446428445" duration="6818000" />
+      <workItem from="1746446428445" duration="9665000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -530,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746190033509</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="114 Cálculos com data-hora">
+      <option name="closed" value="true" />
+      <created>1746463507473</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1746463507473</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="10.3. Discussão inicial sobre exceções" />
     <MESSAGE value="Ajustes" />
     <MESSAGE value="10.4. Estrutura try-catch" />
     <MESSAGE value="10.5. Pilha de chamadas de métodos (stack trace)" />
@@ -576,7 +575,8 @@
     <MESSAGE value="98 Listas - Parte 2" />
     <MESSAGE value="100 Correção em vídeo do exercício proposto" />
     <MESSAGE value="105 Material de apoio do capítulo" />
-    <option name="LAST_COMMIT_MESSAGE" value="105 Material de apoio do capítulo" />
+    <MESSAGE value="114 Cálculos com data-hora" />
+    <option name="LAST_COMMIT_MESSAGE" value="114 Cálculos com data-hora" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
