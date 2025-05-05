@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="114 Cálculos com data-hora">
-      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program5Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-11-TopicosEspeciaisemJava_data-hora/01-Exemplos/Program6ManipDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="117 Manipulando um Date com Calendar">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,7 +258,7 @@
       <workItem from="1745959008002" duration="18426000" />
       <workItem from="1746125108542" duration="4093000" />
       <workItem from="1746180928684" duration="5336000" />
-      <workItem from="1746446428445" duration="9665000" />
+      <workItem from="1746446428445" duration="10056000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -530,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746463507473</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="117 Manipulando um Date com Calendar">
+      <option name="closed" value="true" />
+      <created>1746476632473</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1746476632473</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +556,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ajustes" />
     <MESSAGE value="10.4. Estrutura try-catch" />
     <MESSAGE value="10.5. Pilha de chamadas de métodos (stack trace)" />
     <MESSAGE value="10.6. Bloco finally" />
@@ -576,7 +580,8 @@
     <MESSAGE value="100 Correção em vídeo do exercício proposto" />
     <MESSAGE value="105 Material de apoio do capítulo" />
     <MESSAGE value="114 Cálculos com data-hora" />
-    <option name="LAST_COMMIT_MESSAGE" value="114 Cálculos com data-hora" />
+    <MESSAGE value="117 Manipulando um Date com Calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="117 Manipulando um Date com Calendar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
