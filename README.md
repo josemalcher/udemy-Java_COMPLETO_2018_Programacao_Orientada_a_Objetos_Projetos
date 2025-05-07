@@ -2334,6 +2334,47 @@ public class Program6ManipDate {
 
 ## <a name="parte12">12 - Seção 12: Enumerações, composição</a>
 
+### 118 Visão geral do capítulo Enumerações e Composição
+
+
+
+### 119 Material de apoio do capítulo
+
+- [Secao-12-Enumeracoes-composicao/00-apoio/07-enumeracoes-composicao.pdf](Secao-12-Enumeracoes-composicao/00-apoio/07-enumeracoes-composicao.pdf)
+
+
+### 120 Enumerações
+
+
+
+### 121 Vamos falar um pouco sobre design
+
+
+
+### 122 Composição
+
+
+
+### 123 Exercício resolvido 1 - Parte 1
+
+
+
+### 124 Exercício resolvido 1 - Parte 2
+
+
+
+### 125 Exercício resolvido 2 (demo StringBuilder)
+
+
+
+### 126 Exercício de fixação
+
+
+
+### 127 Correção em vídeo do exercício de fixação
+
+
+
 
 [Voltar ao Índice](#indice)
 
