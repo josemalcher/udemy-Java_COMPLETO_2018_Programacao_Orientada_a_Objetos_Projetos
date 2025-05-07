@@ -2345,11 +2345,66 @@ public class Program6ManipDate {
 
 ### 120 Enumerações
 
+- É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+- Palavra chave em Java: enum
+- Vantagem: melhor semântica, código mais legível e auxiliado pelo compilador
+- Referência: https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
 
+![img.png](img/120_1_exemploEnum.png)
+
+```java
+package entities.enums;
+
+public enum OrderStatus {
+    PENDING_PAYMENT,
+    PROCESSING,
+    SHIPPED,
+    DELIVERED;
+}
+
+```
+
+```java
+package app;
+
+import entities.Order;
+import entities.enums.OrderStatus;
+
+import java.util.Date;
+
+public class Program {
+    public static void main(String[] args) {
+        Order order = new Order(1010, new Date(), OrderStatus.PROCESSING);
+        System.out.println(order);
+        // Order{id='1010', moment=Tue May 06 22:13:12 GMT-03:00 2025, status=PROCESSING}
+
+        OrderStatus os1 = OrderStatus.DELIVERED;
+        OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+        System.out.println(os1);
+        System.out.println(os2);
+        /*
+         DELIVERED
+         DELIVERED 
+         * */
+
+    }
+}
+
+```
+![img.png](img/120_2_notacao_Enum.png)
 
 ### 121 Vamos falar um pouco sobre design
 
+Categorias de classes
+- Em um sistema orientado a objetos, de modo geral "tudo" é objeto.
 
+- Por questões de design tais como organização, flexibilidade, reuso, delegação, etc., há várias categorias de classes:
+
+![img.png](img/121_1_design.png)
+
+![img.png](img/121_2_entities.png)
+
+![img.png](img/121_3_services.png)
 
 ### 122 Composição
 
