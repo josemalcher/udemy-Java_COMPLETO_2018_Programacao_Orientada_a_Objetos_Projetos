@@ -2408,13 +2408,64 @@ Categorias de classes
 
 ### 122 Composição
 
+- É um tipo de associação que permite que um objeto contenha outro
 
+- Relação "tem-um" ou "tem-vários"
+
+- Vantagens
+  - Organização: divisão de responsabilidades
+  - Coesão
+  - Flexibilidade
+  - Reuso
+  
+- Nota: embora o símbolo UML para composição (todo-parte) seja o diamante preto, neste contexto estamos chamando de composição qualquer associação tipo "tem-um" e "tem-vários".
+
+![img.png](img/121_2_entities.png)
+
+![img.png](img/121_3_services.png)
 
 ### 123 Exercício resolvido 1 - Parte 1
 
+Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário). Depois, solicitar
+do usuário um mês e mostrar qual foi o salário do funcionário nesse mês, conforme exemplo
+(próxima página).
 
+![img.png](img/123_1_diagram1.png)
+
+```
+Enter department's name: Design
+Enter worker data:
+Name: Alex
+Level: MID_LEVEL
+Base salary: 1200.00
+How many contracts to this worker? 3 
+Enter contract #1 data:
+Date (DD/MM/YYYY): 20/08/2018
+Value per hour: 50.00
+Duration (hours): 20
+Enter contract #2 data:
+Date (DD/MM/YYYY): 13/06/2018
+Value per hour: 30.00
+Duration (hours): 18
+Enter contract #3 data:
+Date (DD/MM/YYYY): 25/08/2018
+Value per hour: 80.00
+Duration (hours): 10
+
+Enter month and year to calculate income (MM/YYYY): 08/2018 
+Name: Alex
+Department: Design
+Income for 08/2018: 3000.00
+```
 
 ### 124 Exercício resolvido 1 - Parte 2
+
+Objects in memory:
+
+![img.png](img/124_1_objMemory.png)
+
+![img_1.png](img/124_2_objMemory2.png)
+
 
 
 

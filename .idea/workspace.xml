@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="119 Material de apoio do capítulo">
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo01/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo01/entities/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo01/entities/enums/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/120_1_exemploEnum.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/120_2_notacao_Enum.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="121 Vamos falar um pouco sobre design">
+      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo02/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo02/entities/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo02/entities/HourContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo02/entities/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo02/entities/enums/WorkerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/123_1_diagram1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/124_1_objMemory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/124_2_objMemory2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -25,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -267,7 +270,7 @@
       <workItem from="1746125108542" duration="4093000" />
       <workItem from="1746180928684" duration="5336000" />
       <workItem from="1746446428445" duration="11978000" />
-      <workItem from="1746575799677" duration="5139000" />
+      <workItem from="1746575799677" duration="14338000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -560,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746576275643</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="121 Vamos falar um pouco sobre design">
+      <option name="closed" value="true" />
+      <created>1746586521398</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1746586521398</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +592,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="10.6. Bloco finally" />
     <MESSAGE value="10.8. Primeira solução - muito ruim" />
     <MESSAGE value="10.9. Segunda solução - ruim" />
     <MESSAGE value="10.10. Terceira solução - boa" />
@@ -606,7 +616,8 @@
     <MESSAGE value="117 Manipulando um Date com Calendar" />
     <MESSAGE value="ajustes seções 2025" />
     <MESSAGE value="119 Material de apoio do capítulo" />
-    <option name="LAST_COMMIT_MESSAGE" value="119 Material de apoio do capítulo" />
+    <MESSAGE value="121 Vamos falar um pouco sobre design" />
+    <option name="LAST_COMMIT_MESSAGE" value="121 Vamos falar um pouco sobre design" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
