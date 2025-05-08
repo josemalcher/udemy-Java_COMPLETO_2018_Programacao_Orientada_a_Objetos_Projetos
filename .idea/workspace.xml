@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="125 Exercício resolvido 2 (demo StringBuilder)">
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo05/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo05/entities/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo05/entities/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo05/entities/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo05/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-12-Enumeracoes-composicao/01-Exemplo05/entities/enums/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/127_1_exYoutubeComposicaoServicos.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="127 Correção em vídeo do exercício de fixação">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -271,7 +263,7 @@
       <workItem from="1746446428445" duration="11978000" />
       <workItem from="1746575799677" duration="27512000" />
       <workItem from="1746724530783" duration="1059000" />
-      <workItem from="1746725881027" duration="2945000" />
+      <workItem from="1746725881027" duration="3252000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -588,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746663843693</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="127 Correção em vídeo do exercício de fixação">
+      <option name="closed" value="true" />
+      <created>1746729597358</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1746729597359</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +609,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="10.10. Terceira solução - boa" />
     <MESSAGE value="10.11. Exercício de fixação" />
     <MESSAGE value="11.4 - First class: Position" />
     <MESSAGE value="146. Começando a implementar Board e Piece" />
@@ -634,7 +633,8 @@
     <MESSAGE value="121 Vamos falar um pouco sobre design" />
     <MESSAGE value="124 Exercício resolvido 1 - Parte 2" />
     <MESSAGE value="125 Exercício resolvido 2 (demo StringBuilder)" />
-    <option name="LAST_COMMIT_MESSAGE" value="125 Exercício resolvido 2 (demo StringBuilder)" />
+    <MESSAGE value="127 Correção em vídeo do exercício de fixação" />
+    <option name="LAST_COMMIT_MESSAGE" value="127 Correção em vídeo do exercício de fixação" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
