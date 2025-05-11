@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="Ajustes README">
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/00-APOIO/08-heranca-e-polimorfismo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/BussinessAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/129_1_heranca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/129_2_heranca.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="130 Herança">
+      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/SavingsAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/app/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +266,8 @@
       <workItem from="1746575799677" duration="27512000" />
       <workItem from="1746724530783" duration="1059000" />
       <workItem from="1746725881027" duration="3381000" />
-      <workItem from="1746909478825" duration="7354000" />
+      <workItem from="1746909478825" duration="12048000" />
+      <workItem from="1746981579646" duration="4334000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -604,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746729774752</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="130 Herança">
+      <option name="closed" value="true" />
+      <created>1746929762477</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1746929762477</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +629,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="11.4 - First class: Position" />
     <MESSAGE value="146. Começando a implementar Board e Piece" />
     <MESSAGE value="Reiniciando 2023 o Curso!" />
     <MESSAGE value="70 Exercícios de fixação" />
@@ -650,7 +653,8 @@
     <MESSAGE value="125 Exercício resolvido 2 (demo StringBuilder)" />
     <MESSAGE value="127 Correção em vídeo do exercício de fixação" />
     <MESSAGE value="Ajustes README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes README" />
+    <MESSAGE value="130 Herança" />
+    <option name="LAST_COMMIT_MESSAGE" value="130 Herança" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
