@@ -2567,18 +2567,102 @@ Você deverá instanciar os objetos em memória da seguinte forma:
 ## <a name="parte13">13 - Seção 13: Herança e polimorfismo</a>
 
 ### 128 Visão geral do capítulo Herança e Polimorfismo
+
+
+
 ### 129 Material de apoio do capítulo
+
+- [08-heranca-e-polimorfismo.pdf](/Secao-13-Heranca-e-polimorfismo/00-APOIO/08-heranca-e-polimorfismo.pdf)
+
 ### 130 Herança
+
+Herança permite o reuso de atributos e métodos (dados e comportamento)
+
+![img.png](img/129_1_heranca.png)
+
+```java
+public class Account {
+  private Integer number;
+  private String holder;
+  protected Double balance;
+```
+
+```java
+public class BussinessAccount extends Account {
+
+    private Double loanLimit;
+
+    public BussinessAccount() {
+        super();
+    }
+
+    public BussinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
+        super(number, holder, balance);
+        this.loanLimit = loanLimit;
+    }
+
+```
+
+- Relação "é-um"
+- Generalização/especialização
+- Superclasse (classe base) / subclasse (classe derivada)
+- Herança / extensão
+- Herança é uma associação entre classes (e não entre objetos)
+
+![img.png](img/129_2_heranca.png)
+
 ### 131 Upcasting e downcasting
+
+- Upcasting
+  - Casting da subclasse para superclasse
+  - Uso comum: polimorfismo
+
+- Downcasting
+  - Casting da superclasse para subclasse
+  - Palavra instanceof
+  - Uso comum: métodos que recebem parâmetros genéricos (ex: Equals)
+
+![img.png](img/131_1-upcastingDowncasting.png)
+
 ### 132 Sobreposição, palavra super, anotação @Override
+
+
+
 ### 133 Classes e métodos final
+
+
+
 ### 134 Introdução ao polimorfismo
+
+
+
 ### 135 Exercício resolvido
+
+
+
 ### 136 Exercício de fixação
+
+
+
 ### 137 Classes abstratas
+
+
+
 ### 138 Métodos abstratos
+
+
+
 ### 139 Exercício de fixação
+
+
+
 ### 140 Correção em vídeo do exercício de fixação
+
+
+
+
+
+
 
 [Voltar ao Índice](#indice)
 
