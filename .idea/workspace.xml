@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="134 Introdução ao polimorfismo">
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio1/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio1/entities/Employer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio1/entities/OutsourcedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/135_1-exercicio1.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="135 Exercício resolvido">
+      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio2/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio2/entities/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio2/entities/Individual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio2/entities/TaxPayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -277,7 +277,7 @@
       <workItem from="1746724530783" duration="1059000" />
       <workItem from="1746725881027" duration="3381000" />
       <workItem from="1746909478825" duration="12048000" />
-      <workItem from="1746981579646" duration="12391000" />
+      <workItem from="1746981579646" duration="18719000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -642,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747017886886</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="135 Exercício resolvido">
+      <option name="closed" value="true" />
+      <created>1747018928118</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1747018928118</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +671,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ajutes" />
     <MESSAGE value="71 Membros estáticos - Parte 1" />
     <MESSAGE value="75 Construtores" />
     <MESSAGE value="78 Encapsulamento" />
@@ -688,7 +695,8 @@
     <MESSAGE value="131 Upcasting e downcasting" />
     <MESSAGE value="132 Sobreposição, palavra super, anotação @Override" />
     <MESSAGE value="134 Introdução ao polimorfismo" />
-    <option name="LAST_COMMIT_MESSAGE" value="134 Introdução ao polimorfismo" />
+    <MESSAGE value="135 Exercício resolvido" />
+    <option name="LAST_COMMIT_MESSAGE" value="135 Exercício resolvido" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
