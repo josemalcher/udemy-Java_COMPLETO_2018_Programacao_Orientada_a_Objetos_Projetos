@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="136 Exercício de fixação">
-      <change afterPath="$PROJECT_DIR$/img/137_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="140 Correção em vídeo do exercício de fixação">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -274,7 +272,7 @@
       <workItem from="1746724530783" duration="1059000" />
       <workItem from="1746725881027" duration="3381000" />
       <workItem from="1746909478825" duration="12048000" />
-      <workItem from="1746981579646" duration="20293000" />
+      <workItem from="1746981579646" duration="22331000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -422,14 +420,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00023" summary="70 Exercícios de fixação">
-      <option name="closed" value="true" />
-      <created>1745667302568</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1745667302568</updated>
     </task>
     <task id="LOCAL-00024" summary="ajutes">
       <option name="closed" value="true" />
@@ -647,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747055699103</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="140 Correção em vídeo do exercício de fixação">
+      <option name="closed" value="true" />
+      <created>1747057889178</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1747057889178</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,7 +666,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="75 Construtores" />
     <MESSAGE value="78 Encapsulamento" />
     <MESSAGE value="83 Correção do exercício de fixação - Parte 2" />
     <MESSAGE value="87 Desalocação de memória - garbage collector e escopo local" />
@@ -693,7 +690,8 @@
     <MESSAGE value="134 Introdução ao polimorfismo" />
     <MESSAGE value="135 Exercício resolvido" />
     <MESSAGE value="136 Exercício de fixação" />
-    <option name="LAST_COMMIT_MESSAGE" value="136 Exercício de fixação" />
+    <MESSAGE value="140 Correção em vídeo do exercício de fixação" />
+    <option name="LAST_COMMIT_MESSAGE" value="140 Correção em vídeo do exercício de fixação" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

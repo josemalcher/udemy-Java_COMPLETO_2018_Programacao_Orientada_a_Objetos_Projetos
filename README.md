@@ -2931,6 +2931,77 @@ contas em uma mesma coleção.
 
 ## <a name="parte14">14 - Seção 14: Tratamento de exceções</a>
 
+### 141 Visão geral do capítulo Tratamento de Exceções
+
+
+
+
+
+### 142 Material de apoio do capítulo
+
+
+
+
+
+### 143 Discussão inicial sobre exceções
+
+
+
+
+
+### 144 Estrutura try-catch
+
+
+
+
+
+### 145 Pilha de chamadas de métodos (stack trace)
+
+
+
+
+
+### 146 Bloco finally
+
+
+
+
+
+### 147 Criando exceções personalizadas
+
+
+
+
+
+### 148 Primeira solução - muito ruim
+
+
+
+
+
+### 149 Segunda solução - ruim
+
+
+
+
+
+### 150 Terceira solução - boa
+
+
+
+
+
+### 151 Exercício de fixação
+
+
+
+
+
+### 152 Correção do exercício de fixação
+
+
+
+
 
 
 [Voltar ao Índice](#indice)
