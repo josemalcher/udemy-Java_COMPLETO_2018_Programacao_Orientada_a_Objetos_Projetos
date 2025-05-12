@@ -2734,11 +2734,57 @@ public class BussinessAccount extends Account {
 
 ### 133 Classes e métodos final
 
+- Palavra chave: final
+- Classe: evita que a classe seja herdada
+- Método: evita que o método sob seja sobreposto
 
+```java
+package entities;
+
+public final class SavingsAccount extends Account{
+
+
+  @Override
+  public final void withdraw(double amount) {
+    balance -= amount;
+  }
+```
+
+Pra quê?
+- Segurança: dependendo das regras do negócio, às vezes é desejável
+garantir que uma classe não seja herdada, ou que um método não
+seja sobreposto.
+- Geralmente convém acrescentar final em métodos sobrepostos, pois
+sobreposições múltiplas podem ser uma porta de entrada para
+inconsistências
+
+- Performance: atributos de tipo de uma classe final são analisados de
+forma mais rápida em tempo de execução.
+- Exemplo clássico: String
 
 ### 134 Introdução ao polimorfismo
 
+#### Pilares da OOP
 
+- Encapsulamento
+- Herança
+- Polimorfismo
+
+#### Polimorfismo
+
+Em Programação Orientada a Objetos, polimorfismo é recurso que
+permite que variáveis de um mesmo tipo mais genérico possam
+apontar para objetos de tipos específicos diferentes, tendo assim
+comportamentos diferentes conforme cada tipo específico.
+
+![img.png](img/134_1_polimorfismo.png)
+
+Importante entender
+- A associação do tipo específico com o tipo genérico é feita em tempo de
+execução (upcasting).
+
+- O compilador não sabe para qual tipo específico a chamada do método
+Withdraw está sendo feita (ele só sabe que são duas variáveis tipo Account):
 
 ### 135 Exercício resolvido
 
