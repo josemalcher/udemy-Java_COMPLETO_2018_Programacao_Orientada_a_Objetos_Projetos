@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="130 Herança">
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/SavingsAccount.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="131 Upcasting e downcasting">
+      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/app/program132.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/132_1_sobreposicao.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/app/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/BussinessAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/BussinessAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/01-Exemplo01/entities/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,42 +57,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Program (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program5Date.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program6ManipDate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramLists.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramMatrix01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramVector.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramaEstudante.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex.test.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.versao1.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.vetor01.Program.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/Documents/workspace/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Program (1).executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.Program1.executor": "Run",
+    "Application.Program2.executor": "Run",
+    "Application.Program3.executor": "Run",
+    "Application.Program4.executor": "Run",
+    "Application.Program5Date.executor": "Run",
+    "Application.Program6ManipDate.executor": "Run",
+    "Application.ProgramEmployee.executor": "Run",
+    "Application.ProgramLists.executor": "Run",
+    "Application.ProgramMatrix01.executor": "Run",
+    "Application.ProgramV2.executor": "Run",
+    "Application.ProgramV3.executor": "Run",
+    "Application.ProgramVector.executor": "Run",
+    "Application.ProgramaEstudante.executor": "Run",
+    "Application.ex.test.Program.executor": "Run",
+    "Application.program132.executor": "Run",
+    "Application.versao1.Program.executor": "Run",
+    "Application.vetor01.Program.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/josem/Documents/workspace/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entities" />
@@ -106,7 +110,7 @@
       <recent name="versao2.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.program132">
     <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -116,13 +120,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program2" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,13 +165,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="program132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.program132" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.program132" />
         <item itemvalue="Application.Program6ManipDate" />
         <item itemvalue="Application.Program5Date" />
         <item itemvalue="Application.Program4" />
         <item itemvalue="Application.Program3" />
-        <item itemvalue="Application.Program2" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +277,7 @@
       <workItem from="1746724530783" duration="1059000" />
       <workItem from="1746725881027" duration="3381000" />
       <workItem from="1746909478825" duration="12048000" />
-      <workItem from="1746981579646" duration="4334000" />
+      <workItem from="1746981579646" duration="8270000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -608,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746929762477</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="131 Upcasting e downcasting">
+      <option name="closed" value="true" />
+      <created>1747005737004</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1747005737004</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +647,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="146. Começando a implementar Board e Piece" />
     <MESSAGE value="Reiniciando 2023 o Curso!" />
     <MESSAGE value="70 Exercícios de fixação" />
     <MESSAGE value="ajutes" />
@@ -654,7 +671,8 @@
     <MESSAGE value="127 Correção em vídeo do exercício de fixação" />
     <MESSAGE value="Ajustes README" />
     <MESSAGE value="130 Herança" />
-    <option name="LAST_COMMIT_MESSAGE" value="130 Herança" />
+    <MESSAGE value="131 Upcasting e downcasting" />
+    <option name="LAST_COMMIT_MESSAGE" value="131 Upcasting e downcasting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
