@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="135 Exercício resolvido">
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio2/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio2/entities/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio2/entities/Individual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-13-Heranca-e-polimorfismo/02-Exercicio2/entities/TaxPayer.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="136 Exercício de fixação">
+      <change afterPath="$PROJECT_DIR$/img/137_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -277,7 +274,7 @@
       <workItem from="1746724530783" duration="1059000" />
       <workItem from="1746725881027" duration="3381000" />
       <workItem from="1746909478825" duration="12048000" />
-      <workItem from="1746981579646" duration="18719000" />
+      <workItem from="1746981579646" duration="20293000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -425,14 +422,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Reiniciando 2023 o Curso!">
-      <option name="closed" value="true" />
-      <created>1688178249119</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1688178249119</updated>
     </task>
     <task id="LOCAL-00023" summary="70 Exercícios de fixação">
       <option name="closed" value="true" />
@@ -650,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747018928118</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="136 Exercício de fixação">
+      <option name="closed" value="true" />
+      <created>1747055699103</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1747055699103</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,7 +668,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="71 Membros estáticos - Parte 1" />
     <MESSAGE value="75 Construtores" />
     <MESSAGE value="78 Encapsulamento" />
     <MESSAGE value="83 Correção do exercício de fixação - Parte 2" />
@@ -696,7 +692,8 @@
     <MESSAGE value="132 Sobreposição, palavra super, anotação @Override" />
     <MESSAGE value="134 Introdução ao polimorfismo" />
     <MESSAGE value="135 Exercício resolvido" />
-    <option name="LAST_COMMIT_MESSAGE" value="135 Exercício resolvido" />
+    <MESSAGE value="136 Exercício de fixação" />
+    <option name="LAST_COMMIT_MESSAGE" value="136 Exercício de fixação" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -2884,11 +2884,33 @@ TOTAL TAXES: $ 97000.00
 
 ### 137 Classes abstratas
 
+- São classes que não podem ser instanciadas
+- É uma forma de garantir herança total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata
 
+![img.png](img/137_1.png)
+
+- Se a classe Account não pode ser instanciada, por
+que simplesmente não criar somente SavingsAccount
+e BusinessAccount?
+
+- Resposta:
+- Reuso
+- Polimorfismo: a superclasse classe genérica nos permite tratar de forma fácil e uniforme todos os tipos de conta, inclusive
+com polimorfismo se for o caso (como fizemos nos últimos exercícios). Por exemplo, você pode colocar todos tipos de
+contas em uma mesma coleção.
+- Demo: suponha que você queira:
+- Totalizar o saldo de todas as contas.
+- Depositar 10.00 em todas as contas.
 
 ### 138 Métodos abstratos
 
+- São métodos que não possuem implementação.
+- Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação.
+- Se uma classe possuir pelo menos um método abstrato, então esta classe também é abstrata.
 
+- Notação UML: itálico
+
+![img.png](img/138_1_metedos_abs.png)
 
 ### 139 Exercício de fixação
 
