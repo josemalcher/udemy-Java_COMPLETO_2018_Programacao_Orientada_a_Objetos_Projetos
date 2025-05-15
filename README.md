@@ -3149,6 +3149,45 @@ saque da conta. Implemente a conta bancária conforme projeto abaixo:
 
 ## <a name="parte15">15 - Seção 15: Trabalhando com arquivos</a>
 
+### 153 Visão geral do capítulo Trabalhando com Arquivos
+
+
+
+### 154 Material de apoio do capítulo
+
+- [Secao-15-Trabalhando-com-arquivos/00-apoio/11-arquivos.pdf](/Secao-15-Trabalhando-com-arquivos/00-apoio/11-arquivos.pdf)
+
+### 155 Lendo arquivo texto com classes File e Scanner
+
+
+
+### 156 FileReader e BufferedReader
+
+
+
+### 157 Bloco try-with-resources
+
+
+
+### 158 FileWriter e BufferedWriter
+
+
+
+### 159 Manipulando pastas com File
+
+
+
+### 160 Informações do caminho do arquivo
+
+
+
+### 161 Exercício proposto
+
+
+
+### 162 Correção em vídeo do exercício proposto
+
+
 
 
 [Voltar ao Índice](#indice)
