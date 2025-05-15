@@ -3123,9 +3123,6 @@ Resumo da aula
 ### 149 Segunda solução - ruim
 
 
-
-
-
 ### 150 Terceira solução - boa
 
 
