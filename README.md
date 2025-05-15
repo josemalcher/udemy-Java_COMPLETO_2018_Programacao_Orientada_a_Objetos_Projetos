@@ -3126,9 +3126,6 @@ Resumo da aula
 ### 150 Terceira solução - boa
 
 
-
-
-
 ### 151 Exercício de fixação
 
 Fazer um programa para ler os dados de uma conta bancária e depois realizar um
