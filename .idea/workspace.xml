@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="149 Segunda solução - ruim">
-      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-Exemplo2/model/exceptions/DomainException.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="150 Terceira solução - boa">
+      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/02-Exercicio1/app/program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/02-Exercicio1/entities/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/02-Exercicio1/exceptions/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-Exemplo2/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-Exemplo2/app/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-Exemplo2/modelo/entities/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-Exemplo2/model/entities/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +111,7 @@
       <recent name="versao2.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.program">
     <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -119,13 +121,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program4" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,6 +165,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.program" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="program132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.program132" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -185,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.program" />
         <item itemvalue="Application.ProgramFinally" />
         <item itemvalue="Application.program132" />
         <item itemvalue="Application.Program6ManipDate" />
         <item itemvalue="Application.Program5Date" />
-        <item itemvalue="Application.Program4" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +294,7 @@
       <workItem from="1747096949964" duration="46000" />
       <workItem from="1747308747228" duration="992000" />
       <workItem from="1747311565867" duration="6758000" />
-      <workItem from="1747331159805" duration="3843000" />
+      <workItem from="1747331159805" duration="7862000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -434,14 +442,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00028" summary="83 Correção do exercício de fixação - Parte 2">
-      <option name="closed" value="true" />
-      <created>1745849831515</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1745849831515</updated>
     </task>
     <task id="LOCAL-00029" summary="87 Desalocação de memória - garbage collector e escopo local">
       <option name="closed" value="true" />
@@ -659,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747334310578</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="150 Terceira solução - boa">
+      <option name="closed" value="true" />
+      <created>1747335524678</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1747335524678</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +688,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="94 Correção do desafio sobre vetores (pensionato)" />
     <MESSAGE value="97 Listas - Parte 1" />
     <MESSAGE value="98 Listas - Parte 2" />
     <MESSAGE value="100 Correção em vídeo do exercício proposto" />
@@ -705,7 +712,8 @@
     <MESSAGE value="144 Estrutura try-catch" />
     <MESSAGE value="148 Primeira solução - muito ruim" />
     <MESSAGE value="149 Segunda solução - ruim" />
-    <option name="LAST_COMMIT_MESSAGE" value="149 Segunda solução - ruim" />
+    <MESSAGE value="150 Terceira solução - boa" />
+    <option name="LAST_COMMIT_MESSAGE" value="150 Terceira solução - boa" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

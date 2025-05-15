@@ -3137,7 +3137,7 @@ saque da conta. Implemente a conta bancária conforme projeto abaixo:
 
 ### 152 Correção do exercício de fixação
 
-
+- [Tratamento de exceções : aprenda na prática : exemplo Java](https://www.youtube.com/watch?v=AiIuJqJ0r8A)
 
 
 
