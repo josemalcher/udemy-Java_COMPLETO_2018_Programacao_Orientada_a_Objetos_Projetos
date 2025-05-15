@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="141 Visão geral do capítulo Tratamento de Exceções">
-      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/00-apoio/09-tratamento-de-excecoes.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-exemplo1/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/146_1_hierarquia-excecoes.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="144 Estrutura try-catch">
+      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-Exemplo2/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-Exemplo2/modelo/entities/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-exemplo1/app/ProgramFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/147_1_pacotes-model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/147_2_exerecicio1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/151_1-exercicio1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-exemplo1/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-exemplo1/app/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="José Malcher Jr. &lt;contato@josemalcher.net&gt;" />
         <option value="José Malcher Jr &lt;contato@josemalcher.net&gt;" />
         <option value="josemalcher &lt;contato@josemalcher.net&gt;" />
         <option value="José Stélio R. Malcher Junior &lt;contato@josemalcher.net&gt;" />
@@ -67,6 +72,7 @@
     &quot;Application.Program5Date.executor&quot;: &quot;Run&quot;,
     &quot;Application.Program6ManipDate.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProgramEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramFinally.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProgramLists.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProgramMatrix01.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProgramV2.executor&quot;: &quot;Run&quot;,
@@ -123,13 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program3" />
-      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Program4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program4" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -147,6 +146,19 @@
     <configuration name="Program6ManipDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program6ManipDate" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ProgramFinally" />
+      <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramFinally" />
         <item itemvalue="Application.program132" />
         <item itemvalue="Application.Program6ManipDate" />
         <item itemvalue="Application.Program5Date" />
         <item itemvalue="Application.Program4" />
-        <item itemvalue="Application.Program3" />
       </list>
     </recent_temporary>
   </component>
@@ -202,8 +214,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -279,7 +291,8 @@
       <workItem from="1746981579646" duration="23676000" />
       <workItem from="1747096949964" duration="46000" />
       <workItem from="1747308747228" duration="992000" />
-      <workItem from="1747311565867" duration="1779000" />
+      <workItem from="1747311565867" duration="6758000" />
+      <workItem from="1747331159805" duration="1761000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -427,14 +440,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00025" summary="71 Membros estáticos - Parte 1">
-      <option name="closed" value="true" />
-      <created>1745806259634</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1745806259634</updated>
     </task>
     <task id="LOCAL-00026" summary="75 Construtores">
       <option name="closed" value="true" />
@@ -652,7 +657,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747077145138</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="144 Estrutura try-catch">
+      <option name="closed" value="true" />
+      <created>1747314319917</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1747314319918</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +686,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="83 Correção do exercício de fixação - Parte 2" />
     <MESSAGE value="87 Desalocação de memória - garbage collector e escopo local" />
     <MESSAGE value="88 Vetores - Parte 1" />
     <MESSAGE value="94 Correção do desafio sobre vetores (pensionato)" />
@@ -698,7 +710,8 @@
     <MESSAGE value="136 Exercício de fixação" />
     <MESSAGE value="140 Correção em vídeo do exercício de fixação" />
     <MESSAGE value="141 Visão geral do capítulo Tratamento de Exceções" />
-    <option name="LAST_COMMIT_MESSAGE" value="141 Visão geral do capítulo Tratamento de Exceções" />
+    <MESSAGE value="144 Estrutura try-catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="144 Estrutura try-catch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

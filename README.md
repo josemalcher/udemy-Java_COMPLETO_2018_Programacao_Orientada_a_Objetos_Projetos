@@ -3000,25 +3000,124 @@ public static void main(String[] args) {
 ### 145 Pilha de chamadas de métodos (stack trace)
 
 
+```java
+public class Program {
+    public static void main(String[] args) {
 
+        method1();
+
+        System.out.println("End of program");
+    }
+
+    public static void method1() {
+        System.out.println("***METHOD1 START***");
+        method2();
+        System.out.println("***METHOD1 END***");
+    }
+
+    public static void method2() {
+        System.out.println("***METHOD2 START***");
+        Scanner sc = new Scanner(System.in);
+
+        try {
+
+            String[] vect = sc.nextLine().split(" ");
+            int position = sc.nextInt();
+            System.out.println(vect[position]);
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid position!");
+            e.printStackTrace();
+            sc.next();
+        } catch (InputMismatchException e) {
+            System.out.println("Input error");
+        }
+        sc.close();
+        System.out.println("***METHOD2 END***");
+
+    }
+}
+```
+
+```
+***METHOD1 START***
+***METHOD2 START***
+jose luciana lurdes
+5
+Invalid position!
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 3
+	at app.Program.method2(Program.java:28)
+	at app.Program.method1(Program.java:16)
+	at app.Program.main(Program.java:9)
+
+```
 
 
 ### 146 Bloco finally
 
+- É um bloco que contém código a ser executado independentemente de ter ocorrido ou não uma exceção.
+- Exemplo clássico: fechar um arquivo, conexão de banco de dados, ou outro recurso específico ao final do processamento.
 
+```java
+public static void main(String[] args) {
+        File file = new File("c:\\temp\\in.txt");
 
+        Scanner sc = null;
 
+        try {
+            sc = new Scanner(file);
+            while (sc.hasNextLine()) {
+                System.out.println(sc.nextLine());
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("Error opening file: "  + e.getMessage());
+        }finally {
+            if (sc != null) {
+                sc.close();
+            }
+            System.out.println("Finally block executed");
+            
+        }
+    }
+```
 
 ### 147 Criando exceções personalizadas
 
+Sugestão de pacotes "model"
 
+![img.png](img/147_1_pacotes-model.png)
 
+Problema exemplo:
+
+Fazer um programa para ler os dados de uma reserva de hotel (número do quarto, data
+de entrada e data de saída) e mostrar os dados da reserva, inclusive sua duração em
+dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva, e mostrar
+novamente a reserva com os dados atualizados. O programa não deve aceitar dados
+inválidos para a reserva, conforme as seguintes regras:
+
+- Alterações de reserva só podem ocorrer para datas futuras
+- A data de saída deve ser maior que a data de entrada
+
+![img.png](img/147_2_exerecicio1.png)
+
+Resumo da aula
+- Cláusula throws: propaga a exceção ao invés de trata-la
+
+- Cláusula throw: lança a exceção / "corta" o método
+
+- Exception: compilador obriga a tratar ou propagar
+- RuntimeException: compilador não obriga
+
+- O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+- Vantagens:
+  - Lógica delegada
+  - Construtores podem ter tratamento de exceções
+  - Possibilidade de auxílio do compilador (Exception)
+  - Código mais simples. Não há aninhamento de condicionais: a qualquer momento que uma exceção for disparada, a execução é interrompida e cai no bloco catch correspondente.
+  - É possível capturar inclusive outras exceções de sistema
 
 
 ### 148 Primeira solução - muito ruim
-
-
-
 
 
 ### 149 Segunda solução - ruim
@@ -3035,9 +3134,12 @@ public static void main(String[] args) {
 
 ### 151 Exercício de fixação
 
+Fazer um programa para ler os dados de uma conta bancária e depois realizar um
+saque nesta conta bancária, mostrando o novo saldo. Um saque não pode ocorrer
+ou se não houver saldo na conta, ou se o valor do saque for superior ao limite de
+saque da conta. Implemente a conta bancária conforme projeto abaixo:
 
-
-
+![img.png](img/151_1-exercicio1.png)
 
 ### 152 Correção do exercício de fixação
 
