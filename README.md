@@ -2940,20 +2940,62 @@ contas em uma mesma coleção.
 ### 142 Material de apoio do capítulo
 
 
-
+- [09-tratamento-de-excecoes.pdf](/Secao-14-Tratamento-de-excecoes/00-apoio/09-tratamento-de-excecoes.pdf)
 
 
 ### 143 Discussão inicial sobre exceções
 
+- Uma exceção é qualquer condição de erro ou comportamento inesperado encontrado por um programa em execução
 
+- Em Java, uma exceção é um objeto herdado da classe:
+  - java.lang.Exception - o compilador obriga a tratar ou propagar
+  - java.lang.RuntimeException - o compilador não obriga a tratar ou propagar
 
+- Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada (tratada) ou o programa seja encerrado
 
+Hierarquia de exceções do Java
+
+https://docs.oracle.com/javase/10/docs/api/java/lang/package-tree.html
+
+![img.png](img/146_1_hierarquia-excecoes.png)
+
+Por que exceções?
+- O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+
+- Vantagens:
+  - Delega a lógica do erro para a classe responsável por conhecer as regras que podem ocasionar o erro
+    - Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes 
+    - A exceção pode carregar dados quaisquer
 
 ### 144 Estrutura try-catch
 
+- Bloco try
+  - Contém o código que representa a execução normal do trecho de código que pode acarretar em uma exceção
 
+- Bloco catch
+  - Contém o código a ser executado caso uma exceção ocorra
+    - Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido)
 
+```java
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
+        try {
+            String[] vect = sc.nextLine().split(" ");
+            int position = sc.nextInt();
+
+            System.out.println(vect[position]);
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid position");
+        } catch (InputMismatchException e) {
+            System.out.println("Input Error!");
+        }
+        System.out.println("End od program");
+
+        sc.close();
+    }
+```
 
 ### 145 Pilha de chamadas de métodos (stack trace)
 

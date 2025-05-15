@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="140 Correção em vídeo do exercício de fixação">
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="141 Visão geral do capítulo Tratamento de Exceções">
+      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/00-apoio/09-tratamento-de-excecoes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-14-Tratamento-de-excecoes/01-exemplo1/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/146_1_hierarquia-excecoes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -52,43 +56,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Program (1).executor": "Run",
-    "Application.Program.executor": "Run",
-    "Application.Program1.executor": "Run",
-    "Application.Program2.executor": "Run",
-    "Application.Program3.executor": "Run",
-    "Application.Program4.executor": "Run",
-    "Application.Program5Date.executor": "Run",
-    "Application.Program6ManipDate.executor": "Run",
-    "Application.ProgramEmployee.executor": "Run",
-    "Application.ProgramLists.executor": "Run",
-    "Application.ProgramMatrix01.executor": "Run",
-    "Application.ProgramV2.executor": "Run",
-    "Application.ProgramV3.executor": "Run",
-    "Application.ProgramVector.executor": "Run",
-    "Application.ProgramaEstudante.executor": "Run",
-    "Application.ex.test.Program.executor": "Run",
-    "Application.program132.executor": "Run",
-    "Application.versao1.Program.executor": "Run",
-    "Application.vetor01.Program.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/josem/Documents/workspace/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program5Date.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program6ManipDate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramMatrix01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramVector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramaEstudante.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex.test.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.program132.executor&quot;: &quot;Run&quot;,
+    &quot;Application.versao1.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vetor01.Program.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/Documents/workspace/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entities" />
@@ -272,7 +276,10 @@
       <workItem from="1746724530783" duration="1059000" />
       <workItem from="1746725881027" duration="3381000" />
       <workItem from="1746909478825" duration="12048000" />
-      <workItem from="1746981579646" duration="22331000" />
+      <workItem from="1746981579646" duration="23676000" />
+      <workItem from="1747096949964" duration="46000" />
+      <workItem from="1747308747228" duration="992000" />
+      <workItem from="1747311565867" duration="1779000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -420,14 +427,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00024" summary="ajutes">
-      <option name="closed" value="true" />
-      <created>1745667393773</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1745667393773</updated>
     </task>
     <task id="LOCAL-00025" summary="71 Membros estáticos - Parte 1">
       <option name="closed" value="true" />
@@ -645,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747057889178</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="141 Visão geral do capítulo Tratamento de Exceções">
+      <option name="closed" value="true" />
+      <created>1747077145138</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1747077145138</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,7 +673,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="78 Encapsulamento" />
     <MESSAGE value="83 Correção do exercício de fixação - Parte 2" />
     <MESSAGE value="87 Desalocação de memória - garbage collector e escopo local" />
     <MESSAGE value="88 Vetores - Parte 1" />
@@ -691,7 +697,8 @@
     <MESSAGE value="135 Exercício resolvido" />
     <MESSAGE value="136 Exercício de fixação" />
     <MESSAGE value="140 Correção em vídeo do exercício de fixação" />
-    <option name="LAST_COMMIT_MESSAGE" value="140 Correção em vídeo do exercício de fixação" />
+    <MESSAGE value="141 Visão geral do capítulo Tratamento de Exceções" />
+    <option name="LAST_COMMIT_MESSAGE" value="141 Visão geral do capítulo Tratamento de Exceções" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
