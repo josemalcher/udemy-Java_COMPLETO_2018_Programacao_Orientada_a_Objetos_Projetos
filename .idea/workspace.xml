@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="156 FileReader e BufferedReader">
-      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/01-exemplo3/app/Program.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="157 Bloco try-with-resources">
+      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/01-exemplo4/app/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +294,8 @@
       <workItem from="1747308747228" duration="992000" />
       <workItem from="1747311565867" duration="6758000" />
       <workItem from="1747331159805" duration="8821000" />
-      <workItem from="1747483962535" duration="4801000" />
+      <workItem from="1747483962535" duration="5928000" />
+      <workItem from="1747500101364" duration="3004000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -441,14 +443,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00033" summary="98 Listas - Parte 2">
-      <option name="closed" value="true" />
-      <created>1746059617378</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1746059617378</updated>
     </task>
     <task id="LOCAL-00034" summary="100 Correção em vídeo do exercício proposto">
       <option name="closed" value="true" />
@@ -666,7 +660,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747490256104</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="157 Bloco try-with-resources">
+      <option name="closed" value="true" />
+      <created>1747491451061</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1747491451062</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +689,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="114 Cálculos com data-hora" />
     <MESSAGE value="117 Manipulando um Date com Calendar" />
     <MESSAGE value="ajustes seções 2025" />
     <MESSAGE value="119 Material de apoio do capítulo" />
@@ -712,7 +713,8 @@
     <MESSAGE value="154 Material de apoio do capítulo" />
     <MESSAGE value="155 Lendo arquivo texto com classes File e Scanner" />
     <MESSAGE value="156 FileReader e BufferedReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="156 FileReader e BufferedReader" />
+    <MESSAGE value="157 Bloco try-with-resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="157 Bloco try-with-resources" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
