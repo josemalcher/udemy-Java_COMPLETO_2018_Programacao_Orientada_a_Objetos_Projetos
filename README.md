@@ -3286,17 +3286,84 @@ public static void main(String[] args) {
 
 ### 159 Manipulando pastas com File
 
+```java
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter a folder path: ");
+        String strPath = sc.nextLine();
+
+        File path = new File(strPath);
+
+        File[] folders = path.listFiles(File::isDirectory);
+        System.out.println("FOLDERS:");
+        for (File folder : folders) {
+            System.out.println(folder);
+        }
+
+        File[] files = path.listFiles(File::isFile);
+        System.out.println("FILES:");
+        for (File file : files) {
+            System.out.println(file);
+        }
+
+        boolean success = new File(strPath + "\\subdir2").mkdir();
+        System.out.println("Directory created successfully: " + success);
+
+        sc.close();
+    }
+```
 
 ### 160 Informações do caminho do arquivo
 
+```java
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter a folder path: ");
+        String strPath = sc.nextLine();
+
+        File path = new File(strPath);
+
+        System.out.println("getPath: " + path.getPath());
+        System.out.println("getParent: " + path.getParent());
+        System.out.println("getName: " + path.getName());
+
+        sc.close();
+    }
+```
 
 ### 161 Exercício proposto
+
+```
+Fazer um programa para ler o caminho de um arquivo .csv 
+contendo os dados de itens vendidos. Cada item possui um 
+nome, preço unitário e quantidade, separados por vírgula. Você 
+deve gerar um novo arquivo chamado "summary.csv", localizado 
+em uma subpasta chamada "out" a partir da pasta original do 
+arquivo de origem, contendo apenas o nome e o valor total para 
+aquele item (preço unitário multiplicado pela quantidade), 
+conforme exemplo.
+
+Source file:
+TV LED,1290.99,1
+Video Game Chair,350.50,3 
+Iphone X,900.00,2
+Samsung Galaxy 9,850.00,2
+
+Output file (out/summary.csv):
+TV LED,1290.99
+Video Game Chair,1051.50 
+Iphone X,1800.00
+Samsung Galaxy 9,1700.00
+```
+
 
 
 
 ### 162 Correção em vídeo do exercício proposto
+
+https://www.youtube.com/watch?v=bIPd_451uEg
 
 
 
