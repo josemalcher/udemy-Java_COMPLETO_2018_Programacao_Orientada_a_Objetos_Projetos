@@ -3375,6 +3375,61 @@ https://www.youtube.com/watch?v=bIPd_451uEg
 
 ## <a name="parte16">16 - Seção 16: Interfaces</a>
 
+### 163 Visão geral do capítulo Interfaces
+
+
+
+### 164 Material de apoio do capítulo
+
+- [13-interfaces.pdf](/Secao-16-Interfaces/00-apoio/13-interfaces.pdf)
+
+### 165 Interfaces
+
+
+
+### 166 Solução do problema - PARTE 1
+
+
+
+### 167 Solução do problema - PARTE 2 (sem interface)
+
+
+
+### 168 Solução do problema - PARTE 3
+
+
+
+### 169 Inversão de controle e injeção de dependência
+
+
+
+### 170 Exercício de fixação
+
+
+
+### 171 Correção do exercício de fixação PARTE 1
+
+
+
+### 172 Correção do exercício de fixação PARTE 2
+
+
+
+### 173 Herdar vs. cumprir contrato
+
+
+
+### 174 Herança múltipla e o problema do diamante
+
+
+
+### 175 Interface Comparable
+
+
+
+### 176 Default methods
+
+
 
 
 [Voltar ao Índice](#indice)

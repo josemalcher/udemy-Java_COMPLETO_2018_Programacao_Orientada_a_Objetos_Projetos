@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="158 FileWriter e BufferedWriter">
-      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/01-exemplo5/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/01-exemplo6/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/02-exercicio1/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/02-exercicio1/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="162 Correção em vídeo do exercício proposto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,7 +290,7 @@
       <workItem from="1747311565867" duration="6758000" />
       <workItem from="1747331159805" duration="8821000" />
       <workItem from="1747483962535" duration="5928000" />
-      <workItem from="1747500101364" duration="4688000" />
+      <workItem from="1747500101364" duration="5043000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -446,14 +438,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00035" summary="105 Material de apoio do capítulo">
-      <option name="closed" value="true" />
-      <created>1746190033509</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1746190033509</updated>
     </task>
     <task id="LOCAL-00036" summary="114 Cálculos com data-hora">
       <option name="closed" value="true" />
@@ -671,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747510815304</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="162 Correção em vídeo do exercício proposto">
+      <option name="closed" value="true" />
+      <created>1747512701218</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1747512701218</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +684,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ajustes seções 2025" />
     <MESSAGE value="119 Material de apoio do capítulo" />
     <MESSAGE value="121 Vamos falar um pouco sobre design" />
     <MESSAGE value="124 Exercício resolvido 1 - Parte 2" />
@@ -717,7 +708,8 @@
     <MESSAGE value="156 FileReader e BufferedReader" />
     <MESSAGE value="157 Bloco try-with-resources" />
     <MESSAGE value="158 FileWriter e BufferedWriter" />
-    <option name="LAST_COMMIT_MESSAGE" value="158 FileWriter e BufferedWriter" />
+    <MESSAGE value="162 Correção em vídeo do exercício proposto" />
+    <option name="LAST_COMMIT_MESSAGE" value="162 Correção em vídeo do exercício proposto" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
