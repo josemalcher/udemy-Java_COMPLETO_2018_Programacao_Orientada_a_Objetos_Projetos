@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="152 Correção do exercício de fixação" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="154 Material de apoio do capítulo">
+      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/01-exemplo1/app/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,45 +55,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Program (1).executor": "Run",
-    "Application.Program.executor": "Run",
-    "Application.Program1.executor": "Run",
-    "Application.Program2.executor": "Run",
-    "Application.Program3.executor": "Run",
-    "Application.Program4.executor": "Run",
-    "Application.Program5Date.executor": "Run",
-    "Application.Program6ManipDate.executor": "Run",
-    "Application.ProgramEmployee.executor": "Run",
-    "Application.ProgramFinally.executor": "Run",
-    "Application.ProgramLists.executor": "Run",
-    "Application.ProgramMatrix01.executor": "Run",
-    "Application.ProgramV2.executor": "Run",
-    "Application.ProgramV3.executor": "Run",
-    "Application.ProgramVector.executor": "Run",
-    "Application.ProgramaEstudante.executor": "Run",
-    "Application.ex.test.Program.executor": "Run",
-    "Application.program.executor": "Run",
-    "Application.program132.executor": "Run",
-    "Application.versao1.Program.executor": "Run",
-    "Application.vetor01.Program.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/josem/Documents/workspace/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program5Date.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program6ManipDate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramFinally.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramMatrix01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramVector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramaEstudante.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex.test.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.program132.executor&quot;: &quot;Run&quot;,
+    &quot;Application.versao1.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vetor01.Program.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/Documents/workspace/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entities" />
@@ -105,7 +110,7 @@
       <recent name="versao2.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.program">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Program" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -288,7 +293,8 @@
       <workItem from="1747096949964" duration="46000" />
       <workItem from="1747308747228" duration="992000" />
       <workItem from="1747311565867" duration="6758000" />
-      <workItem from="1747331159805" duration="8589000" />
+      <workItem from="1747331159805" duration="8821000" />
+      <workItem from="1747483962535" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -436,14 +442,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00030" summary="88 Vetores - Parte 1">
-      <option name="closed" value="true" />
-      <created>1745863986213</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1745863986213</updated>
     </task>
     <task id="LOCAL-00031" summary="94 Correção do desafio sobre vetores (pensionato)">
       <option name="closed" value="true" />
@@ -661,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747341804748</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="154 Material de apoio do capítulo">
+      <option name="closed" value="true" />
+      <created>1747342703925</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1747342703925</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +688,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="98 Listas - Parte 2" />
     <MESSAGE value="100 Correção em vídeo do exercício proposto" />
     <MESSAGE value="105 Material de apoio do capítulo" />
     <MESSAGE value="114 Cálculos com data-hora" />
@@ -707,7 +712,8 @@
     <MESSAGE value="149 Segunda solução - ruim" />
     <MESSAGE value="150 Terceira solução - boa" />
     <MESSAGE value="152 Correção do exercício de fixação" />
-    <option name="LAST_COMMIT_MESSAGE" value="152 Correção do exercício de fixação" />
+    <MESSAGE value="154 Material de apoio do capítulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="154 Material de apoio do capítulo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

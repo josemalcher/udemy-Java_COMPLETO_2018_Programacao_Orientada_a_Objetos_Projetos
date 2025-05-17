@@ -3159,6 +3159,31 @@ saque da conta. Implemente a conta bancária conforme projeto abaixo:
 
 ### 155 Lendo arquivo texto com classes File e Scanner
 
+- File - Representação abstrata de um arquivo e seu caminho
+  - https://docs.oracle.com/javase/10/docs/api/java/io/File.html
+- Scanner - Leitor de texto
+  - https://docs.oracle.com/javase/10/docs/api/java/util/Scanner.html
+- IOException (Exception)
+  - https://docs.oracle.com/javase/10/docs/api/java/io/IOException.html
+  
+```java
+public static void main(String[] args) {
+        File file = new File("c:\\temp\\teste_texto1.txt");
+        Scanner sc = null;
+        try {
+            sc = new Scanner(file);
+            while (sc.hasNextLine()) {
+                System.out.println(sc.nextLine());
+            }
+        } catch (IOException e) {
+            System.out.println("ERROR: "+ e.getMessage());
+        }finally {
+            if (sc != null) {
+                sc.close();
+            }
+        }
+    }
+```
 
 
 ### 156 FileReader e BufferedReader
