@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="154 Material de apoio do capítulo">
-      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/01-exemplo1/app/Program.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="155 Lendo arquivo texto com classes File e Scanner">
+      <change afterPath="$PROJECT_DIR$/Secao-15-Trabalhando-com-arquivos/01-exemplo2/app/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -294,7 +294,7 @@
       <workItem from="1747308747228" duration="992000" />
       <workItem from="1747311565867" duration="6758000" />
       <workItem from="1747331159805" duration="8821000" />
-      <workItem from="1747483962535" duration="2392000" />
+      <workItem from="1747483962535" duration="4027000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -442,14 +442,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00031" summary="94 Correção do desafio sobre vetores (pensionato)">
-      <option name="closed" value="true" />
-      <created>1745961902997</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1745961902997</updated>
     </task>
     <task id="LOCAL-00032" summary="97 Listas - Parte 1">
       <option name="closed" value="true" />
@@ -667,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747342703925</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="155 Lendo arquivo texto com classes File e Scanner">
+      <option name="closed" value="true" />
+      <created>1747488529693</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1747488529694</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +688,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="100 Correção em vídeo do exercício proposto" />
     <MESSAGE value="105 Material de apoio do capítulo" />
     <MESSAGE value="114 Cálculos com data-hora" />
     <MESSAGE value="117 Manipulando um Date com Calendar" />
@@ -713,7 +712,8 @@
     <MESSAGE value="150 Terceira solução - boa" />
     <MESSAGE value="152 Correção do exercício de fixação" />
     <MESSAGE value="154 Material de apoio do capítulo" />
-    <option name="LAST_COMMIT_MESSAGE" value="154 Material de apoio do capítulo" />
+    <MESSAGE value="155 Lendo arquivo texto com classes File e Scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="155 Lendo arquivo texto com classes File e Scanner" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

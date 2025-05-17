@@ -3188,9 +3188,56 @@ public static void main(String[] args) {
 
 ### 156 FileReader e BufferedReader
 
+Classes
+- FileReader (stream de leitura de caracteres a partir de arquivos)
+  - https://docs.oracle.com/javase/10/docs/api/java/io/FileReader.html
 
+- BufferedReader (mais rápido)
+  - https://docs.oracle.com/javase/10/docs/api/java/io/BufferedReader.html
+  - https://stackoverflow.com/questions/9648811/specific-difference-between-bufferedreader-and-filereader
+
+```java
+public static void main(String[] args) {
+        String path = "c:\\temp\\teste_texto1.txt";
+        BufferedReader br = null;
+        FileReader fr = null;
+
+        try {
+
+            fr = new FileReader(path);
+            br = new BufferedReader(fr);
+
+            String line = br.readLine();
+
+            while (line != null) {
+                System.out.println(line);
+                line = br.readLine();
+            }
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        } finally {
+            try {
+                if (br != null)
+                    br.close();
+                if (fr != null)
+                    fr.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+```
 
 ### 157 Bloco try-with-resources
+
+- É um bloco try que declara um ou mais recursos, e garante que esses recursos serão fechados ao final do bloco
+
+- Disponível no Java 7 em diante
+
+- https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
+
+
+
 
 
 
