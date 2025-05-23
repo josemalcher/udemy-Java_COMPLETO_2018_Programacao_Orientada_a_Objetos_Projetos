@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="167 Solução do problema - PARTE 2 (sem interface)">
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/services/TaxService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/168_1_serviceLayerDesign.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="168 Solução do problema - PARTE 3">
+      <change afterPath="$PROJECT_DIR$/img/169_1_inversaoControleDepend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/169_2_inversaoContrDepend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/169_3_injDepnContrutor.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/app/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/services/BrazilTaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/services/BrazilTaxService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/services/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/services/RentalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +302,7 @@
       <workItem from="1747912740301" duration="3863000" />
       <workItem from="1747936636768" duration="6296000" />
       <workItem from="1747958169576" duration="6216000" />
-      <workItem from="1748020356576" duration="1884000" />
+      <workItem from="1748020356576" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -452,14 +450,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00039" summary="119 Material de apoio do capítulo">
-      <option name="closed" value="true" />
-      <created>1746576275643</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1746576275643</updated>
     </task>
     <task id="LOCAL-00040" summary="121 Vamos falar um pouco sobre design">
       <option name="closed" value="true" />
@@ -677,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748021603473</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="168 Solução do problema - PARTE 3">
+      <option name="closed" value="true" />
+      <created>1748022375949</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1748022375950</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +696,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="125 Exercício resolvido 2 (demo StringBuilder)" />
     <MESSAGE value="127 Correção em vídeo do exercício de fixação" />
     <MESSAGE value="Ajustes README" />
     <MESSAGE value="130 Herança" />
@@ -723,7 +720,8 @@
     <MESSAGE value="164 Material de apoio do capítulo" />
     <MESSAGE value="166 Solução do problema - PARTE 1/2" />
     <MESSAGE value="167 Solução do problema - PARTE 2 (sem interface)" />
-    <option name="LAST_COMMIT_MESSAGE" value="167 Solução do problema - PARTE 2 (sem interface)" />
+    <MESSAGE value="168 Solução do problema - PARTE 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="168 Solução do problema - PARTE 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
