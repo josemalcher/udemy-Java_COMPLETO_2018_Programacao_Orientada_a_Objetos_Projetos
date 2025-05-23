@@ -3473,6 +3473,9 @@ Imposto = 390 * 15% = 390 * 0.15 = 58.50
 
 ### 168 Solução do problema - PARTE 3
 
+#### Service layer design
+
+![img.png](img/168_1_serviceLayerDesign.png)
 
 
 ### 169 Inversão de controle e injeção de dependência
