@@ -3465,7 +3465,11 @@ Imposto = 390 * 15% = 390 * 0.15 = 58.50
 
 ### 167 Solução do problema - PARTE 2 (sem interface)
 
+![img.png](img/167_1_servico_gerar_fatura.png)
 
+#### Service layer design (no interface)
+
+![img.png](img/167_2_Servicelayerdesign-SemInterfaces.png)
 
 ### 168 Solução do problema - PARTE 3
 

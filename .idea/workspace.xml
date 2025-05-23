@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="164 Material de apoio do capítulo">
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/entities/CarRental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/entities/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/entities/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/166_1_domainLayerDesign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="166 Solução do problema - PARTE 1/2">
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/services/BrazilTaxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/services/RentalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/167_1_servico_gerar_fatura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/167_2_Servicelayerdesign-SemInterfaces.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/entities/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/model/entities/CarRental.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,45 +59,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Program (1).executor": "Run",
-    "Application.Program.executor": "Run",
-    "Application.Program1.executor": "Run",
-    "Application.Program2.executor": "Run",
-    "Application.Program3.executor": "Run",
-    "Application.Program4.executor": "Run",
-    "Application.Program5Date.executor": "Run",
-    "Application.Program6ManipDate.executor": "Run",
-    "Application.ProgramEmployee.executor": "Run",
-    "Application.ProgramFinally.executor": "Run",
-    "Application.ProgramLists.executor": "Run",
-    "Application.ProgramMatrix01.executor": "Run",
-    "Application.ProgramV2.executor": "Run",
-    "Application.ProgramV3.executor": "Run",
-    "Application.ProgramVector.executor": "Run",
-    "Application.ProgramaEstudante.executor": "Run",
-    "Application.ex.test.Program.executor": "Run",
-    "Application.program.executor": "Run",
-    "Application.program132.executor": "Run",
-    "Application.versao1.Program.executor": "Run",
-    "Application.vetor01.Program.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/josem/Documents/workspace",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program5Date.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program6ManipDate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramFinally.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramMatrix01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramVector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramaEstudante.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex.test.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.program132.executor&quot;: &quot;Run&quot;,
+    &quot;Application.versao1.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vetor01.Program.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/Documents/workspace&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entities" />
@@ -302,6 +303,8 @@
       <workItem from="1747500101364" duration="5298000" />
       <workItem from="1747912740301" duration="3863000" />
       <workItem from="1747936636768" duration="6296000" />
+      <workItem from="1747958169576" duration="6216000" />
+      <workItem from="1748020356576" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -449,14 +452,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00037" summary="117 Manipulando um Date com Calendar">
-      <option name="closed" value="true" />
-      <created>1746476632473</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1746476632473</updated>
     </task>
     <task id="LOCAL-00038" summary="ajustes seções 2025">
       <option name="closed" value="true" />
@@ -674,7 +669,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747512944851</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="166 Solução do problema - PARTE 1/2">
+      <option name="closed" value="true" />
+      <created>1747958191985</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1747958191986</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +698,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="121 Vamos falar um pouco sobre design" />
     <MESSAGE value="124 Exercício resolvido 1 - Parte 2" />
     <MESSAGE value="125 Exercício resolvido 2 (demo StringBuilder)" />
     <MESSAGE value="127 Correção em vídeo do exercício de fixação" />
@@ -720,7 +722,8 @@
     <MESSAGE value="158 FileWriter e BufferedWriter" />
     <MESSAGE value="162 Correção em vídeo do exercício proposto" />
     <MESSAGE value="164 Material de apoio do capítulo" />
-    <option name="LAST_COMMIT_MESSAGE" value="164 Material de apoio do capítulo" />
+    <MESSAGE value="166 Solução do problema - PARTE 1/2" />
+    <option name="LAST_COMMIT_MESSAGE" value="166 Solução do problema - PARTE 1/2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
