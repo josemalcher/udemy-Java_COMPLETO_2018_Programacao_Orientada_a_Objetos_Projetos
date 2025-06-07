@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="168 Solução do problema - PARTE 3">
-      <change afterPath="$PROJECT_DIR$/img/169_1_inversaoControleDepend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/169_2_inversaoContrDepend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/169_3_injDepnContrutor.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="170 Exercício de fixação">
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/entities/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/entities/Installment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/services/ContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +93,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -218,8 +219,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
       </set>
     </attachedChunks>
   </component>
@@ -302,7 +303,10 @@
       <workItem from="1747912740301" duration="3863000" />
       <workItem from="1747936636768" duration="6296000" />
       <workItem from="1747958169576" duration="6216000" />
-      <workItem from="1748020356576" duration="2966000" />
+      <workItem from="1748020356576" duration="4427000" />
+      <workItem from="1749204945227" duration="114000" />
+      <workItem from="1749205072839" duration="7176000" />
+      <workItem from="1749234169184" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -450,14 +454,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00040" summary="121 Vamos falar um pouco sobre design">
-      <option name="closed" value="true" />
-      <created>1746586521398</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1746586521398</updated>
     </task>
     <task id="LOCAL-00041" summary="124 Exercício resolvido 1 - Parte 2">
       <option name="closed" value="true" />
@@ -675,7 +671,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748022375950</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="170 Exercício de fixação">
+      <option name="closed" value="true" />
+      <created>1748024839058</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1748024839058</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,7 +700,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="127 Correção em vídeo do exercício de fixação" />
     <MESSAGE value="Ajustes README" />
     <MESSAGE value="130 Herança" />
     <MESSAGE value="131 Upcasting e downcasting" />
@@ -721,7 +724,8 @@
     <MESSAGE value="166 Solução do problema - PARTE 1/2" />
     <MESSAGE value="167 Solução do problema - PARTE 2 (sem interface)" />
     <MESSAGE value="168 Solução do problema - PARTE 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="168 Solução do problema - PARTE 3" />
+    <MESSAGE value="170 Exercício de fixação" />
+    <option name="LAST_COMMIT_MESSAGE" value="170 Exercício de fixação" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
