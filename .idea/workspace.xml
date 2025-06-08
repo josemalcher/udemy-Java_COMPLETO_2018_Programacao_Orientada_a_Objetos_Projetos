@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="170 Exercício de fixação">
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/entities/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/entities/Installment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/services/ContractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="170 Exercício de fixação Intro">
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/services/OnlinePaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/services/PaypalService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/app/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/services/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-16-Interfaces/02-Exercicio2/services/ContractService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +305,8 @@
       <workItem from="1748020356576" duration="4427000" />
       <workItem from="1749204945227" duration="114000" />
       <workItem from="1749205072839" duration="7176000" />
-      <workItem from="1749234169184" duration="2017000" />
+      <workItem from="1749234169184" duration="9193000" />
+      <workItem from="1749316612181" duration="1282000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -454,14 +454,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00041" summary="124 Exercício resolvido 1 - Parte 2">
-      <option name="closed" value="true" />
-      <created>1746618912839</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1746618912839</updated>
     </task>
     <task id="LOCAL-00042" summary="125 Exercício resolvido 2 (demo StringBuilder)">
       <option name="closed" value="true" />
@@ -679,7 +671,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748024839058</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="170 Exercício de fixação Intro">
+      <option name="closed" value="true" />
+      <created>1749255927661</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1749255927661</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +700,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ajustes README" />
     <MESSAGE value="130 Herança" />
     <MESSAGE value="131 Upcasting e downcasting" />
     <MESSAGE value="132 Sobreposição, palavra super, anotação @Override" />
@@ -725,7 +724,8 @@
     <MESSAGE value="167 Solução do problema - PARTE 2 (sem interface)" />
     <MESSAGE value="168 Solução do problema - PARTE 3" />
     <MESSAGE value="170 Exercício de fixação" />
-    <option name="LAST_COMMIT_MESSAGE" value="170 Exercício de fixação" />
+    <MESSAGE value="170 Exercício de fixação Intro" />
+    <option name="LAST_COMMIT_MESSAGE" value="170 Exercício de fixação Intro" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
