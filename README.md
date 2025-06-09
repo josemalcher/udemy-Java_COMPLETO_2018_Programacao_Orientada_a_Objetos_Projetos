@@ -3559,7 +3559,11 @@ Parcela #3:
 
 ### 173 Herdar vs. cumprir contrato
 
+- Diferença fundamental
+  - Herança => reuso
+  - Interface => contrato a ser cumprido
 
+![img.png](img/173_1_herdar-cumprirContrato.png)
 
 ### 174 Herança múltipla e o problema do diamante
 
