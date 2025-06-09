@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="173 Herdar vs. cumprir contrato">
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/devices/ComboDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/devices/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/devices/PrinterDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/devices/ScannerDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/services/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/services/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/174_1_problemaDiamante.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/174_2-solucaoProblemaDiamante.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="174 Herança múltipla e o problema do diamante">
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/175-Interface-Comparable-ex1/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/175-Interface-Comparable-ex1/app/ProgramComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/175-Interface-Comparable-ex1/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/175_1_comparable.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -75,6 +70,7 @@
     "Application.Program4.executor": "Run",
     "Application.Program5Date.executor": "Run",
     "Application.Program6ManipDate.executor": "Run",
+    "Application.ProgramComparable.executor": "Run",
     "Application.ProgramEmployee.executor": "Run",
     "Application.ProgramFinally.executor": "Run",
     "Application.ProgramLists.executor": "Run",
@@ -121,7 +117,7 @@
       <recent name="versao2.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.ProgramComparable">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
@@ -142,9 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program6ManipDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program6ManipDate" />
+    <configuration name="ProgramComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ProgramComparable" />
       <module name="udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramComparable" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.program" />
         <item itemvalue="Application.ProgramFinally" />
         <item itemvalue="Application.program132" />
-        <item itemvalue="Application.Program6ManipDate" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +316,7 @@
       <workItem from="1749204945227" duration="114000" />
       <workItem from="1749205072839" duration="7176000" />
       <workItem from="1749234169184" duration="9193000" />
-      <workItem from="1749316612181" duration="19915000" />
+      <workItem from="1749316612181" duration="22427000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -462,14 +464,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00046" summary="131 Upcasting e downcasting">
-      <option name="closed" value="true" />
-      <created>1747005737004</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1747005737004</updated>
     </task>
     <task id="LOCAL-00047" summary="132 Sobreposição, palavra super, anotação @Override">
       <option name="closed" value="true" />
@@ -687,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749431684680</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="174 Herança múltipla e o problema do diamante">
+      <option name="closed" value="true" />
+      <created>1749433761959</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1749433761959</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +710,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="135 Exercício resolvido" />
     <MESSAGE value="136 Exercício de fixação" />
     <MESSAGE value="140 Correção em vídeo do exercício de fixação" />
     <MESSAGE value="141 Visão geral do capítulo Tratamento de Exceções" />
@@ -733,7 +734,8 @@
     <MESSAGE value="Exemplo Motor" />
     <MESSAGE value="172 Correção do exercício de fixação PARTE 2 refiz com GEMINI" />
     <MESSAGE value="173 Herdar vs. cumprir contrato" />
-    <option name="LAST_COMMIT_MESSAGE" value="173 Herdar vs. cumprir contrato" />
+    <MESSAGE value="174 Herança múltipla e o problema do diamante" />
+    <option name="LAST_COMMIT_MESSAGE" value="174 Herança múltipla e o problema do diamante" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

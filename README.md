@@ -3579,7 +3579,111 @@ Parcela #3:
 
 ### 175 Interface Comparable
 
+https://docs.oracle.com/javase/10/docs/api/java/lang/Comparable.html
 
+
+```java
+public interface Comparable<T> {
+    int compareTo(T o);
+}
+```
+
+Problema motivador
+
+Faça um programa para ler um arquivo contendo nomes de pessoas (um nome por
+linha), armazenando-os em uma lista. Depois, ordenar os dados dessa lista e mostra-los
+ordenadamente na tela. Nota: o caminho do arquivo pode ser informado "hardcode".
+
+```
+Maria Brown 
+Alex Green 
+Bob Grey
+Anna White 
+Alex Black 
+Eduardo Rose 
+Willian Red 
+Marta Blue 
+Alex Brown
+```
+
+```java
+public static void main(String[] args) {
+
+        List<String> list = new ArrayList<>();
+        String path = "C:\\temp\\in.txt";
+
+        try(BufferedReader br = new BufferedReader(new BufferedReader(new FileReader(path)))){
+
+            String name = br.readLine();
+            while (name != null) {
+                list.add(name);
+                name = br.readLine();
+            }
+            Collections.sort(list);
+            for (String s : list) {
+                System.out.println(s);
+            }
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+```
+
+Outro problema
+Faça um programa para ler um arquivo contendo funcionários (nome e salário) no
+formato .csv, armazenando-os em uma lista. Depois, ordenar a lista por nome e mostrar
+o resultado na tela. Nota: o caminho do arquivo pode ser informado "hardcode".
+
+```
+Maria Brown,4300.00 
+Alex Green,3100.00 
+Bob Grey,3100.00
+Anna White,3500.00 
+Alex Black,2450.00 
+Eduardo Rose,4390.00 
+Willian Red,2900.00 
+Marta Blue,6100.00 
+Alex Brown,5000.00
+```
+
+#### Interface Comparable
+
+
+https://docs.oracle.com/javase/10/docs/api/java/lang/Comparable.html
+
+![img.png](img/175_1_comparable.png)
+
+
+```
+Method compareTo: 
+Parameters:
+o - the object to be compared.
+Returns:
+a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object.
+```
+
+```java
+public class Employee implements Comparable<Employee> {
+    private String name;
+    private Double salary;
+
+```
+
+```java
+            String employeeCsv = br.readLine();
+            while (employeeCsv != null) {
+                String[] fields = employeeCsv.split(",");
+                list.add(new Employee(fields[0], Double.parseDouble(fields[1])));
+                employeeCsv = br.readLine();
+            }
+            Collections.sort(list);
+            for (Employee emp : list) {
+                System.out.println(emp.getName() + ", " + emp.getSalary());
+            }
+```
 
 ### 176 Default methods
 
