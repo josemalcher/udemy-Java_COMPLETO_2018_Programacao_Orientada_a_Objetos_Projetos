@@ -3567,6 +3567,14 @@ Parcela #3:
 
 ### 174 Herança múltipla e o problema do diamante
 
+#### Problema do diamante
+
+![img.png](img/174_1_problemaDiamante.png)
+
+
+#### Porém, uma classe pode implementar mais de uma interface
+
+![img.png](img/174_2-solucaoProblemaDiamante.png)
 
 
 ### 175 Interface Comparable

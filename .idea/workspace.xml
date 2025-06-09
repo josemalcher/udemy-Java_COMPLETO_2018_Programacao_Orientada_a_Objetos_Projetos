@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="172 Correção do exercício de fixação PARTE 2 refiz com GEMINI">
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-173-Herdar-vs-cumprir-contrato/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-173-Herdar-vs-cumprir-contrato/entities/AbstractShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-173-Herdar-vs-cumprir-contrato/entities/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-173-Herdar-vs-cumprir-contrato/entities/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-173-Herdar-vs-cumprir-contrato/entities/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-173-Herdar-vs-cumprir-contrato/entities/enums/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/173_1_herdar-cumprirContrato.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="173 Herdar vs. cumprir contrato">
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/devices/ComboDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/devices/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/devices/PrinterDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/devices/ScannerDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/services/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-16-Interfaces/03-174-Exemplo1/services/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/174_1_problemaDiamante.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/174_2-solucaoProblemaDiamante.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -312,7 +314,7 @@
       <workItem from="1749204945227" duration="114000" />
       <workItem from="1749205072839" duration="7176000" />
       <workItem from="1749234169184" duration="9193000" />
-      <workItem from="1749316612181" duration="17283000" />
+      <workItem from="1749316612181" duration="19915000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -460,14 +462,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00045" summary="130 Herança">
-      <option name="closed" value="true" />
-      <created>1746929762477</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1746929762477</updated>
     </task>
     <task id="LOCAL-00046" summary="131 Upcasting e downcasting">
       <option name="closed" value="true" />
@@ -685,7 +679,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749415024742</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="173 Herdar vs. cumprir contrato">
+      <option name="closed" value="true" />
+      <created>1749431684680</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1749431684680</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +708,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="134 Introdução ao polimorfismo" />
     <MESSAGE value="135 Exercício resolvido" />
     <MESSAGE value="136 Exercício de fixação" />
     <MESSAGE value="140 Correção em vídeo do exercício de fixação" />
@@ -731,7 +732,8 @@
     <MESSAGE value="172 Correção do exercício de fixação PARTE 2" />
     <MESSAGE value="Exemplo Motor" />
     <MESSAGE value="172 Correção do exercício de fixação PARTE 2 refiz com GEMINI" />
-    <option name="LAST_COMMIT_MESSAGE" value="172 Correção do exercício de fixação PARTE 2 refiz com GEMINI" />
+    <MESSAGE value="173 Herdar vs. cumprir contrato" />
+    <option name="LAST_COMMIT_MESSAGE" value="173 Herdar vs. cumprir contrato" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
