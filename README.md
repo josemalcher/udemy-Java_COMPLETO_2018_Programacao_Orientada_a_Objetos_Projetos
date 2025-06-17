@@ -3725,6 +3725,210 @@ Considerações importantes
 
 ## <a name="parte17">17 - Seção 17: Generics, Set, Map</a>
 
+### 177 Visão geral do capítulo Generics, Set, Map
+
+
+
+### 178 Material de apoio do capítulo
+
+
+
+### 179 Introdução aos Generics
+
+- Generics
+- Generics permitem que classes, interfaces e métodos possam ser parametrizados por tipo. Seus benefícios são:
+  - Reuso
+  - Type safety
+  - Performance
+- Uso comum: coleções
+
+### 180 Genéricos delimitados
+
+```java
+package entities;
+
+public class Product implements Comparable<Product> {
+    private String name;
+    private Double price;
+
+    public Product(String name, Double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return name + ", " + String.format("%.2f", price);
+    }
+
+    @Override
+    public int compareTo(Product o) {
+        return price.compareTo(o.getPrice());
+    }
+}
+
+```
+
+```java
+package services;
+
+import java.util.List;
+
+public class CalculationService {
+
+    public static <T extends Comparable<T>> T max(List<T> list) {
+        if (list.isEmpty()) {
+            throw new IllegalStateException("List can't be empyt");
+        }
+
+        T max = list.get(0);
+
+        for (T item : list) {
+            if (item.compareTo(max) > 0) {
+                max = item;
+            }
+        }
+        return max;
+    }
+
+}
+
+```
+
+```java
+public class Program {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+
+        List<Product> list = new ArrayList<>();
+
+        String path = "C:\\temp\\in.txt";
+
+        try(BufferedReader br = new BufferedReader(new FileReader(path))) {
+
+            String line = br.readLine();
+            while (line != null) {
+                String[] fields = line.split(",");
+                list.add(new Product(fields[0], Double.parseDouble(fields[1])));
+                line = br.readLine();
+            }
+
+            Product x = CalculationService.max(list);
+            System.out.println("Mair salario");
+            System.out.println(x);
+
+        } catch (IOException e) {
+            System.out.println("ERROR> " + e.getMessage());
+        }
+    }
+}
+
+```
+
+### 181 Tipos curinga (wildcard types)
+
+List<Object> não é o supertipo de qualquer tipo de lista:
+
+```java
+List<Object> myObjs = new ArrayList<Object>(); 
+List<Integer> myNumbers = new ArrayList<Integer>(); 
+myObjs = myNumbers; // erro de compilação
+```
+
+O supertipo de qualquer tipo de lista é List<?>. Este é um tipo curinga:
+
+```java
+List<?> myObjs = new ArrayList<Object>(); 
+List<Integer> myNumbers = new ArrayList<Integer>(); 
+myObjs = myNumbers;
+```
+
+Com tipos curinga podemos fazer métodos que recebem um genérico de "qualquer tipo":
+
+```java
+public class Program {
+
+    public static void main(String[] args) {
+        List<Integer> myInts = Arrays.asList(5, 2, 10);
+        printList(myInts);
+    }
+
+    public static void printList(List<?> list) {
+        for (Object obj : list) {
+            System.out.println(obj);
+        }
+    }
+
+}
+```
+Porém não é possível adicionar dados a uma coleção de tipo curinga
+
+```java
+public static void main(String[] args) {
+
+List<?> list = new ArrayList<Integer>(); 
+list.add(3); // erro de compilação
+// O compilador não sabe qual é o tipo específico do qual a lista foi instanciada.
+}
+```
+
+### 182 Curingas delimitados
+
+
+
+### 183 HashCode e Equals
+
+
+
+### 184 Set
+
+
+
+### 185 Como Set testa igualdade
+
+
+
+### 186 Como TreeSet compara os elementos
+
+
+
+### 187 Exercício resolvido (Set)
+
+
+
+### 188 Exercício de fixação (Set)
+
+
+
+### 189 Map
+
+
+
+### 190 Exercício de fixação (Map)
+
+---
+
+### RESUMO AI GEMINI
+
+
+
+---
 
 
 [Voltar ao Índice](#indice)
