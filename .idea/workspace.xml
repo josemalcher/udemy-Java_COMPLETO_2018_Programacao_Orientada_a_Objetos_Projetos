@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="176 Default methods">
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/00-apoio/13-generics-set-map.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/179_exemplo01/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/179_exemplo01/services/PrintService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/180_exemplo02/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/180_exemplo02/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/180_exemplo02/services/CalculationService.java" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="181 Tipos curinga (wildcard types)">
+      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/182_Exemplo1/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/182_Exemplo1/entities/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/182_Exemplo1/entities/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/182_Exemplo1/entities/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/182-Curingas-delimitados.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -113,8 +112,8 @@
       <recent name="$PROJECT_DIR$/9-Heranca-e-polimorfismo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\josem\Documents\workspace\udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos\Secao-17-Generics-Set-Map" />
       <recent name="C:\Users\josem\Documents\workspace\udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos\img" />
+      <recent name="C:\Users\josem\Documents\workspace\udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos\Secao-17-Generics-Set-Map" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="versao2.app" />
@@ -320,7 +319,8 @@
       <workItem from="1749205072839" duration="7176000" />
       <workItem from="1749234169184" duration="9193000" />
       <workItem from="1749316612181" duration="26998000" />
-      <workItem from="1750160306653" duration="8709000" />
+      <workItem from="1750160306653" duration="9293000" />
+      <workItem from="1750298070959" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -468,14 +468,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00049" summary="135 Exercício resolvido">
-      <option name="closed" value="true" />
-      <created>1747018928118</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1747018928118</updated>
     </task>
     <task id="LOCAL-00050" summary="136 Exercício de fixação">
       <option name="closed" value="true" />
@@ -693,7 +685,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749442096419</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="181 Tipos curinga (wildcard types)">
+      <option name="closed" value="true" />
+      <created>1750188284659</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1750188284659</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -714,7 +714,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="141 Visão geral do capítulo Tratamento de Exceções" />
     <MESSAGE value="144 Estrutura try-catch" />
     <MESSAGE value="148 Primeira solução - muito ruim" />
     <MESSAGE value="149 Segunda solução - ruim" />
@@ -739,7 +738,8 @@
     <MESSAGE value="174 Herança múltipla e o problema do diamante" />
     <MESSAGE value="175 Interface Comparable" />
     <MESSAGE value="176 Default methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="176 Default methods" />
+    <MESSAGE value="181 Tipos curinga (wildcard types)" />
+    <option name="LAST_COMMIT_MESSAGE" value="181 Tipos curinga (wildcard types)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
