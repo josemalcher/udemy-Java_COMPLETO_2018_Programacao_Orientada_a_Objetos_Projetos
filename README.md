@@ -3919,6 +3919,89 @@ public class Program {
     }
 }
 ```
+#### Java wrapper types (próximos exemplos)
+
+![img.png](img/182_Curingasdelimitados-2.png)
+
+
+Princípio get/put - covariância
+
+```java
+List<Integer> intList = new ArrayList<Integer>(); 
+intList.add(10);
+intList.add(5);
+
+List<? extends Number> list = intList;
+
+Number x = list.get(0);
+
+list.add(20); // erro de compilacao
+```
+get - OK
+
+put - ERROR
+
+---
+
+#### Princípio get/put - contravariância
+
+```java
+List<Object> myObjs = new ArrayList<Object>(); 
+myObjs.add("Maria");
+myObjs.add("Alex");
+
+List<? super Number> myNums = myObjs;
+
+myNums.add(10); 
+myNums.add(3.14);
+
+Number x = myNums.get(0); // erro de compilacao
+```
+
+get - ERROR
+
+put - OK
+
+```java
+package app;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Program {
+    public static void main(String[] args) {
+
+        List<Integer> myInteger = Arrays.asList(1, 2, 3);
+        List<Double> myDouble = Arrays.asList(2.22, 3.44);
+        List<Object> myobject = new ArrayList<Object>();
+
+        copy(myInteger, myobject);
+        printList(myobject);
+
+        copy(myDouble, myobject);
+        printList(myobject);
+
+
+    }
+
+    public static void copy(List<? extends Number> source, List<? super Number> distiny) {
+        for (Number number : source) {
+            distiny.add(number);
+        }
+    }
+
+    public static void printList(List<?> list) {
+        for (Object obj : list) {
+            System.out.print(obj + " ");
+        }
+        System.out.println();
+
+    }
+}
+
+```
+
 
 ### 183 HashCode e Equals
 
