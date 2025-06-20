@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="182 Curingas delimitados - PARTE 1/2">
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/182_Exemplo2/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/182_Curingasdelimitados-2.png" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="182 Curingas delimitados">
+      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/183_exemplo1/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/183_exemplo1/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/183_equals_hash.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -318,7 +319,7 @@
       <workItem from="1749316612181" duration="26998000" />
       <workItem from="1750160306653" duration="9293000" />
       <workItem from="1750298070959" duration="1936000" />
-      <workItem from="1750375829340" duration="1397000" />
+      <workItem from="1750375829340" duration="3557000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -466,14 +467,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00051" summary="140 Correção em vídeo do exercício de fixação">
-      <option name="closed" value="true" />
-      <created>1747057889178</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1747057889178</updated>
     </task>
     <task id="LOCAL-00052" summary="141 Visão geral do capítulo Tratamento de Exceções">
       <option name="closed" value="true" />
@@ -691,7 +684,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750299460509</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="182 Curingas delimitados">
+      <option name="closed" value="true" />
+      <created>1750377335206</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1750377335208</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +713,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="148 Primeira solução - muito ruim" />
     <MESSAGE value="149 Segunda solução - ruim" />
     <MESSAGE value="150 Terceira solução - boa" />
     <MESSAGE value="152 Correção do exercício de fixação" />
@@ -737,7 +737,8 @@
     <MESSAGE value="176 Default methods" />
     <MESSAGE value="181 Tipos curinga (wildcard types)" />
     <MESSAGE value="182 Curingas delimitados - PARTE 1/2" />
-    <option name="LAST_COMMIT_MESSAGE" value="182 Curingas delimitados - PARTE 1/2" />
+    <MESSAGE value="182 Curingas delimitados" />
+    <option name="LAST_COMMIT_MESSAGE" value="182 Curingas delimitados" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
