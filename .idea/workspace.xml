@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="182 Curingas delimitados">
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/183_exemplo1/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Secao-17-Generics-Set-Map/183_exemplo1/entities/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/183_equals_hash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udemy-Java_COMPLETO_2018_Programacao_Orientada_a_Objetos_Projetos.iml" afterDir="false" />
+    <list default="true" id="890ab5e4-cc65-4810-a8fd-1728389166b8" name="Default Changelist" comment="183 HashCode e Equals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Secao-16-Interfaces/01-Exercicio1/app/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,10 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -83,12 +84,16 @@
     &quot;Application.program132.executor&quot;: &quot;Run&quot;,
     &quot;Application.versao1.Program.executor&quot;: &quot;Run&quot;,
     &quot;Application.vetor01.Program.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/Documents/workspace&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -96,6 +101,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -228,8 +234,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
       </set>
     </attachedChunks>
   </component>
@@ -319,7 +325,10 @@
       <workItem from="1749316612181" duration="26998000" />
       <workItem from="1750160306653" duration="9293000" />
       <workItem from="1750298070959" duration="1936000" />
-      <workItem from="1750375829340" duration="3557000" />
+      <workItem from="1750375829340" duration="3898000" />
+      <workItem from="1750592130607" duration="1315000" />
+      <workItem from="1770077235493" duration="46000" />
+      <workItem from="1770077406229" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="9.3. Herança">
       <created>1559789970795</created>
@@ -467,14 +476,6 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1576198061005</updated>
-    </task>
-    <task id="LOCAL-00052" summary="141 Visão geral do capítulo Tratamento de Exceções">
-      <option name="closed" value="true" />
-      <created>1747077145138</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1747077145138</updated>
     </task>
     <task id="LOCAL-00053" summary="144 Estrutura try-catch">
       <option name="closed" value="true" />
@@ -692,7 +693,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750377335208</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="183 HashCode e Equals">
+      <option name="closed" value="true" />
+      <created>1750380375159</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1750380375159</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +722,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="149 Segunda solução - ruim" />
     <MESSAGE value="150 Terceira solução - boa" />
     <MESSAGE value="152 Correção do exercício de fixação" />
     <MESSAGE value="154 Material de apoio do capítulo" />
@@ -738,7 +746,8 @@
     <MESSAGE value="181 Tipos curinga (wildcard types)" />
     <MESSAGE value="182 Curingas delimitados - PARTE 1/2" />
     <MESSAGE value="182 Curingas delimitados" />
-    <option name="LAST_COMMIT_MESSAGE" value="182 Curingas delimitados" />
+    <MESSAGE value="183 HashCode e Equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="183 HashCode e Equals" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
